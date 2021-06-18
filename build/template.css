@@ -1,0 +1,22 @@
+/* ==UserStyle==
+@name           VK {scheme_name} Scheme
+@namespace      qevitta
+@version        0.0.1
+@description    VK {scheme_name} Scheme
+@author         vk.com/qevitta
+@homepageURL    http://github.com/evtn/schemes
+@updateURL      https://raw.githubusercontent.com/evtn/vk-palettes/lord/vk-{scheme_code}-scheme.user.css
+==/UserStyle== */
+
+@-moz-document domain("vk.com") {{
+  :root {{
+    {variables}
+  }}
+  /* logo paint */
+  .TopHomeLink path:first-child {{
+    fill: var(--accent);
+  }}
+  .TopHomeLink path:nth-child(2) {{
+    fill: var(--background_content);
+  }}
+}}
