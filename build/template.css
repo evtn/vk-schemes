@@ -1,11 +1,11 @@
 /* ==UserStyle==
 @name           VK {scheme_name} Scheme
 @namespace      qevitta
-@version        0.0.1
+@version        {version}
 @description    VK {scheme_name} Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/schemes
-@updateURL      https://raw.githubusercontent.com/evtn/vk-palettes/lord/vk-{scheme_code}-scheme.user.css
+@updateURL      https://raw.githubusercontent.com/evtn/vk-palettes/{branch}/vk-{scheme_code}-scheme.user.css
 ==/UserStyle== */
 
 @-moz-document domain("vk.com") {{

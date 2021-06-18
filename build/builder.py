@@ -1,4 +1,6 @@
 from utils import schemes, full_search
+from config import version
+from os import getenv
 
 
 def build_vars(variables):
@@ -12,7 +14,11 @@ def build(code):
     variables = full_search(scheme["variables"], scheme.get("parent"))
 
     return template.format(
-        scheme_name=scheme["name"], scheme_code=code, variables=build_vars(variables)
+        scheme_name=scheme["name"],
+        scheme_code=code,
+        branch=f"build-{getenv('GITHUB_REF')}",
+        variables=build_vars(variables),
+        version=version,
     )
 
 
@@ -21,7 +27,7 @@ with open("build/template.css") as file:
 
 
 for code in schemes:
-    with open(f"vk-{code}-scheme.user.css", "w") as file:
+    with open(f"styles/vk-{code}-scheme.user.css", "w") as file:
         print(f"building {code}")
         style = build(code)
         file.write(style)

@@ -26,7 +26,7 @@ def optimize_tree(tree, code):
                 deleted += 1
 
         print(f"Deleted {deleted} extra keys")
-        
+
         if child_code in tree:
             optimize_tree(tree, child_code)
 
