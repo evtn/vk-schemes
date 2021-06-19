@@ -11,12 +11,13 @@
     - [Opera](https://addons.opera.com/extensions/details/stylus/)
     - [Chrome/Chromium/Яндекс/etc](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 
-2. Выбрать схему (скриншоты ниже) и перейти по соответствующей ссылке:
+2. Выбрать схему (скриншоты и описание ниже) и перейти по соответствующей ссылке:
     - [vk.com Light](https://github.com/evtn/vk-schemes/raw/build-stable/vk-default-scheme.user.css) (стандартная тема с мелкими изменениями)
     - [vk.com Dark](https://github.com/evtn/vk-schemes/raw/build-stable/vk-dark-scheme.user.css)
     - [Ocean](https://github.com/evtn/vk-schemes/raw/build-stable/vk-ocean-scheme.user.css)
     - [Acid Dark](https://github.com/evtn/vk-schemes/raw/build-stable/vk-acid_dark-scheme.user.css)
     - [Leaf](https://github.com/evtn/vk-schemes/raw/build-stable/vk-leaf-scheme.user.css)
+    - [Ayu](https://github.com/evtn/vk-schemes/raw/build-stable/vk-ayu-scheme.user.css)
 
 ## Скриншоты
 
@@ -31,6 +32,9 @@ Acid Dark: Тёмная схема с ярко-фиолетовым акцент
 
 Leaf: Красно-зеленая (да, на любителя) светлая схема    
 ![Leaf](images/leaf.png)    
+
+Ayu: Темная схема, основанная на цветах [dempfi/ayu](https://github.com/dempfi/ayu) - темы для Sublime Text    
+![Ayu](images/ayu.png)    
 
 
 ## Добавление своих схем

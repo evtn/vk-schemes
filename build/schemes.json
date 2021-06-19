@@ -318,7 +318,6 @@
             "background_light": "@background_hover",
             "background_page": "#c2e0cf",
             "button_commerce_background": "@accent",
-            "button_secondary_background": "#b382cb",
             "content_tint_background": "@background_hover",
             "destructive": "@accent",
             "input_border": "@background_hover",
@@ -326,6 +325,28 @@
             "separator_common": "@background_hover",
             "separator_alternate": "@background_hover",
             "text_muted": "@muted"
+        }
+    },
+    "ayu": {
+        "name": "Ayu Dark",
+        "parent": "ocean",
+        "variables": {
+            "accent": "#39bae6",
+            "background_content": "#0a0e14",
+            "background_hover": "#00010a",
+            "background_highlighted": "#00010a",
+            "background_light": "@background_hover",
+            "background_page": "#0a0e14",
+            "button_commerce_background": "#c2d94c",
+            "button_secondary_background": "#ffb454",
+            "content_tint_background": "@background_hover",
+            "destructive": "#e6b450",
+            "input_border": "@background_hover",
+            "muted": "#626a73",
+            "separator_common": "#4d556666",
+            "separator_alternate": "#4d556666",
+            "text_muted": "@muted",
+            "text_primary": "#b3b1ad"
         }
     }
 }
