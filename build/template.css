@@ -12,11 +12,4 @@
   :root {{
     {variables}
   }}
-  /* logo paint */
-  .TopHomeLink path:first-child {{
-    fill: var(--accent);
-  }}
-  .TopHomeLink path:nth-child(2) {{
-    fill: var(--background_content);
-  }}
 }}
