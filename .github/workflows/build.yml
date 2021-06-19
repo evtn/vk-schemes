@@ -1,0 +1,35 @@
+name: Generate a build and push to another branch
+
+on:
+  push:
+    branches:
+      - lord
+      - dev
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build and Push
+    steps:
+      - name: git-checkout
+        uses: actions/checkout@v2
+      
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Install all dependencies
+        run: npm install
+
+      - name: Build
+        run: python build/builder.py # The build command of your project
+    
+      - name: Push
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: self
+          BRANCH: build-${{env.GITHUB_REF}}
+          FOLDER: styles
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MESSAGE: "Build styles: ({sha}) {msg}"
