@@ -12,11 +12,26 @@
     - [Chrome/Chromium/Яндекс/etc](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 
 2. Выбрать схему (скриншоты ниже) и перейти по соответствующей ссылке:
-    - [vk.com Light](https://github.com/evtn/vk-schemes/raw/build-stable/vk-default-scheme.user.css)
+    - [vk.com Light](https://github.com/evtn/vk-schemes/raw/build-stable/vk-default-scheme.user.css) (стандартная тема с мелкими изменениями)
     - [vk.com Dark](https://github.com/evtn/vk-schemes/raw/build-stable/vk-dark-scheme.user.css)
     - [Ocean](https://github.com/evtn/vk-schemes/raw/build-stable/vk-ocean-scheme.user.css)
     - [Acid Dark](https://github.com/evtn/vk-schemes/raw/build-stable/vk-acid_dark-scheme.user.css)
     - [Leaf](https://github.com/evtn/vk-schemes/raw/build-stable/vk-leaf-scheme.user.css)
+
+## Скриншоты
+
+VKCOM Dark: Официальная темная схема    
+![vk.com Dark](images/vkcomdark.png)    
+
+Ocean: Тёмно-синяя схема с голубым акцентом    
+![Ocean](images/ocean.png)    
+
+Acid Dark: Тёмная схема с ярко-фиолетовым акцентом
+![Acid Dark](images/acid.png)    
+
+Leaf: Красно-зеленая (да, на любителя) светлая схема    
+![Leaf](images/leaf.png)    
+
 
 ## Добавление своих схем
 
