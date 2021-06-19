@@ -11,7 +11,7 @@
     - [Opera](https://addons.opera.com/extensions/details/stylus/)
     - [Chrome/Chromium/Яндекс/etc](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 
-2. Выбрать схему (скриншоты ниже) и перейти по соответсвующей ссылке:
+2. Выбрать схему (скриншоты ниже) и перейти по соответствующей ссылке:
     - [vk.com Light](https://github.com/evtn/vk-schemes/raw/build-stable/vk-default-scheme.user.css)
     - [vk.com Dark](https://github.com/evtn/vk-schemes/raw/build-stable/vk-dark-scheme.user.css)
     - [Ocean](https://github.com/evtn/vk-schemes/raw/build-stable/vk-ocean-scheme.user.css)
