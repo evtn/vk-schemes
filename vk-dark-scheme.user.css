@@ -1,0 +1,161 @@
+/* ==UserStyle==
+@name           VK VKCOM Dark Default Scheme
+@namespace      qevitta
+@version        1.0.1
+@description    VK VKCOM Dark Default Scheme
+@author         vk.com/qevitta
+@homepageURL    http://github.com/evtn/schemes
+@updateURL      https://raw.githubusercontent.com/evtn/vk-schemes/build-refs/heads/lord/vk-dark-scheme.user.css
+==/UserStyle== */
+
+@-moz-document domain("vk.com") {
+  :root {
+    --accent: var(--sky_300);
+    --background_content: var(--gray_900);
+    --background_highlighted: var(--white_alpha12);
+    --background_hover: var(--white_alpha8);
+    --background_light: var(--gray_850);
+    --background_page: var(--gray_960);
+    --button-background-color: var(--sky_300);
+    --button-text-color: var(--gray_900);
+    --button_commerce_background: var(--green_350);
+    --button_commerce_foreground: var(--white);
+    --button_outline_border: var(--gray_100);
+    --button_outline_foreground: var(--gray_100);
+    --button_primary_background: var(--gray_100);
+    --button_primary_foreground: var(--gray_900);
+    --button_secondary_background: var(--gray_700);
+    --button_secondary_background_highlighted: var(--gray_700_alpha60);
+    --button_secondary_destructive_background: var(--gray_700);
+    --button_secondary_destructive_background_highlighted: var(--gray_700_alpha60);
+    --button_secondary_destructive_foreground: var(--red_light);
+    --button_secondary_destructive_foreground_highlighted: var(--red_alpha16);
+    --button_secondary_foreground: var(--gray_100);
+    --button_secondary_foreground_highlighted: var(--gray_100);
+    --button_tertiary_background: var(--transparent_black);
+    --button_tertiary_foreground: var(--gray_100);
+    --cell_button_foreground: var(--gray_100);
+    --content_tint_background: var(--gray_850);
+    --content_warning_background: var(--gold_500);
+    --counter_primary_background: var(--white);
+    --counter_primary_text: var(--gray_900);
+    --counter_prominent_background: var(--red_nice);
+    --counter_prominent_text: var(--white);
+    --counter_secondary_background: var(--gray_500);
+    --counter_secondary_text: var(--gray_900);
+    --destructive: var(--red_light);
+    --dynamic_blue: var(--blue_400);
+    --dynamic_gray: var(--steel_gray_200);
+    --dynamic_green: var(--green_350);
+    --dynamic_orange: var(--orange);
+    --dynamic_purple: var(--purple_light);
+    --dynamic_red: var(--red_nice);
+    --dynamic_violet: var(--violet_light);
+    --field_background: var(--gray_850);
+    --field_border: var(--white_alpha16);
+    --field_error_background: var(--red_dark);
+    --field_error_border: var(--red);
+    --field_text_placeholder: var(--gray_500);
+    --field_valid_border: var(--green_350);
+    --float_button_background: var(--gray_700);
+    --float_button_background_highlighted: var(--gray_600);
+    --float_button_border: var(--black_alpha12);
+    --float_button_foreground: var(--gray_300);
+    --header_background: var(--gray_900);
+    --header_search_field_background: var(--gray_750);
+    --header_search_field_tint: var(--gray_300);
+    --header_text: var(--gray_100);
+    --header_text_secondary: var(--white_alpha64);
+    --header_tint: var(--gray_100);
+    --header_tint_alternate: var(--gray_100);
+    --icon_medium: var(--gray_400);
+    --icon_medium_alpha: var(--white_alpha48);
+    --icon_name: var(--gray_300);
+    --icon_outline_medium: var(--gray_300);
+    --icon_outline_secondary: var(--gray_400);
+    --icon_secondary: var(--gray_500);
+    --icon_secondary_alpha: var(--white_alpha40);
+    --icon_tertiary: var(--gray_600);
+    --icon_tertiary_alpha: var(--white_alpha24);
+    --im_attach_tint: var(--white);
+    --im_bubble_border_alternate: var(--transparent_black);
+    --im_bubble_border_alternate_highlighted: var(--transparent_black);
+    --im_bubble_button_background: var(--white_alpha16);
+    --im_bubble_button_background_highlighted: var(--white_alpha24);
+    --im_bubble_button_foreground: var(--gray_100);
+    --im_bubble_button_outgoing_background: var(--white_alpha24);
+    --im_bubble_gift_background: var(--gold_500);
+    --im_bubble_gift_background_highlighted: var(--gold_400);
+    --im_bubble_gift_text: var(--white);
+    --im_bubble_gift_text_secondary: var(--gold_250);
+    --im_bubble_incoming: var(--gray_800);
+    --im_bubble_incoming_alternate: var(--gray_800);
+    --im_bubble_incoming_alternate_highlighted: var(--gray_600);
+    --im_bubble_incoming_expiring: var(--lavender_900);
+    --im_bubble_incoming_expiring_highlighted: var(--lavender_800);
+    --im_bubble_incoming_highlighted: var(--gray_600);
+    --im_bubble_outgoing: var(--gray_700);
+    --im_bubble_outgoing_alternate: var(--gray_700);
+    --im_bubble_outgoing_alternate_highlighted: var(--gray_500);
+    --im_bubble_outgoing_expiring: var(--lavender_800);
+    --im_bubble_outgoing_expiring_highlighted: var(--lavender_700);
+    --im_bubble_outgoing_highlighted: var(--gray_600);
+    --im_bubble_wallpaper_button_background: var(--gray_700);
+    --im_bubble_wallpaper_button_background_highlighted: var(--gray_500);
+    --im_bubble_wallpaper_button_foreground: var(--gray_100);
+    --im_bubble_wallpaper_incoming: var(--gray_800);
+    --im_bubble_wallpaper_incoming_highlighted: var(--gray_600);
+    --im_bubble_wallpaper_outgoing: var(--gray_700);
+    --im_bubble_wallpaper_outgoing_highlighted: var(--gray_600);
+    --im_forward_line_tint: var(--white_alpha24);
+    --im_reply_separator: var(--white);
+    --im_service_message_text: var(--gray_500);
+    --im_text_name: var(--sky_300);
+    --im_toolbar_voice_msg_background: var(--gray_700);
+    --image_border: var(--white_alpha8);
+    --input_background: var(--gray_800);
+    --input_border: var(--gray_800);
+    --like_text_tint: var(--red_light);
+    --link_alternate: var(--gray_400);
+    --loader_background: var(--gray_900);
+    --loader_track_fill: var(--gray_700);
+    --loader_track_value_fill: var(--white);
+    --modal_card_background: var(--gray_800);
+    --modal_card_border: var(--white_alpha12);
+    --muted: var(--gray_500);
+    --placeholder_icon_background: var(--white_alpha8);
+    --placeholder_icon_background_opaque: var(--gray_850);
+    --placeholder_icon_foreground_primary: var(--gray_400);
+    --placeholder_icon_foreground_secondary: var(--gray_600);
+    --placeholder_icon_tint: var(--white);
+    --poll_option_background: var(--white);
+    --primary_overlay_badge: var(--white_alpha40);
+    --search_bar_field_background: var(--gray_750);
+    --search_bar_field_tint: var(--gray_300);
+    --secondary_overlay_badge: var(--white_alpha16);
+    --separator_alpha: var(--white_alpha16);
+    --separator_alternate: var(--gray_850);
+    --separator_common: var(--gray_750);
+    --skeleton_foreground_from: var(--gray_850);
+    --skeleton_foreground_to: var(--gray_800);
+    --snippet_background: var(--white_alpha8);
+    --snippet_border: var(--white_alpha8);
+    --snippet_icon_tertiary: var(--gray_600);
+    --text_link: var(--sky_300);
+    --text_muted: var(--gray_200);
+    --text_name: var(--gray_100);
+    --text_placeholder: var(--gray_300);
+    --text_primary: var(--gray_100);
+    --text_secondary: var(--gray_500);
+    --text_subhead: var(--gray_400);
+    --text_tertiary: var(--gray_600);
+    --writebar_icon: var(--gray_100);
+  }
+  /* logo paint */
+  .TopHomeLink path:first-child {
+    fill: var(--accent);
+  }
+  .TopHomeLink path:nth-child(2) {
+    fill: var(--background_content);
+  }
+}
