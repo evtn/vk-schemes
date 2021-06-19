@@ -1,6 +1,6 @@
 {
     "default": {
-        "name": "VKCOM Light Default",
+        "name": "VKCOM Light",
         "variables": {
             "accent": "$blue_400",
             "muted": "$steel_gray_400",
@@ -145,7 +145,7 @@
         }
     },
     "dark": {
-        "name": "VKCOM Dark Default",
+        "name": "VKCOM Dark",
         "parent": "default",
         "variables": {
             "accent": "$sky_300",
