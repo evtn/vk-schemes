@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - lord
-      - dev
 
 jobs:
   build:
