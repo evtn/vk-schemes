@@ -1,6 +1,5 @@
 from utils import schemes, full_search
 from config import version
-from os import getenv
 
 
 def build_vars(variables):
@@ -16,7 +15,7 @@ def build(code):
     return template.format(
         scheme_name=scheme["name"],
         scheme_code=code,
-        branch=f"build-{getenv('GITHUB_REF')}",
+        branch=f"build-stable",
         variables=build_vars(variables),
         version=version,
     )
