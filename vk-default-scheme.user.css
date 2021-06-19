@@ -5,7 +5,7 @@
 @description    VK VKCOM Light Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
-@updateURL      https://github.com/evtn/vk-schemes/raw/build-refs/heads/lord/vk-default-scheme.user.css
+@updateURL      https://github.com/evtn/vk-schemes/raw/build-refs/heads/dev/vk-default-scheme.user.css
 ==/UserStyle== */
 
 @-moz-document domain("vk.com") {
@@ -150,12 +150,5 @@
     --text_subhead: var(--steel_gray_540);
     --text_tertiary: var(--steel_gray_300);
     --writebar_icon: var(--steel_gray_400);
-  }
-  /* logo paint */
-  .TopHomeLink path:first-child {
-    fill: var(--accent);
-  }
-  .TopHomeLink path:nth-child(2) {
-    fill: var(--background_content);
   }
 }

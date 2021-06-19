@@ -5,7 +5,7 @@
 @description    VK Ocean Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
-@updateURL      https://github.com/evtn/vk-schemes/raw/build-refs/heads/lord/vk-ocean-scheme.user.css
+@updateURL      https://github.com/evtn/vk-schemes/raw/build-refs/heads/dev/vk-ocean-scheme.user.css
 ==/UserStyle== */
 
 @-moz-document domain("vk.com") {
@@ -150,12 +150,5 @@
     --text_subhead: var(--gray_400);
     --text_tertiary: var(--gray_600);
     --writebar_icon: var(--gray_100);
-  }
-  /* logo paint */
-  .TopHomeLink path:first-child {
-    fill: var(--accent);
-  }
-  .TopHomeLink path:nth-child(2) {
-    fill: var(--background_content);
   }
 }
