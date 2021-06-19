@@ -24,7 +24,7 @@
     --button_outline_foreground: #d43d68;
     --button_primary_background: #d43d68;
     --button_primary_foreground: #e1f4e9;
-    --button_secondary_background: #b382cb;
+    --button_secondary_background: var(--light_blue_40);
     --button_secondary_background_highlighted: var(--light_blue_40_alpha72);
     --button_secondary_destructive_background: var(--red_alpha16);
     --button_secondary_destructive_background_highlighted: var(--red_alpha12);
