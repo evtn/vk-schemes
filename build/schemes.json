@@ -333,10 +333,10 @@
         "variables": {
             "accent": "#39bae6",
             "background_content": "#0a0e14",
-            "background_hover": "#00010a",
-            "background_highlighted": "#00010a",
+            "background_hover": "#00010a4d",
+            "background_highlighted": "#00010a4d",
             "background_light": "@background_hover",
-            "background_page": "#0a0e14",
+            "background_page": "#00010a",
             "button_commerce_background": "#c2d94c",
             "button_secondary_background": "#ffb454",
             "content_tint_background": "@background_hover",
