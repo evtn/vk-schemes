@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           VK Ayu Dark Scheme
 @namespace      qevitta
-@version        1.0.3
+@version        1.0.4
 @description    VK Ayu Dark Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
@@ -12,10 +12,10 @@
   :root {
     --accent: #39bae6;
     --background_content: #0a0e14;
-    --background_highlighted: #00010a;
-    --background_hover: #00010a;
-    --background_light: #00010a;
-    --background_page: #0a0e14;
+    --background_highlighted: #00010a4d;
+    --background_hover: #00010a4d;
+    --background_light: #00010a4d;
+    --background_page: #00010a;
     --button-background-color: #39bae6;
     --button-text-color: #0a0e14;
     --button_commerce_background: #c2d94c;
@@ -35,7 +35,7 @@
     --button_tertiary_background: var(--transparent_black);
     --button_tertiary_foreground: var(--gray_100);
     --cell_button_foreground: var(--gray_100);
-    --content_tint_background: #00010a;
+    --content_tint_background: #00010a4d;
     --content_warning_background: var(--gold_500);
     --counter_primary_background: var(--white);
     --counter_primary_text: #0a0e14;
@@ -114,7 +114,7 @@
     --im_toolbar_voice_msg_background: var(--gray_700);
     --image_border: var(--white_alpha8);
     --input_background: var(--gray_800);
-    --input_border: #00010a;
+    --input_border: #00010a4d;
     --like_text_tint: var(--red_light);
     --link_alternate: var(--gray_400);
     --loader_background: var(--gray_900);
@@ -138,8 +138,8 @@
     --separator_common: #4d556666;
     --skeleton_foreground_from: var(--gray_850);
     --skeleton_foreground_to: var(--gray_800);
-    --snippet_background: #00010a;
-    --snippet_border: #00010a;
+    --snippet_background: #00010a4d;
+    --snippet_border: #00010a4d;
     --snippet_icon_tertiary: var(--gray_600);
     --text_link: #39bae6;
     --text_muted: #626a73;
