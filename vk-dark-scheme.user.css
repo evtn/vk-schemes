@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           VK VKCOM Dark Scheme
 @namespace      qevitta
-@version        1.0.4
+@version        1.0.5
 @description    VK VKCOM Dark Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
@@ -120,7 +120,7 @@
     --loader_background: var(--gray_900);
     --loader_track_fill: var(--gray_700);
     --loader_track_value_fill: var(--white);
-    --modal_card_background: var(--gray_800);
+    --modal_card_background: var(--gray_900);
     --modal_card_border: var(--white_alpha12);
     --muted: var(--gray_500);
     --placeholder_icon_background: var(--white_alpha8);
@@ -131,7 +131,7 @@
     --poll_option_background: var(--white);
     --primary_overlay_badge: var(--white_alpha40);
     --search_bar_field_background: var(--gray_750);
-    --search_bar_field_tint: var(--gray_300);
+    --search_bar_field_tint: var(--gray_900);
     --secondary_overlay_badge: var(--white_alpha16);
     --separator_alpha: var(--white_alpha16);
     --separator_alternate: var(--gray_850);
