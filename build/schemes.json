@@ -244,8 +244,6 @@
             "placeholder_icon_foreground_secondary": "$gray_600",
             "placeholder_icon_tint": "$white",
             "poll_option_background": "$white",
-            "search_bar_field_background": "$gray_750",
-            "search_bar_field_tint": "@background_content",
             "separator_alpha": "$white_alpha16",
             "separator_alternate": "$gray_850",
             "separator_common": "$gray_750",
