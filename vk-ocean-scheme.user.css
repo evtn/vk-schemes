@@ -1,11 +1,22 @@
 /* ==UserStyle==
 @name           VK Ocean Scheme
 @namespace      qevitta
-@version        1.0.6
+@version        1.0.7
 @description    VK Ocean Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
 @updateURL      https://github.com/evtn/vk-schemes/raw/build-stable/vk-ocean-scheme.user.css
+
+@var select ads "Убрать рекламу слева" {"Да*": "none", "Нет": "block"}
+@var select combo "Убрать пункт VK Combo из меню" {"Да*": "none", "Нет": "block"}
+@var select stories "Показывать истории в новостях" {"Да*": "block", "Нет": "none"}
+@var range round-avatars "Скругление аватарок" [50, 0, 50, 5, "%"]
+@var text messenger-label "Текст пункта 'Мессенджер' (кавычки убирать не надо)" '"Мессенджер"'
+@var select counter-bg "Фон счетчиков в левом меню" {"Стандартный*": "var(--counter_secondary_background)", "Прозрачный": "transparent", "Яркий": "var(--accent)"}
+@var select counter-fg "Текст счетчиков в левом меню" {"Стандартный*": "var(--white)", "Белый": "white", "Яркий": "var(--accent)"}
+@var select text-transform "Изменение текста" {"Нет*": "", "ВСЁЁ БОЛЬШИМИ БУКВАМИ": "uppercase", "всё маленькими буквами": "lowercase", "Всё Очень Странно": "capitalize"}
+@var select italy "Едем в Италию" {"Да": "italic", "Нет*": ""}
+
 ==/UserStyle== */
 
 @-moz-document domain("vk.com") {
@@ -24,7 +35,7 @@
     --button_outline_foreground: var(--gray_100);
     --button_primary_background: var(--gray_100);
     --button_primary_foreground: #0d0f1b;
-    --button_secondary_background: #0d0f1b;
+    --button_secondary_background: #111423;
     --button_secondary_background_highlighted: var(--gray_700_alpha60);
     --button_secondary_destructive_background: var(--gray_700);
     --button_secondary_destructive_background_highlighted: var(--gray_700_alpha60);
@@ -150,5 +161,71 @@
     --text_subhead: var(--gray_400);
     --text_tertiary: var(--gray_600);
     --writebar_icon: var(--gray_100);
+  }
+  #ads_left {
+    display: var(--ads) !important;
+  }
+  #l_combo {
+    display: var(--combo);
+  }
+  /* добавил [dir] после заигрываний ВК с селекторами, не удивляйтесь */
+  .nim-peer .nim-peer--photo .im_grid > img,
+  [dir] .nim-peer .nim-peer--photo .im_grid > img, 
+  .nim-peer .nim-peer--photo > img,
+  [dir] .nim-peer .nim-peer--photo > img,
+  .post_img,
+  [dir] .post_img,
+  .post_field_user_image,
+  [dir] .post_field_user_image,
+  .module_body .people_cell_img,
+  [dir] .module_body .people_cell_img,
+  .group_row_photo, .group_row_img,
+  [dir] .group_row_photo, .group_row_img,
+  .top_profile_img,
+  [dir] .top_profile_img,
+  .page_list_module .thumb,
+  [dir] .page_list_module .thumb,
+  .wall_module .reply_img,
+  [dir] .wall_module .reply_img,
+  .ow_ava.ow_ava_comm,
+  [dir] .ow_ava.ow_ava_comm,
+  .like_tt_image,
+  [dir] .like_tt_image,
+  .voting_tt_image,
+  [dir] .voting_tt_image,
+  .friends_photo_img,
+  [dir] .friends_photo_img,
+  .right_list_img,
+  [dir] .right_list_img,
+  .top_notify_cont .feedback_img,
+  [dir] .top_notify_cont .feedback_img,
+  [dir] .nim-peer.nim-peer_small .nim-peer--photo > img, 
+  [dir] .nim-peer.nim-peer_small .nim-peer--photo .im_grid > img,
+  [dir] .nim-peer .nim-peer--photo-w,
+  [dir] .nim-peer.nim-peer_smaller .nim-peer--photo > img,
+  [dir] .nim-peer.nim-peer_smaller .nim-peer--photo .im_grid > img,
+  [dir] .TopNavBtn__profileImg {
+    border-radius: var(--round-avatars);
+  }
+  .feed_submit_shown .stories_feed_wrap,
+  [dir] .feed_submit_shown .stories_feed_wrap {
+    display: var(--stories);
+  }
+  #l_msg .left_label.inl_bl {
+    font-size: 0 !important;
+  }
+  #l_msg .left_label.inl_bl:after {
+    content: var(--messenger-label);
+    font-size: 12.5px;
+  }
+  [dir] body.new_header_design .left_count_wrap,
+  [dir] .left_count_wrap.left_count_wrap_hovered:hover {
+    color: var(--counter-fg);
+    background-color: var(--counter-bg);
+    text-decoration: none;
+  }
+  * {
+    text-transform: var(--text-transform);
+    font-style: var(--italy)
   }
 }
