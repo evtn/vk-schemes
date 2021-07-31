@@ -25,7 +25,7 @@
             "button_secondary_destructive_background_highlighted": "$red_alpha12",
             "button_secondary_destructive_foreground": "$red",
             "button_secondary_destructive_foreground_highlighted": "$red_alpha12",
-            "button_tertiary_background": "$transparent_black",
+            "button_tertiary_background": "transparent",
             "button_tertiary_foreground": "@accent",
             "cell_button_foreground": "@accent",
             "content_tint_background": "$steel_gray_40",
@@ -141,7 +141,15 @@
             "skeleton_foreground_from": "$steel_gray_40",
             "skeleton_foreground_to": "$steel_gray_80",
             "primary_overlay_badge": "$black_alpha56",
-            "secondary_overlay_badge": "$black_alpha24"
+            "secondary_overlay_badge": "$black_alpha24",
+            "button-background-color-active": "@accent",
+            "button-secondary-background-color": "@button_secondary_background",
+            "button-secondary-background-color-hover": "@button_secondary_background_highlighted",
+            "button-secondary-background-color-active": "@button_secondary_background_highlighted",
+            "button-secondary-text-color": "@button_secondary_foreground",
+            "button_tertiary_background_hover": "@button_secondary_background",
+            "button_tertiary_background_active": "@button_secondary_background_highlighted",
+            "verified-link-color": "@accent"
         }
     },
     "dark": {
