@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           VK Leaf Scheme
 @namespace      qevitta
-@version        1.0.7
+@version        1.0.8
 @description    VK Leaf Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
@@ -28,6 +28,11 @@
     --background_light: #bce6ce;
     --background_page: #c2e0cf;
     --button-background-color: #d43d68;
+    --button-background-color-active: #d43d68;
+    --button-secondary-background-color: var(--light_blue_40);
+    --button-secondary-background-color-active: var(--light_blue_40_alpha72);
+    --button-secondary-background-color-hover: var(--light_blue_40_alpha72);
+    --button-secondary-text-color: var(--steel_gray_A540);
     --button-text-color: #e1f4e9;
     --button_commerce_background: #d43d68;
     --button_commerce_foreground: #e1f4e9;
@@ -43,7 +48,9 @@
     --button_secondary_destructive_foreground_highlighted: var(--red_alpha12);
     --button_secondary_foreground: var(--steel_gray_A540);
     --button_secondary_foreground_highlighted: var(--steel_gray_A540_alpha64);
-    --button_tertiary_background: var(--transparent_black);
+    --button_tertiary_background: transparent;
+    --button_tertiary_background_active: var(--light_blue_40_alpha72);
+    --button_tertiary_background_hover: var(--light_blue_40);
     --button_tertiary_foreground: #d43d68;
     --cell_button_foreground: #d43d68;
     --content_tint_background: #bce6ce;
@@ -160,6 +167,7 @@
     --text_secondary: #212f3299;
     --text_subhead: var(--steel_gray_540);
     --text_tertiary: var(--steel_gray_300);
+    --verified-link-color: #d43d68;
     --writebar_icon: #212f3299;
   }
   #ads_left {

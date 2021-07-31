@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           VK VKCOM Light Scheme
 @namespace      qevitta
-@version        1.0.7
+@version        1.0.8
 @description    VK VKCOM Light Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
@@ -28,6 +28,11 @@
     --background_light: var(--steel_gray_10);
     --background_page: var(--steel_gray_60);
     --button-background-color: var(--blue_400);
+    --button-background-color-active: var(--blue_400);
+    --button-secondary-background-color: var(--light_blue_40);
+    --button-secondary-background-color-active: var(--light_blue_40_alpha72);
+    --button-secondary-background-color-hover: var(--light_blue_40_alpha72);
+    --button-secondary-text-color: var(--steel_gray_A540);
     --button-text-color: var(--white);
     --button_commerce_background: var(--green_350);
     --button_commerce_foreground: var(--white);
@@ -43,7 +48,9 @@
     --button_secondary_destructive_foreground_highlighted: var(--red_alpha12);
     --button_secondary_foreground: var(--steel_gray_A540);
     --button_secondary_foreground_highlighted: var(--steel_gray_A540_alpha64);
-    --button_tertiary_background: var(--transparent_black);
+    --button_tertiary_background: transparent;
+    --button_tertiary_background_active: var(--light_blue_40_alpha72);
+    --button_tertiary_background_hover: var(--light_blue_40);
     --button_tertiary_foreground: var(--blue_400);
     --cell_button_foreground: var(--blue_400);
     --content_tint_background: var(--steel_gray_40);
@@ -160,6 +167,7 @@
     --text_secondary: var(--steel_gray_400);
     --text_subhead: var(--steel_gray_540);
     --text_tertiary: var(--steel_gray_300);
+    --verified-link-color: var(--blue_400);
     --writebar_icon: var(--steel_gray_400);
   }
   #ads_left {
