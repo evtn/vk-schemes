@@ -287,6 +287,7 @@
             "background_page": "#040613",
             "button_commerce_background": "#83dc96",
             "button_secondary_background": "@background_hover",
+            "button_secondary_background_highlighted": "@background_hover"
             "content_tint_background": "@background_hover",
             "destructive": "#d68383",
             "input_border": "@background_hover",
