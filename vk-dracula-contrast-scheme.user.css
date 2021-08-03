@@ -1,11 +1,11 @@
 /* ==UserStyle==
-@name           VK Ayu Dark Scheme
+@name           VK Dracula High Contrast Scheme
 @namespace      qevitta
 @version        1.1.0
-@description    VK Ayu Dark Scheme
+@description    VK Dracula High Contrast Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
-@updateURL      https://github.com/evtn/vk-schemes/raw/build-stable/vk-ayu-scheme.user.css
+@updateURL      https://github.com/evtn/vk-schemes/raw/build-stable/vk-dracula-contrast-scheme.user.css
 
 @var select ads "Убрать рекламу слева" {"Да*": "none", "Нет": "block"}
 @var select combo "Убрать пункт VK Combo из меню" {"Да*": "none", "Нет": "block"}
@@ -21,27 +21,27 @@
 
 @-moz-document domain("vk.com") {
   :root {
-    --accent: #39bae6;
-    --background_content: #0a0e14;
-    --background_highlighted: #00010a4d;
-    --background_hover: #00010a4d;
-    --background_light: #00010a4d;
-    --background_page: #00010a;
-    --button-background-color: #39bae6;
-    --button-background-color-active: #39bae6;
-    --button-secondary-background-color: #00010a4d;
-    --button-secondary-background-color-active: #00010a4d;
-    --button-secondary-background-color-hover: #00010a4d;
+    --accent: #6272a4;
+    --background_content: #282a36;
+    --background_highlighted: #44475a;
+    --background_hover: #44475a;
+    --background_light: #44475a;
+    --background_page: #212020;
+    --button-background-color: #6272a4;
+    --button-background-color-active: #6272a4;
+    --button-secondary-background-color: #44475a;
+    --button-secondary-background-color-active: #44475a;
+    --button-secondary-background-color-hover: #44475a;
     --button-secondary-text-color: var(--gray_100);
-    --button-text-color: #0a0e14;
-    --button_commerce_background: #c2d94c;
+    --button-text-color: #282a36;
+    --button_commerce_background: #50fa7b;
     --button_commerce_foreground: var(--white);
     --button_outline_border: var(--gray_100);
     --button_outline_foreground: var(--gray_100);
     --button_primary_background: var(--gray_100);
-    --button_primary_foreground: #0a0e14;
-    --button_secondary_background: #00010a4d;
-    --button_secondary_background_highlighted: #00010a4d;
+    --button_primary_foreground: #282a36;
+    --button_secondary_background: #44475a;
+    --button_secondary_background_highlighted: #44475a;
     --button_secondary_destructive_background: var(--gray_700);
     --button_secondary_destructive_background_highlighted: var(--gray_700_alpha60);
     --button_secondary_destructive_foreground: var(--red_light);
@@ -49,37 +49,37 @@
     --button_secondary_foreground: var(--gray_100);
     --button_secondary_foreground_highlighted: var(--gray_100);
     --button_tertiary_background: transparent;
-    --button_tertiary_background_active: #00010a4d;
-    --button_tertiary_background_hover: #00010a4d;
+    --button_tertiary_background_active: #44475a;
+    --button_tertiary_background_hover: #44475a;
     --button_tertiary_foreground: var(--gray_100);
     --cell_button_foreground: var(--gray_100);
-    --content_tint_background: #00010a4d;
+    --content_tint_background: #44475a;
     --content_warning_background: var(--gold_500);
     --counter_primary_background: var(--white);
-    --counter_primary_text: #0a0e14;
+    --counter_primary_text: #282a36;
     --counter_prominent_background: var(--red_nice);
     --counter_prominent_text: var(--white);
     --counter_secondary_background: #626a73;
-    --counter_secondary_text: #0a0e14;
-    --destructive: #e6b450;
-    --dynamic_blue: var(--blue_400);
-    --dynamic_gray: var(--steel_gray_200);
-    --dynamic_green: #c2d94c;
-    --dynamic_orange: var(--orange);
-    --dynamic_purple: var(--purple_light);
-    --dynamic_red: var(--red_nice);
-    --dynamic_violet: var(--violet_light);
+    --counter_secondary_text: #282a36;
+    --destructive: #f55;
+    --dynamic_blue: #6272a4;
+    --dynamic_gray: #44475a;
+    --dynamic_green: #50fa7b;
+    --dynamic_orange: #ffb86c;
+    --dynamic_purple: #bd93f9;
+    --dynamic_red: #f55;
+    --dynamic_violet: #bd93f9;
     --field_background: var(--gray_850);
     --field_border: var(--white_alpha16);
     --field_error_background: var(--red_dark);
     --field_error_border: var(--red);
     --field_text_placeholder: #626a73;
-    --field_valid_border: #c2d94c;
+    --field_valid_border: #50fa7b;
     --float_button_background: var(--gray_700);
     --float_button_background_highlighted: var(--gray_600);
     --float_button_border: var(--black_alpha12);
     --float_button_foreground: var(--gray_300);
-    --header_background: #0a0e14;
+    --header_background: #282a36;
     --header_search_field_background: var(--gray_750);
     --header_search_field_tint: var(--gray_300);
     --header_text: var(--gray_100);
@@ -128,17 +128,17 @@
     --im_forward_line_tint: var(--white_alpha24);
     --im_reply_separator: var(--white);
     --im_service_message_text: #626a73;
-    --im_text_name: #39bae6;
+    --im_text_name: #6272a4;
     --im_toolbar_voice_msg_background: var(--gray_700);
     --image_border: var(--white_alpha8);
     --input_background: var(--gray_800);
-    --input_border: #00010a4d;
+    --input_border: #44475a;
     --like_text_tint: var(--red_light);
     --link_alternate: var(--gray_400);
     --loader_background: var(--gray_900);
     --loader_track_fill: var(--gray_700);
     --loader_track_value_fill: var(--white);
-    --modal_card_background: #0a0e14;
+    --modal_card_background: #282a36;
     --modal_card_border: var(--white_alpha12);
     --muted: #626a73;
     --placeholder_icon_background: var(--white_alpha8);
@@ -147,28 +147,28 @@
     --placeholder_icon_foreground_secondary: var(--gray_600);
     --placeholder_icon_tint: var(--white);
     --poll_option_background: var(--white);
-    --positive: #c2d94c;
+    --positive: #50fa7b;
     --primary_overlay_badge: var(--white_alpha40);
-    --search_bar_field_background: #00010a;
+    --search_bar_field_background: #212020;
     --search_bar_field_tint: #626a73;
     --secondary_overlay_badge: var(--white_alpha16);
     --separator_alpha: var(--white_alpha16);
-    --separator_alternate: #4d556666;
-    --separator_common: #4d556666;
+    --separator_alternate: #44475a;
+    --separator_common: #44475a;
     --skeleton_foreground_from: var(--gray_850);
     --skeleton_foreground_to: var(--gray_800);
-    --snippet_background: #00010a4d;
-    --snippet_border: #00010a4d;
+    --snippet_background: #44475a;
+    --snippet_border: #44475a;
     --snippet_icon_tertiary: var(--gray_600);
-    --text_link: #39bae6;
+    --text_link: #6272a4;
     --text_muted: #626a73;
     --text_name: var(--gray_100);
     --text_placeholder: var(--gray_300);
-    --text_primary: #b3b1ad;
+    --text_primary: #f8f8f2;
     --text_secondary: #626a73;
     --text_subhead: var(--gray_400);
     --text_tertiary: var(--gray_600);
-    --verified-link-color: #39bae6;
+    --verified-link-color: #6272a4;
     --writebar_icon: var(--gray_100);
   }
   #ads_left {

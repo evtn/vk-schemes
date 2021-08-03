@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           VK Leaf Scheme
 @namespace      qevitta
-@version        1.0.9
+@version        1.1.0
 @description    VK Leaf Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
@@ -64,7 +64,7 @@
     --destructive: #d43d68;
     --dynamic_blue: var(--blue_400);
     --dynamic_gray: var(--steel_gray_200);
-    --dynamic_green: var(--green_350);
+    --dynamic_green: #d43d68;
     --dynamic_orange: var(--orange);
     --dynamic_purple: var(--purple);
     --dynamic_red: var(--red_nice);
@@ -74,7 +74,7 @@
     --field_error_background: var(--red_light);
     --field_error_border: var(--red);
     --field_text_placeholder: #212f3299;
-    --field_valid_border: var(--green_350);
+    --field_valid_border: #d43d68;
     --float_button_background: var(--steel_gray_20);
     --float_button_background_highlighted: #c2e0cf;
     --float_button_border: var(--black_alpha8);
@@ -147,6 +147,7 @@
     --placeholder_icon_foreground_secondary: var(--steel_gray_200);
     --placeholder_icon_tint: var(--blue_800);
     --poll_option_background: #d43d68;
+    --positive: #d43d68;
     --primary_overlay_badge: var(--black_alpha56);
     --search_bar_field_background: #c2e0cf;
     --search_bar_field_tint: #212f3299;

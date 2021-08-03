@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           VK Ocean Scheme
 @namespace      qevitta
-@version        1.0.9
+@version        1.1.0
 @description    VK Ocean Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
@@ -64,7 +64,7 @@
     --destructive: #d68383;
     --dynamic_blue: var(--blue_400);
     --dynamic_gray: var(--steel_gray_200);
-    --dynamic_green: var(--green_350);
+    --dynamic_green: #83dc96;
     --dynamic_orange: var(--orange);
     --dynamic_purple: var(--purple_light);
     --dynamic_red: var(--red_nice);
@@ -74,7 +74,7 @@
     --field_error_background: var(--red_dark);
     --field_error_border: var(--red);
     --field_text_placeholder: #9999;
-    --field_valid_border: var(--green_350);
+    --field_valid_border: #83dc96;
     --float_button_background: var(--gray_700);
     --float_button_background_highlighted: var(--gray_600);
     --float_button_border: var(--black_alpha12);
@@ -147,6 +147,7 @@
     --placeholder_icon_foreground_secondary: var(--gray_600);
     --placeholder_icon_tint: var(--white);
     --poll_option_background: var(--white);
+    --positive: #83dc96;
     --primary_overlay_badge: var(--white_alpha40);
     --search_bar_field_background: #040613;
     --search_bar_field_tint: #9999;
