@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           VK Yandex.Music Contrast Scheme
 @namespace      qevitta
-@version        1.1.1
+@version        1.1.2
 @description    VK Yandex.Music Contrast Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
@@ -21,14 +21,14 @@
 
 @-moz-document domain("vk.com") {
   :root {
-    --accent: #ffdd60;
+    --accent: #ffdb4d;
     --background_content: #181818;
     --background_highlighted: #222;
     --background_hover: #222;
     --background_light: #181818;
     --background_page: #121212;
-    --button-background-color: #ffdd60;
-    --button-background-color-active: #ffdd60;
+    --button-background-color: #ffdb4d;
+    --button-background-color-active: #ffdb4d;
     --button-secondary-background-color: #222;
     --button-secondary-background-color-active: #222;
     --button-secondary-background-color-hover: #222;
@@ -128,7 +128,7 @@
     --im_forward_line_tint: var(--white_alpha24);
     --im_reply_separator: var(--white);
     --im_service_message_text: #777;
-    --im_text_name: #ffdd60;
+    --im_text_name: #ffdb4d;
     --im_toolbar_voice_msg_background: var(--gray_700);
     --image_border: var(--white_alpha8);
     --input_background: var(--gray_800);
@@ -160,7 +160,7 @@
     --snippet_background: #222;
     --snippet_border: #222;
     --snippet_icon_tertiary: var(--gray_600);
-    --text_link: #ffdd60;
+    --text_link: #ffdb4d;
     --text_muted: #777;
     --text_name: var(--gray_100);
     --text_placeholder: var(--gray_300);
@@ -168,7 +168,7 @@
     --text_secondary: #777;
     --text_subhead: var(--gray_400);
     --text_tertiary: var(--gray_600);
-    --verified-link-color: #ffdd60;
+    --verified-link-color: #ffdb4d;
     --writebar_icon: var(--gray_100);
   }
   #ads_left {
