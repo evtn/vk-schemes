@@ -4,6 +4,7 @@
         "variables": {
             "accent": "$blue_400",
             "muted": "$steel_gray_400",
+            "positive": "$green_350",
             "background_content": "$white",
             "background_hover": "$steel_gray_200_alpha12",
             "background_highlighted": "$steel_gray_200_alpha16",
@@ -11,7 +12,7 @@
             "background_page": "$steel_gray_60",
             "button-background-color": "@accent",
             "button-text-color": "@background_content",
-            "button_commerce_background": "$green_350",
+            "button_commerce_background": "@positive",
             "button_commerce_foreground": "@background_content",
             "button_outline_border": "@accent",
             "button_outline_foreground": "@accent",
@@ -41,7 +42,7 @@
             "field_border": "$steel_gray_100",
             "field_error_background": "$red_light",
             "field_error_border": "$red",
-            "field_valid_border": "$green_350",
+            "field_valid_border": "@positive",
             "field_text_placeholder": "@muted",
             "float_button_background": "$steel_gray_20",
             "float_button_background_highlighted": "@background_page",
@@ -134,7 +135,7 @@
             "dynamic_blue": "$blue_400",
             "dynamic_gray": "$steel_gray_200",
             "dynamic_red": "$red_nice",
-            "dynamic_green": "$green_350",
+            "dynamic_green": "@positive",
             "dynamic_orange": "$orange",
             "dynamic_purple": "$purple",
             "dynamic_violet": "$violet",
@@ -285,7 +286,7 @@
             "background_highlighted": "#232948",
             "background_light": "@background_hover",
             "background_page": "#040613",
-            "button_commerce_background": "#83dc96",
+            "positive": "#83dc96",
             "button_secondary_background": "@background_hover",
             "button_secondary_background_highlighted": "@background_hover",
             "content_tint_background": "@background_hover",
@@ -306,7 +307,7 @@
             "background_hover": "#1c1c1c",
             "background_highlighted": "#201825",
             "background_page": "@background_content",
-            "button_commerce_background": "#20f570",
+            "positive": "#20f570",
             "destructive": "#f52057",
             "muted": "#462e57",
             "counter_secondary_text": "@text_primary",
@@ -323,7 +324,7 @@
             "background_highlighted": "@background_hover",
             "background_light": "@background_hover",
             "background_page": "#c2e0cf",
-            "button_commerce_background": "@accent",
+            "positive": "@accent",
             "content_tint_background": "@background_hover",
             "destructive": "@accent",
             "input_border": "@background_hover",
@@ -342,12 +343,60 @@
             "background_hover": "#00010a4d",
             "background_highlighted": "#00010a4d",
             "background_page": "#00010a",
-            "button_commerce_background": "#c2d94c",
+            "positive": "#c2d94c",
             "destructive": "#e6b450",
             "muted": "#626a73",
             "separator_common": "#4d556666",
             "separator_alternate": "#4d556666",
             "text_primary": "#b3b1ad"
+        }
+    },
+    "dracula": {
+        "name": "Dracula",
+        "parent": "ocean",
+        "variables": {
+            "accent": "#6272a4",
+            "background_content": "#282a36",
+            "background_hover": "#44475a",
+            "background_highlighted": "#44475a",
+            "background_page": "#282a36",
+            "positive": "#50fa7b",
+            "destructive": "@dynamic_red",
+            "muted": "#626a73",
+            "text_primary": "#f8f8f2",
+            "dynamic_blue": "#6272a4",
+            "dynamic_gray": "#44475a",
+            "dynamic_red": "#f55",
+            "dynamic_orange": "#ffb86c",
+            "dynamic_purple": "#bd93f9",
+            "dynamic_violet": "#bd93f9"
+        }
+    },
+    "dracula-contrast": {
+        "name": "Dracula High Contrast",
+        "parent": "dracula",
+        "variables": {
+            "background_page": "#212020"
+        }
+    },
+    "yamusic": {
+        "name": "Yandex.Music Dark",
+        "parent": "ocean",
+        "variables": {
+            "accent": "#ffdd60",
+            "muted": "#777",
+            "background_page": "#121212",
+            "background_content": "@background_page",
+            "background_hover": "#222",
+            "background_highlighted": "#222",
+            "destructive": "@dynamic_red",
+            "positive": "#2aa75b",
+            "dynamic_blue": "#3099f0",
+            "dynamic_gray": "#777",
+            "dynamic_red": "#e43c31",
+            "dynamic_orange": "#ffbb5a",
+            "dynamic_purple": "#9d65a9",
+            "dynamic_violet": "#6c65a9"
         }
     }
 }
