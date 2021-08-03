@@ -36,7 +36,7 @@ Dracula: Темная схема, основанная на [draculatheme.com](h
 Dracula Contrast: Ещё одна темная схема, основанная на [draculatheme.com](https://draculatheme.com)
 [![Dracula Contrast](images/dracula-contrast.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-dracula-contrast-scheme.user.css)
 
-Yandex.Music: Темная схема, основанная на [draculatheme.com](https://music.yandex.ru)
+Yandex.Music: Темная схема, основанная на тёмной теме [Яндекс.Музыки](https://music.yandex.ru)
 [![Yandex.Music](images/yamusic.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-yamusic-scheme.user.css)
 
 Yandex.Music Contrast: Ещё одна темная схема, основанная на тёмной теме [Яндекс.Музыки](https://music.yandex.ru)
