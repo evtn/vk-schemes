@@ -14,7 +14,7 @@ def build_tree():
 
 def optimize_tree(tree, code):
     for child_code in tree[code]:
-        print(f"Optimizing {child_code}")
+        print(f"Optimizing {child_code} {{")
         deleted = 0
         child = schemes[child_code]["variables"]
         solved_child = full_search(child, code)
@@ -23,9 +23,10 @@ def optimize_tree(tree, code):
             subset.pop(name)
             if full_search(subset, code).get(name) == solved_child.get(name):
                 child.pop(name)
+                print(f"    :{name}:")
                 deleted += 1
 
-        print(f"Deleted {deleted} extra keys")
+        print(f"    Deleted {deleted} extra keys\n}}")
 
         if child_code in tree:
             optimize_tree(tree, child_code)
