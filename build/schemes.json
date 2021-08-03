@@ -384,7 +384,7 @@
         "name": "Yandex.Music",
         "parent": "ocean",
         "variables": {
-            "accent": "#ffdd60",
+            "accent": "#ffdb4d",
             "muted": "#777",
             "background_page": "@background_content",
             "background_light": "@background_content",
