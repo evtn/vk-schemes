@@ -359,7 +359,8 @@
             "background_content": "#282a36",
             "background_hover": "#44475a",
             "background_highlighted": "#44475a",
-            "background_page": "#282a36",
+            "background_page": "@background_content",
+            "background_light": "@background_content",
             "positive": "#50fa7b",
             "destructive": "@dynamic_red",
             "muted": "#626a73",
@@ -373,20 +374,21 @@
         }
     },
     "dracula-contrast": {
-        "name": "Dracula High Contrast",
+        "name": "Dracula Contrast",
         "parent": "dracula",
         "variables": {
-            "background_page": "#212020"
+            "background_page": "#16161c"
         }
     },
     "yamusic": {
-        "name": "Yandex.Music Dark",
+        "name": "Yandex.Music",
         "parent": "ocean",
         "variables": {
             "accent": "#ffdd60",
             "muted": "#777",
-            "background_page": "#121212",
-            "background_content": "@background_page",
+            "background_page": "@background_content",
+            "background_light": "@background_content",
+            "background_content": "#121212",
             "background_hover": "#222",
             "background_highlighted": "#222",
             "destructive": "@dynamic_red",
@@ -397,6 +399,14 @@
             "dynamic_orange": "#ffbb5a",
             "dynamic_purple": "#9d65a9",
             "dynamic_violet": "#6c65a9"
+        }
+    },
+    "yamusic-contrast": {
+        "name": "Yandex.Music Contrast",
+        "parent": "yamusic",
+        "variables": {
+            "background_page": "#121212",
+            "background_content": "#181818"
         }
     }
 }
