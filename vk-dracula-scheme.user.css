@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           VK Dracula Scheme
 @namespace      qevitta
-@version        1.1.0
+@version        1.1.1
 @description    VK Dracula Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
@@ -25,7 +25,7 @@
     --background_content: #282a36;
     --background_highlighted: #44475a;
     --background_hover: #44475a;
-    --background_light: #44475a;
+    --background_light: #282a36;
     --background_page: #282a36;
     --button-background-color: #6272a4;
     --button-background-color-active: #6272a4;

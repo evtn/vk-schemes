@@ -1,8 +1,8 @@
 /* ==UserStyle==
-@name           VK Yandex.Music Dark Scheme
+@name           VK Yandex.Music Scheme
 @namespace      qevitta
-@version        1.1.0
-@description    VK Yandex.Music Dark Scheme
+@version        1.1.1
+@description    VK Yandex.Music Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
 @updateURL      https://github.com/evtn/vk-schemes/raw/build-stable/vk-yamusic-scheme.user.css
@@ -25,7 +25,7 @@
     --background_content: #121212;
     --background_highlighted: #222;
     --background_hover: #222;
-    --background_light: #222;
+    --background_light: #121212;
     --background_page: #121212;
     --button-background-color: #ffdd60;
     --button-background-color-active: #ffdd60;

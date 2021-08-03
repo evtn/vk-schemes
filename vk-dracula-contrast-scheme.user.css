@@ -1,8 +1,8 @@
 /* ==UserStyle==
-@name           VK Dracula High Contrast Scheme
+@name           VK Dracula Contrast Scheme
 @namespace      qevitta
-@version        1.1.0
-@description    VK Dracula High Contrast Scheme
+@version        1.1.1
+@description    VK Dracula Contrast Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
 @updateURL      https://github.com/evtn/vk-schemes/raw/build-stable/vk-dracula-contrast-scheme.user.css
@@ -25,8 +25,8 @@
     --background_content: #282a36;
     --background_highlighted: #44475a;
     --background_hover: #44475a;
-    --background_light: #44475a;
-    --background_page: #212020;
+    --background_light: #282a36;
+    --background_page: #16161c;
     --button-background-color: #6272a4;
     --button-background-color-active: #6272a4;
     --button-secondary-background-color: #44475a;
@@ -149,7 +149,7 @@
     --poll_option_background: var(--white);
     --positive: #50fa7b;
     --primary_overlay_badge: var(--white_alpha40);
-    --search_bar_field_background: #212020;
+    --search_bar_field_background: #16161c;
     --search_bar_field_tint: #626a73;
     --secondary_overlay_badge: var(--white_alpha16);
     --separator_alpha: var(--white_alpha16);
