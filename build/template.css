@@ -20,7 +20,7 @@
 ==/UserStyle== */
 
 @-moz-document domain("vk.com") {{
-  :root {{
+  :root, .MEConfig {{
     {variables}
   }}
   #ads_left {{
