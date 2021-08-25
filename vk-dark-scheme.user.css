@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           VK VKCOM Dark Scheme
 @namespace      qevitta
-@version        1.1.3
+@version        1.1.4
 @description    VK VKCOM Dark Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
@@ -10,6 +10,7 @@
 @var select ads "Убрать рекламу слева" {"Да*": "none", "Нет": "block"}
 @var select combo "Убрать пункт VK Combo из меню" {"Да*": "none", "Нет": "block"}
 @var select stories "Показывать истории в новостях" {"Да*": "block", "Нет": "none"}
+@var select recent "Показывать недавно посещенные сообщества" {"Да*": "block", "Нет": "none"}
 @var range round-avatars "Скругление аватарок" [50, 0, 50, 5, "%"]
 @var text messenger-label "Текст пункта 'Мессенджер' (кавычки убирать не надо)" '"Мессенджер"'
 @var select counter-bg "Фон счетчиков в левом меню" {"Стандартный*": "var(--counter_secondary_background)", "Прозрачный": "transparent", "Яркий": "var(--accent)"}
@@ -232,6 +233,9 @@
     color: var(--counter-fg);
     background-color: var(--counter-bg);
     text-decoration: none;
+  }
+  .RecentGroups__main {
+    display: var(--recent);
   }
   * {
     text-transform: var(--text-transform);
