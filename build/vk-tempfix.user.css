@@ -1,0 +1,78 @@
+/* ==UserStyle==
+@name           VK Temporary Fix
+@namespace      qevitta
+@version        0.1.0
+@description    Temporary fix for variables
+@author         vk.com/qevitta
+@homepageURL    http://github.com/evtn/vk-schemes
+@updateURL      https://github.com/evtn/vk-schemes/raw/lord/build/vk-tempfix.user.css
+
+==/UserStyle== */
+
+@-moz-document domain("vk.com") {
+  [dir] .composer_wdd .wdd_list,
+  [dir] .ui_search_new .ui_search_button_search,
+  [dir] .ui_search_new .ui_search_input_inner,
+  [dir] .ts_cont_wrap {
+    border-color: var(--separator_common);
+  }
+  [dir] .wdd_list {
+    background: var(--background_content);
+  }
+  [dir] .wddi {
+    background: var(--background_content);
+  }
+  [dir] .wddi_over {
+    background: var(--background_hover);
+  }
+  [dir] .audio_layer_container .audio_page__footer,
+  [dir] .wddi_over,
+  [dir] .wddi {
+    border-top-color: var(--separator_common);
+  }
+  [dir] .audio_layer_container .audio_page_player_wrap {
+    border-bottom-color: var(--separator_common) !important;
+  }
+  .wddi_text,
+  .ts_contact_name {
+    color: var(--accent);
+  }
+  .audio_page_player2 .audio_page_player_title_song {
+    color: var(--text_primary);
+  }
+  .wddi_sub, .wddi_over .wddi_sub,
+  .audio_page_player2 .audio_page_player_title_performer .artist_link,
+  input.ui_search_field::placeholder, input.ui_search_field ~ .placeholder .ph_content,
+  .ts_contact_info {
+    color: var(--text_secondary);
+  }
+  [dir] .ui_scroll_default_theme > .ui_scroll_bar_container > .ui_scroll_bar_outer > .ui_scroll_bar_inner {
+    background: var(--text_secondary)
+  }
+  [dir] .PopupHeader {
+    background: var(--accent);
+  }
+  .PopupHeader__title {
+    color: var(--button-text-color);
+  }
+  [dir] .ChatSettingsInfo,
+  [dir] .ChatSettingsMembersWidget,
+  [dir] .audio_page_layout .audio_search_wrapper,
+  [dir] a.ts_contact.active {
+    background: var(--background_hover);
+  }
+  [dir] .ChatSettings__content,
+  [dir] .audio_layer_container .audio_page_player_wrap,
+  [dir] .CatalogSection, [dir] .CatalogBlock--divided,
+  [dir] .ts_cont_wrap {
+    background: var(--background_content);
+  }
+  [dir] .ui_search_new.ui_search_field_empty .ui_search_button_search,
+  [dir] .audio_page_player2 .audio_page_player__cover,
+  [dir] .audio_w_covers .audio_row .audio_row__cover {
+    background-color: var(--background_content);
+  }
+  .ChatSettingsInfo__title {
+    color: var(--header_text);
+  }
+}
