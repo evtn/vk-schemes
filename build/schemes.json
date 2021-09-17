@@ -139,6 +139,7 @@
             "dynamic_orange": "$orange",
             "dynamic_purple": "$purple",
             "dynamic_violet": "$violet",
+            "dynamic_raspberry_pink": "$raspberry_pink",
             "skeleton_foreground_from": "$steel_gray_40",
             "skeleton_foreground_to": "$steel_gray_80",
             "primary_overlay_badge": "$black_alpha56",
@@ -150,7 +151,9 @@
             "button-secondary-text-color": "@button_secondary_foreground",
             "button_tertiary_background_hover": "@button_secondary_background",
             "button_tertiary_background_active": "@button_secondary_background_highlighted",
-            "verified-link-color": "@accent"
+            "verified-link-color": "@accent",
+            "content_positive_background": "$green_light",
+            "content_negative_background": "$red_light"
         }
     },
     "dark": {
@@ -292,13 +295,14 @@
             "content_tint_background": "@background_hover",
             "destructive": "#d68383",
             "input_border": "@background_hover",
-            "muted": "#9999",
+            "muted": "#99999999",
             "separator_common": "@background_hover",
             "separator_alternate": "@background_hover",
+            "separator_alpha": "@separator_common:28",
             "text_muted": "@muted"
         }
     },
-    "acid_dark": {
+    "acid-dark": {
         "name": "Acid Dark",
         "parent": "ocean",
         "variables": {
@@ -314,23 +318,29 @@
             "counter_primary_background": "@accent"
         }
     },
+    "acid_dark": {
+        "name": "Acid Dark",
+        "parent": "acid-dark",
+        "variables": {}
+    },
     "leaf": {
         "name": "Leaf",
         "parent": "default",
         "variables": {
-            "accent": "#d43d68",
-            "background_content": "#e1f4e9",
-            "background_hover": "#bce6ce",
+            "accent": "#D43D68",
+            "background_content": "#E1F4E9",
+            "background_hover": "#BCE6CE",
             "background_highlighted": "@background_hover",
             "background_light": "@background_hover",
-            "background_page": "#c2e0cf",
+            "background_page": "#C2E0CF",
             "positive": "@accent",
             "content_tint_background": "@background_hover",
             "destructive": "@accent",
             "input_border": "@background_hover",
-            "muted": "#212f3299",
+            "muted": "#212F3299",
             "separator_common": "@background_hover",
             "separator_alternate": "@background_hover",
+            "separator_alpha": "@separator_common:28",
             "text_muted": "@muted"
         }
     },
@@ -338,17 +348,32 @@
         "name": "Ayu Dark",
         "parent": "ocean",
         "variables": {
-            "accent": "#39bae6",
+            "accent": "#e6b450",
             "background_content": "#0a0e14",
-            "background_hover": "#00010a4d",
-            "background_highlighted": "#00010a4d",
+            "background_hover": "@background_page",
+            "background_highlighted": "@background_page",
             "background_page": "#00010a",
             "positive": "#c2d94c",
-            "destructive": "#e6b450",
-            "muted": "#626a73",
-            "separator_common": "#4d556666",
-            "separator_alternate": "#4d556666",
-            "text_primary": "#b3b1ad"
+            "destructive": "#d95757",
+            "muted": "#acb6bf8c",
+            "separator_common": "#6c738066",
+            "separator_alternate": "#6c738066",
+            "separator_alpha": "6c738030",
+            "text_primary": "#b3b1ad",
+            "dynamic_violet": "#d2a6ff",
+            "dynamic_red": "#f26d78",
+            "dynamic_blue": "#73b8ff",
+            "dynamic_orange": "#ffb454",
+            "dynamic_purple": "@dynamic_violet",
+            "dynamic_green": "#7fd962",
+            "dynamic_raspberry_pink": "#f07178"
+        }
+    },
+    "ayu-alt": {
+        "name": "Ayu Dark Alternate",
+        "parent": "ayu",
+        "variables": {
+            "accent": "#39bae6"
         }
     },
     "dracula": {
@@ -367,7 +392,7 @@
             "text_primary": "#f8f8f2",
             "dynamic_blue": "#6272a4",
             "dynamic_gray": "#44475a",
-            "dynamic_red": "#f55",
+            "dynamic_red": "#ff5555",
             "dynamic_orange": "#ffb86c",
             "dynamic_purple": "#bd93f9",
             "dynamic_violet": "#bd93f9"
@@ -385,16 +410,16 @@
         "parent": "ocean",
         "variables": {
             "accent": "#ffdb4d",
-            "muted": "#777",
+            "muted": "#777777",
             "background_page": "@background_content",
             "background_light": "@background_content",
             "background_content": "#121212",
-            "background_hover": "#222",
-            "background_highlighted": "#222",
+            "background_hover": "#222222",
+            "background_highlighted": "#222222",
             "destructive": "@dynamic_red",
             "positive": "#2aa75b",
             "dynamic_blue": "#3099f0",
-            "dynamic_gray": "#777",
+            "dynamic_gray": "#777777",
             "dynamic_red": "#e43c31",
             "dynamic_orange": "#ffbb5a",
             "dynamic_purple": "#9d65a9",
@@ -407,6 +432,39 @@
         "variables": {
             "background_page": "#121212",
             "background_content": "#181818"
+        }
+    },
+    "alpenglow": {
+        "name": "Firefox Alpenglow",
+        "parent": "ocean",
+        "variables": {
+            "accent": "#c68aff",
+            "background_content": "#281d4e",
+            "background_hover": "#2d245b",
+            "background_highlighted": "#3c1f7b",
+            "background_page": "#21133c",
+            "positive": "#3fe1b0",
+            "destructive": "#ff6a75",
+            "muted": "#ffffff77",
+            "separator_common": "#ac70ff",
+            "separator_alternate": "#ac70ff",
+            "text_primary": "#ffffff",
+            "dynamic_violet": "#F564FF",
+            "dynamic_red": "#ff6a75",
+            "dynamic_blue": "#00B3F5",
+            "dynamic_orange": "#FEA365",
+            "dynamic_purple": "#FF8AC6",
+            "dynamic_green": "#88FFD1",
+            "dynamic_raspberry_pink": "#FF848C"
+        }
+    },
+    "alpenglow-borderless": {
+        "name": "Firefox Alpenglow Borderless",
+        "parent": "alpenglow",
+        "variables": {
+            "separator_common": "#00000000",
+            "separator_alternate": "@separator_common",
+            "separator_alpha": "@separator_common"
         }
     }
 }
