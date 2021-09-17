@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           VK Dracula Scheme
 @namespace      qevitta
-@version        1.1.4
+@version        1.2.4
 @description    VK Dracula Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
@@ -54,6 +54,8 @@
     --button_tertiary_background_hover: #44475a;
     --button_tertiary_foreground: var(--gray_100);
     --cell_button_foreground: var(--gray_100);
+    --content_negative_background: var(--red_light);
+    --content_positive_background: var(--green_light);
     --content_tint_background: #44475a;
     --content_warning_background: var(--gold_500);
     --counter_primary_background: var(--white);
@@ -62,13 +64,14 @@
     --counter_prominent_text: var(--white);
     --counter_secondary_background: #626a73;
     --counter_secondary_text: #282a36;
-    --destructive: #f55;
+    --destructive: #ff5555;
     --dynamic_blue: #6272a4;
     --dynamic_gray: #44475a;
     --dynamic_green: #50fa7b;
     --dynamic_orange: #ffb86c;
     --dynamic_purple: #bd93f9;
-    --dynamic_red: #f55;
+    --dynamic_raspberry_pink: var(--raspberry_pink);
+    --dynamic_red: #ff5555;
     --dynamic_violet: #bd93f9;
     --field_background: var(--gray_850);
     --field_border: var(--white_alpha16);
@@ -153,7 +156,7 @@
     --search_bar_field_background: #282a36;
     --search_bar_field_tint: #626a73;
     --secondary_overlay_badge: var(--white_alpha16);
-    --separator_alpha: var(--white_alpha16);
+    --separator_alpha: #44475a28;
     --separator_alternate: #44475a;
     --separator_common: #44475a;
     --skeleton_foreground_from: var(--gray_850);

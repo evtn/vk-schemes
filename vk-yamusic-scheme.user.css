@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           VK Yandex.Music Scheme
 @namespace      qevitta
-@version        1.1.4
+@version        1.2.4
 @description    VK Yandex.Music Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
@@ -24,15 +24,15 @@
   :root, .MEConfig {
     --accent: #ffdb4d;
     --background_content: #121212;
-    --background_highlighted: #222;
-    --background_hover: #222;
+    --background_highlighted: #222222;
+    --background_hover: #222222;
     --background_light: #121212;
     --background_page: #121212;
     --button-background-color: #ffdb4d;
     --button-background-color-active: #ffdb4d;
-    --button-secondary-background-color: #222;
-    --button-secondary-background-color-active: #222;
-    --button-secondary-background-color-hover: #222;
+    --button-secondary-background-color: #222222;
+    --button-secondary-background-color-active: #222222;
+    --button-secondary-background-color-hover: #222222;
     --button-secondary-text-color: var(--gray_100);
     --button-text-color: #121212;
     --button_commerce_background: #2aa75b;
@@ -41,8 +41,8 @@
     --button_outline_foreground: var(--gray_100);
     --button_primary_background: var(--gray_100);
     --button_primary_foreground: #121212;
-    --button_secondary_background: #222;
-    --button_secondary_background_highlighted: #222;
+    --button_secondary_background: #222222;
+    --button_secondary_background_highlighted: #222222;
     --button_secondary_destructive_background: var(--gray_700);
     --button_secondary_destructive_background_highlighted: var(--gray_700_alpha60);
     --button_secondary_destructive_foreground: var(--red_light);
@@ -50,31 +50,34 @@
     --button_secondary_foreground: var(--gray_100);
     --button_secondary_foreground_highlighted: var(--gray_100);
     --button_tertiary_background: transparent;
-    --button_tertiary_background_active: #222;
-    --button_tertiary_background_hover: #222;
+    --button_tertiary_background_active: #222222;
+    --button_tertiary_background_hover: #222222;
     --button_tertiary_foreground: var(--gray_100);
     --cell_button_foreground: var(--gray_100);
-    --content_tint_background: #222;
+    --content_negative_background: var(--red_light);
+    --content_positive_background: var(--green_light);
+    --content_tint_background: #222222;
     --content_warning_background: var(--gold_500);
     --counter_primary_background: var(--white);
     --counter_primary_text: #121212;
     --counter_prominent_background: var(--red_nice);
     --counter_prominent_text: var(--white);
-    --counter_secondary_background: #777;
+    --counter_secondary_background: #777777;
     --counter_secondary_text: #121212;
     --destructive: #e43c31;
     --dynamic_blue: #3099f0;
-    --dynamic_gray: #777;
+    --dynamic_gray: #777777;
     --dynamic_green: #2aa75b;
     --dynamic_orange: #ffbb5a;
     --dynamic_purple: #9d65a9;
+    --dynamic_raspberry_pink: var(--raspberry_pink);
     --dynamic_red: #e43c31;
     --dynamic_violet: #6c65a9;
     --field_background: var(--gray_850);
     --field_border: var(--white_alpha16);
     --field_error_background: var(--red_dark);
     --field_error_border: var(--red);
-    --field_text_placeholder: #777;
+    --field_text_placeholder: #777777;
     --field_valid_border: #2aa75b;
     --float_button_background: var(--gray_700);
     --float_button_background_highlighted: var(--gray_600);
@@ -92,7 +95,7 @@
     --icon_name: var(--gray_300);
     --icon_outline_medium: var(--gray_300);
     --icon_outline_secondary: var(--gray_400);
-    --icon_secondary: #777;
+    --icon_secondary: #777777;
     --icon_secondary_alpha: var(--white_alpha40);
     --icon_tertiary: var(--gray_600);
     --icon_tertiary_alpha: var(--white_alpha24);
@@ -115,12 +118,12 @@
     --im_bubble_incoming_highlighted: var(--gray_600);
     --im_bubble_outgoing: var(--gray_700);
     --im_bubble_outgoing_alternate: var(--gray_700);
-    --im_bubble_outgoing_alternate_highlighted: #777;
+    --im_bubble_outgoing_alternate_highlighted: #777777;
     --im_bubble_outgoing_expiring: var(--lavender_800);
     --im_bubble_outgoing_expiring_highlighted: var(--lavender_700);
     --im_bubble_outgoing_highlighted: var(--gray_600);
     --im_bubble_wallpaper_button_background: var(--gray_700);
-    --im_bubble_wallpaper_button_background_highlighted: #777;
+    --im_bubble_wallpaper_button_background_highlighted: #777777;
     --im_bubble_wallpaper_button_foreground: var(--gray_100);
     --im_bubble_wallpaper_incoming: var(--gray_800);
     --im_bubble_wallpaper_incoming_highlighted: var(--gray_600);
@@ -128,12 +131,12 @@
     --im_bubble_wallpaper_outgoing_highlighted: var(--gray_600);
     --im_forward_line_tint: var(--white_alpha24);
     --im_reply_separator: var(--white);
-    --im_service_message_text: #777;
+    --im_service_message_text: #777777;
     --im_text_name: #ffdb4d;
     --im_toolbar_voice_msg_background: var(--gray_700);
     --image_border: var(--white_alpha8);
     --input_background: var(--gray_800);
-    --input_border: #222;
+    --input_border: #222222;
     --like_text_tint: var(--red_light);
     --link_alternate: var(--gray_400);
     --loader_background: var(--gray_900);
@@ -141,7 +144,7 @@
     --loader_track_value_fill: var(--white);
     --modal_card_background: #121212;
     --modal_card_border: var(--white_alpha12);
-    --muted: #777;
+    --muted: #777777;
     --placeholder_icon_background: var(--white_alpha8);
     --placeholder_icon_background_opaque: var(--gray_850);
     --placeholder_icon_foreground_primary: var(--gray_400);
@@ -151,22 +154,22 @@
     --positive: #2aa75b;
     --primary_overlay_badge: var(--white_alpha40);
     --search_bar_field_background: #121212;
-    --search_bar_field_tint: #777;
+    --search_bar_field_tint: #777777;
     --secondary_overlay_badge: var(--white_alpha16);
-    --separator_alpha: var(--white_alpha16);
-    --separator_alternate: #222;
-    --separator_common: #222;
+    --separator_alpha: #22222228;
+    --separator_alternate: #222222;
+    --separator_common: #222222;
     --skeleton_foreground_from: var(--gray_850);
     --skeleton_foreground_to: var(--gray_800);
-    --snippet_background: #222;
-    --snippet_border: #222;
+    --snippet_background: #222222;
+    --snippet_border: #222222;
     --snippet_icon_tertiary: var(--gray_600);
     --text_link: #ffdb4d;
-    --text_muted: #777;
+    --text_muted: #777777;
     --text_name: var(--gray_100);
     --text_placeholder: var(--gray_300);
     --text_primary: var(--gray_100);
-    --text_secondary: #777;
+    --text_secondary: #777777;
     --text_subhead: var(--gray_400);
     --text_tertiary: var(--gray_600);
     --verified-link-color: #ffdb4d;

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           VK VKCOM Light Scheme
 @namespace      qevitta
-@version        1.1.4
+@version        1.2.4
 @description    VK VKCOM Light Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
@@ -54,6 +54,8 @@
     --button_tertiary_background_hover: var(--light_blue_40);
     --button_tertiary_foreground: var(--blue_400);
     --cell_button_foreground: var(--blue_400);
+    --content_negative_background: var(--red_light);
+    --content_positive_background: var(--green_light);
     --content_tint_background: var(--steel_gray_40);
     --content_warning_background: var(--yellow_light);
     --counter_primary_background: var(--blue_400);
@@ -68,6 +70,7 @@
     --dynamic_green: var(--green_350);
     --dynamic_orange: var(--orange);
     --dynamic_purple: var(--purple);
+    --dynamic_raspberry_pink: var(--raspberry_pink);
     --dynamic_red: var(--red_nice);
     --dynamic_violet: var(--violet);
     --field_background: var(--steel_gray_20);

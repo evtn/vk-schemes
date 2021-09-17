@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           VK Ocean Scheme
 @namespace      qevitta
-@version        1.1.4
+@version        1.2.4
 @description    VK Ocean Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
@@ -54,13 +54,15 @@
     --button_tertiary_background_hover: #111423;
     --button_tertiary_foreground: var(--gray_100);
     --cell_button_foreground: var(--gray_100);
+    --content_negative_background: var(--red_light);
+    --content_positive_background: var(--green_light);
     --content_tint_background: #111423;
     --content_warning_background: var(--gold_500);
     --counter_primary_background: var(--white);
     --counter_primary_text: #0d0f1b;
     --counter_prominent_background: var(--red_nice);
     --counter_prominent_text: var(--white);
-    --counter_secondary_background: #9999;
+    --counter_secondary_background: #99999999;
     --counter_secondary_text: #0d0f1b;
     --destructive: #d68383;
     --dynamic_blue: var(--blue_400);
@@ -68,13 +70,14 @@
     --dynamic_green: #83dc96;
     --dynamic_orange: var(--orange);
     --dynamic_purple: var(--purple_light);
+    --dynamic_raspberry_pink: var(--raspberry_pink);
     --dynamic_red: var(--red_nice);
     --dynamic_violet: var(--violet_light);
     --field_background: var(--gray_850);
     --field_border: var(--white_alpha16);
     --field_error_background: var(--red_dark);
     --field_error_border: var(--red);
-    --field_text_placeholder: #9999;
+    --field_text_placeholder: #99999999;
     --field_valid_border: #83dc96;
     --float_button_background: var(--gray_700);
     --float_button_background_highlighted: var(--gray_600);
@@ -92,7 +95,7 @@
     --icon_name: var(--gray_300);
     --icon_outline_medium: var(--gray_300);
     --icon_outline_secondary: var(--gray_400);
-    --icon_secondary: #9999;
+    --icon_secondary: #99999999;
     --icon_secondary_alpha: var(--white_alpha40);
     --icon_tertiary: var(--gray_600);
     --icon_tertiary_alpha: var(--white_alpha24);
@@ -115,12 +118,12 @@
     --im_bubble_incoming_highlighted: var(--gray_600);
     --im_bubble_outgoing: var(--gray_700);
     --im_bubble_outgoing_alternate: var(--gray_700);
-    --im_bubble_outgoing_alternate_highlighted: #9999;
+    --im_bubble_outgoing_alternate_highlighted: #99999999;
     --im_bubble_outgoing_expiring: var(--lavender_800);
     --im_bubble_outgoing_expiring_highlighted: var(--lavender_700);
     --im_bubble_outgoing_highlighted: var(--gray_600);
     --im_bubble_wallpaper_button_background: var(--gray_700);
-    --im_bubble_wallpaper_button_background_highlighted: #9999;
+    --im_bubble_wallpaper_button_background_highlighted: #99999999;
     --im_bubble_wallpaper_button_foreground: var(--gray_100);
     --im_bubble_wallpaper_incoming: var(--gray_800);
     --im_bubble_wallpaper_incoming_highlighted: var(--gray_600);
@@ -128,7 +131,7 @@
     --im_bubble_wallpaper_outgoing_highlighted: var(--gray_600);
     --im_forward_line_tint: var(--white_alpha24);
     --im_reply_separator: var(--white);
-    --im_service_message_text: #9999;
+    --im_service_message_text: #99999999;
     --im_text_name: #80cbc4;
     --im_toolbar_voice_msg_background: var(--gray_700);
     --image_border: var(--white_alpha8);
@@ -141,7 +144,7 @@
     --loader_track_value_fill: var(--white);
     --modal_card_background: #0d0f1b;
     --modal_card_border: var(--white_alpha12);
-    --muted: #9999;
+    --muted: #99999999;
     --placeholder_icon_background: var(--white_alpha8);
     --placeholder_icon_background_opaque: var(--gray_850);
     --placeholder_icon_foreground_primary: var(--gray_400);
@@ -151,9 +154,9 @@
     --positive: #83dc96;
     --primary_overlay_badge: var(--white_alpha40);
     --search_bar_field_background: #040613;
-    --search_bar_field_tint: #9999;
+    --search_bar_field_tint: #99999999;
     --secondary_overlay_badge: var(--white_alpha16);
-    --separator_alpha: var(--white_alpha16);
+    --separator_alpha: #11142328;
     --separator_alternate: #111423;
     --separator_common: #111423;
     --skeleton_foreground_from: var(--gray_850);
@@ -162,11 +165,11 @@
     --snippet_border: #111423;
     --snippet_icon_tertiary: var(--gray_600);
     --text_link: #80cbc4;
-    --text_muted: #9999;
+    --text_muted: #99999999;
     --text_name: var(--gray_100);
     --text_placeholder: var(--gray_300);
     --text_primary: var(--gray_100);
-    --text_secondary: #9999;
+    --text_secondary: #99999999;
     --text_subhead: var(--gray_400);
     --text_tertiary: var(--gray_600);
     --verified-link-color: #80cbc4;
