@@ -30,18 +30,20 @@ def full_search(variables, parent):
 
     while not solved or undefined:
         for name in schemes["default"]["variables"]:
-            value = search(variables, parent, name)
+            values = search(variables, parent, name).split(":")
+            value = values[0]
             if value.startswith("@"):
                 ref = value[1:]
                 if ref in solved:
-                    solved[name] = solved[ref]
+                    solved[name] = "".join([solved[ref], *values[1:]])
                 else:
-                    undefined[name] = ref
+                    undefined[name] = ref, values[1:]
             else:
                 solved[name] = value
+
         for name in list(undefined):
-            if undefined[name] in solved:
-                solved[name] = solved[undefined[name]]
-                undefined.pop(name)
+            if undefined[name][0] in solved:
+                ref, concat = undefined.pop(name)
+                solved[name] = "".join([solved[ref], *concat])
 
     return solved
