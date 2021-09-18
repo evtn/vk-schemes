@@ -3,7 +3,6 @@
 Набор цветовых схем для vk.com + небольшие настройки для сайта.    
 Для покраски используются переменные с сайта (и только переменные).    
 На момент написания этого текста, многие элементы не были прокрашены, поэтому схемы могут выглядеть незаконченными (особенно темные).    
-UPD. Сделал небольшую заплатку, которая вешает переменные на некоторые особо неприятные места. Для установки перейдите [по ссылке](https://github.com/evtn/vk-schemes/raw/lord/build/vk-tempfix.user.css) после установки основного стиля
 
 ## Установка
 
@@ -12,9 +11,15 @@ UPD. Сделал небольшую заплатку, которая вешае
     - [Opera](https://addons.opera.com/extensions/details/stylus/)
     - [Chrome/Chromium/Яндекс/etc](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 
-2. Выбрать схему (кликнуть на нужный скриншот ниже)
+2. Выбрать схему (кликнуть на нужный скриншот из списка ниже)
 
-## Скриншоты
+## Фикс непрокрасов
+
+Сделал небольшую заплатку, которая вешает переменные на некоторые особо неприятные места.    
+Для установки перейдите [по этой ссылке](https://github.com/evtn/vk-schemes/raw/lord/build/vk-tempfix.user.css) после установки основного стиля.
+
+## Схемы
+*многие темы имеют альтернативные вариации, они находятся в самом низу списка*
 
 VKCOM Dark: Официальная темная схема    
 [![vk.com Dark](images/vkcomdark.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-dark-scheme.user.css)    
@@ -31,16 +36,27 @@ Leaf: Красно-зеленая (да, на любителя) светлая �
 Ayu: Темная схема, основанная на цветах [dempfi/ayu](https://github.com/dempfi/ayu) - темы для Sublime Text    
 [![Ayu](images/ayu.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-ayu-scheme.user.css)
 
+Alpenglow: Темная схема, основанная на цветах [Firefox Alpenglow](https://addons.mozilla.org/en-US/firefox/addon/firefox-alpenglow/) - темы для Firefox    
+[![Alpenglow](images/alpenglow.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-alpenglow-scheme.user.css)
+
 Dracula: Темная схема, основанная на [draculatheme.com](https://draculatheme.com)
 [![Dracula](images/dracula.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-dracula-scheme.user.css)
-
-Dracula Contrast: Ещё одна темная схема, основанная на [draculatheme.com](https://draculatheme.com)
-[![Dracula Contrast](images/dracula-contrast.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-dracula-contrast-scheme.user.css)
 
 Yandex.Music: Темная схема, основанная на тёмной теме [Яндекс.Музыки](https://music.yandex.ru)
 [![Yandex.Music](images/yamusic.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-yamusic-scheme.user.css)
 
-Yandex.Music Contrast: Ещё одна темная схема, основанная на тёмной теме [Яндекс.Музыки](https://music.yandex.ru)
+### Варианты
+
+Ayu Alternate: Вариант Ayu с синим акцентом    
+[![Ayu](images/ayu-alt.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-ayu-alt-scheme.user.css)
+
+Alpenglow Borderless: Вариант Alpenglow без яркой обводки
+[![Alpenglow](images/alpenglow-borderless.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-alpenglow-borderless-scheme.user.css)
+
+Dracula Contrast: Контрастный вариант Dracula    
+[![Dracula Contrast](images/dracula-contrast.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-dracula-contrast-scheme.user.css)
+
+Yandex.Music Contrast: Контрастный вариант Yandex.Music    
 [![Yandex.Music Contrast](images/yamusic-contrast.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-yamusic-contrast-scheme.user.css)
 
 
