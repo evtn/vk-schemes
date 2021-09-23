@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           VK VKCOM Dark Scheme
 @namespace      qevitta
-@version        1.2.4
+@version        1.2.5
 @description    VK VKCOM Dark Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
@@ -13,10 +13,11 @@
 @var select recent "Показывать недавно посещенные сообщества" {"Да*": "block", "Нет": "none"}
 @var range round-avatars "Скругление аватарок" [50, 0, 50, 5, "%"]
 @var text messenger-label "Текст пункта 'Мессенджер' (кавычки убирать не надо)" '"Мессенджер"'
-@var select counter-bg "Фон счетчиков в левом меню" {"Стандартный*": "var(--counter_secondary_background)", "Прозрачный": "transparent", "Яркий": "var(--accent)"}
-@var select counter-fg "Текст счетчиков в левом меню" {"Стандартный*": "var(--white)", "Белый": "white", "Яркий": "var(--accent)"}
+@var select counter-bg "Фон счетчиков в левом меню" {"Стандартный*": "var(--counter_secondary_background)", "Прозрачный": "transparent", "Яркий": "var(--accent)", "Текст": "var(--text-primary)", "Фон": "var(--background-content)"}
+@var select counter-fg "Текст счетчиков в левом меню" {"Стандартный*": "var(--counter-fg)", "Белый": "white", "Яркий": "var(--accent)", "Текст": "var(--text-primary)", "Фон": "var(--background-content)"}
 @var select text-transform "Изменение текста" {"Нет*": "", "ВСЁЁ БОЛЬШИМИ БУКВАМИ": "uppercase", "всё маленькими буквами": "lowercase", "Всё Очень Странно": "capitalize"}
 @var select italy "Едем в Италию" {"Да": "italic", "Нет*": ""}
+@var select fastchat "Убрать миничаты" {"Да": "none", "Нет*": "block"}
 
 ==/UserStyle== */
 
@@ -84,6 +85,7 @@
     --float_button_border: var(--black_alpha12);
     --float_button_foreground: var(--gray_300);
     --header_background: var(--gray_900);
+    --header_background_alt: var(--header_background);
     --header_search_field_background: var(--gray_750);
     --header_search_field_tint: var(--gray_300);
     --header_text: var(--gray_100);
@@ -220,6 +222,9 @@
   [dir] .TopNavBtn__profileImg {
     border-radius: var(--round-avatars);
   }
+  .[dir] body.new_header_design #page_header_cont {
+    background: var(--header_background_alt);
+  }
   .feed_submit_shown .stories_feed_wrap,
   [dir] .feed_submit_shown .stories_feed_wrap {
     display: var(--stories);
@@ -239,6 +244,9 @@
   }
   .RecentGroups__main {
     display: var(--recent);
+  }
+  .fastchat-reforged {
+    display: var(--fastchat);
   }
   * {
     text-transform: var(--text-transform);
