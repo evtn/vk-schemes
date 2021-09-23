@@ -153,7 +153,8 @@
             "button_tertiary_background_active": "@button_secondary_background_highlighted",
             "verified-link-color": "@accent",
             "content_positive_background": "$green_light",
-            "content_negative_background": "$red_light"
+            "content_negative_background": "$red_light",
+            "header_background_alt": "$header_background"
         }
     },
     "dark": {
