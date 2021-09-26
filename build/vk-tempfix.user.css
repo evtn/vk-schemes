@@ -96,7 +96,9 @@
   .nim-dialog:not(.nim-dialog_deleted).nim-dialog_muted.nim-dialog_selected .nim-dialog--unread-badge_mention,
   [dir] .nim-dialog.nim-dialog_unread .nim-dialog--unread, 
   [dir] .nim-dialog.nim-dialog_unread.nim-dialog_prep-injected .nim-dialog--unread,
-  [dir] .nim-dialog.nim-dialog_failed .nim-dialog--unread {
+  [dir] .nim-dialog.nim-dialog_failed .nim-dialog--unread,
+  [dir] .nim-dialog:not(.nim-dialog_deleted).nim-dialog_selected .nim-dialog--photo .online::after, 
+  [dir] .nim-dialog:not(.nim-dialog_deleted).nim-dialog_muted.nim-dialog_selected .nim-dialog--photo .online::after {
     background-color: var(--counter_primary_background);
     color: var(--counter_primary_text);
   }
