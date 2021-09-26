@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           VK Temporary Fix
 @namespace      qevitta
-@version        0.1.0
+@version        0.1.1
 @description    Temporary fix for variables
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
@@ -74,5 +74,35 @@
   }
   .ChatSettingsInfo__title {
     color: var(--header_text);
+  }
+  [dir] .nim-dialog:not(.nim-dialog_deleted).nim-dialog_selected, 
+  [dir] .nim-dialog:not(.nim-dialog_deleted).nim-dialog_muted.nim-dialog_selected {
+    background: var(--background_highlighted);
+  }
+  [dir] .nim-dialog:not(.nim-dialog_deleted).nim-dialog.nim-dialog_selected:hover, 
+  [dir] .nim-dialog:not(.nim-dialog_deleted):hover + .nim-dialog.nim-dialog_selected, 
+  [dir] .nim-dialog:not(.nim-dialog_deleted).nim-dialog.nim-dialog_selected.nim-dialog_hovered, 
+  [dir] .nim-dialog:not(.nim-dialog_deleted).nim-dialog_hovered + .nim-dialog.nim-dialog_selected, 
+  [dir] .nim-dialog:not(.nim-dialog_deleted).nim-dialog.nim-dialog_selected.nim-dialog_classic.nim-dialog_unread, 
+  [dir] .nim-dialog:not(.nim-dialog_deleted).nim-dialog_unread.nim-dialog_classic + .nim-dialog.nim-dialog_selected, 
+  [dir] .nim-dialog:not(.nim-dialog_deleted).nim-dialog_hovered.nim-dialog_selected + .im-search-results-head, 
+  [dir] .nim-dialog:not(.nim-dialog_deleted).nim-dialog_unread.nim-dialog_classic.nim-dialog_selected + .im-search-results-head, 
+  [dir] .nim-dialog:not(.nim-dialog_deleted).nim-dialog_selected:hover + .im-search-results-head, 
+  [dir] .nim-dialog:not(.nim-dialog_deleted).nim-dialog_selected + .nim-dialog, 
+  [dir] .nim-dialog:not(.nim-dialog_deleted).nim-dialog_selected + .im-search-results-head {
+    border-top-color: var(--background_highlighted);
+  }
+  .nim-dialog:not(.nim-dialog_deleted).nim-dialog_selected .nim-dialog--unread-badge_mention, 
+  .nim-dialog:not(.nim-dialog_deleted).nim-dialog_muted.nim-dialog_selected .nim-dialog--unread-badge_mention,
+  [dir] .nim-dialog.nim-dialog_unread .nim-dialog--unread, 
+  [dir] .nim-dialog.nim-dialog_unread.nim-dialog_prep-injected .nim-dialog--unread,
+  [dir] .nim-dialog.nim-dialog_failed .nim-dialog--unread {
+    background-color: var(--counter_primary_background);
+    color: var(--counter_primary_text);
+  }
+  .nim-dialog:not(.nim-dialog_deleted).nim-dialog_selected .nim-dialog--unread,
+  .nim-dialog:not(.nim-dialog_deleted).nim-dialog_muted.nim-dialog_selected .nim-dialog--unread {
+    background-color: var(--counter_secondary_background);
+    color: var(--counter_secondary_text)
   }
 }
