@@ -315,7 +315,7 @@
             "background_page": "#040613",
             "positive": "#83dc96",
             "destructive": "#d68383",
-            "muted": "#99999999",
+            "muted": "#99999999"
         }
     },
     "acid-dark": {
