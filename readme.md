@@ -24,52 +24,55 @@
 <details>
     <summary><b>VKCOM Dark</b>: Официальная темная схема</summary>
 
-    [![vk.com Dark](images/vkcomdark.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-dark-scheme.user.css)    
+[![vk.com Dark](images/vkcomdark.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-dark-scheme.user.css)    
 </details>
 
 <details>
     <summary><b>Ocean</b>: Тёмно-синяя схема с голубым акцентом</summary>
 
-    [![Ocean](images/ocean.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-ocean-scheme.user.css)    
+[![Ocean](images/ocean.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-ocean-scheme.user.css)    
 </details>
 
 <details>
     <summary><b>Acid Dark</b>: Тёмная схема с ярко-фиолетовым акцентом</summary>
-    [![Acid Dark](images/acid.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-acid_dark-scheme.user.css)    
+
+[![Acid Dark](images/acid.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-acid_dark-scheme.user.css)    
 </details>
 
 <details>
     <summary><b>Leaf</b>: Красно-зеленая (да, на любителя) светлая схема</summary>
 
-    [![Leaf](images/leaf.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-leaf-scheme.user.css)    
+[![Leaf](images/leaf.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-leaf-scheme.user.css)    
 </details>
 
 <details>
     <summary><b>Ayu</b>: Темная схема, основанная на цветах [dempfi/ayu](https://github.com/dempfi/ayu) - темы для Sublime Text</summary>
 
-    [![Ayu](images/ayu.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-ayu-scheme.user.css)
+[![Ayu](images/ayu.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-ayu-scheme.user.css)
 </details>
 
 <details>
     <summary><b>Alpenglow</b>: Темная схема, основанная на цветах [Firefox Alpenglow](https://addons.mozilla.org/en-US/firefox/addon/firefox-alpenglow/) - темы для Firefox</summary>
 
-    [![Alpenglow](images/alpenglow.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-alpenglow-scheme.user.css)
+[![Alpenglow](images/alpenglow.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-alpenglow-scheme.user.css)
 </details>
 
 <details>
     <summary><b>Dracula</b>: Темная схема, основанная на [draculatheme.com](https://draculatheme.com)</summary>
-    [![Dracula](images/dracula.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-dracula-scheme.user.css)
+
+[![Dracula](images/dracula.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-dracula-scheme.user.css)
 </details>
 
 <details>
     <summary><b>Yandex.Music</b>: Темная схема, основанная на тёмной теме [Яндекс.Музыки](https://music.yandex.ru)</summary>
-    [![Yandex.Music](images/yamusic.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-yamusic-scheme.user.css)
+
+[![Yandex.Music](images/yamusic.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-yamusic-scheme.user.css)
 </details>
 
 <details>
     <summary><b>WTF</b>: Отличная схема, приятная глазу</summary>
 
-    [![WTF](images/wtf.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-wtf-scheme.user.css)    
+[![WTF](images/wtf.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-wtf-scheme.user.css)    
 </details>
 
 ### Варианты
@@ -77,24 +80,25 @@
 <details>
     <summary><b>Ayu Alternate</b>: Вариант Ayu с синим акцентом</summary>
 
-    [![Ayu](images/ayu-alt.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-ayu-alt-scheme.user.css)
+[![Ayu](images/ayu-alt.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-ayu-alt-scheme.user.css)
 </details>
 
 <details>
     <summary><b>Alpenglow Borderless</b>: Вариант Alpenglow без яркой обводки</summary>
-    [![Alpenglow](images/alpenglow-borderless.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-alpenglow-borderless-scheme.user.css)
+
+[![Alpenglow](images/alpenglow-borderless.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-alpenglow-borderless-scheme.user.css)
 </details>
 
 <details>
     <summary><b>Dracula Contrast</b>: Контрастный вариант Dracula</summary>
 
-    [![Dracula Contrast](images/dracula-contrast.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-dracula-contrast-scheme.user.css)
+[![Dracula Contrast](images/dracula-contrast.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-dracula-contrast-scheme.user.css)
 </details>
 
 <details>
     <summary><b>Yandex.Music Contrast</b>: Контрастный вариант Yandex.Music</summary>
 
-    [![Yandex.Music Contrast](images/yamusic-contrast.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-yamusic-contrast-scheme.user.css)
+[![Yandex.Music Contrast](images/yamusic-contrast.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-yamusic-contrast-scheme.user.css)
 </details>
 
 
