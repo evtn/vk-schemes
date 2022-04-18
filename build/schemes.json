@@ -302,7 +302,7 @@
             "button_primary_background": "@text_primary",
             "button_outline_border": "@text_primary"
         }
-    }
+    },
     "ocean": {
         "name": "Ocean",
         "name_alt": "Chichavoz",
