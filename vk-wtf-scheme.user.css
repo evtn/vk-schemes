@@ -28,7 +28,7 @@
     --background_highlighted: #0f0;
     --background_hover: #0d0;
     --background_light: #0d0;
-    --background_page: #040613;
+    --background_page: #0a0;
     --button-background-color: #f00;
     --button-background-color-active: #f00;
     --button-secondary-background-color: #0d0;
@@ -155,7 +155,7 @@
     --poll_option_background: var(--white);
     --positive: #f0f;
     --primary_overlay_badge: var(--white_alpha40);
-    --search_bar_field_background: #040613;
+    --search_bar_field_background: #0a0;
     --search_bar_field_tint: #fff;
     --secondary_overlay_badge: var(--white_alpha16);
     --separator_alpha: #00f28;
