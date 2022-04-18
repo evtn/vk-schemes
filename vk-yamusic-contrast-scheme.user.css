@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           VK Yandex.Music Contrast Scheme
 @namespace      qevitta
-@version        1.2.5
+@version        1.2.6
 @description    VK Yandex.Music Contrast Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
@@ -74,7 +74,7 @@
     --dynamic_raspberry_pink: var(--raspberry_pink);
     --dynamic_red: #e43c31;
     --dynamic_violet: #6c65a9;
-    --field_background: var(--gray_850);
+    --field_background: #181818;
     --field_border: var(--white_alpha16);
     --field_error_background: var(--red_dark);
     --field_error_border: var(--red);
@@ -96,7 +96,7 @@
     --icon_medium_alpha: var(--white_alpha48);
     --icon_name: var(--gray_300);
     --icon_outline_medium: var(--gray_300);
-    --icon_outline_secondary: var(--gray_400);
+    --icon_outline_secondary: #777777;
     --icon_secondary: #777777;
     --icon_secondary_alpha: var(--white_alpha40);
     --icon_tertiary: var(--gray_600);
@@ -137,7 +137,7 @@
     --im_text_name: #ffdb4d;
     --im_toolbar_voice_msg_background: var(--gray_700);
     --image_border: var(--white_alpha8);
-    --input_background: var(--gray_800);
+    --input_background: #181818;
     --input_border: #222222;
     --like_text_tint: var(--red_light);
     --link_alternate: var(--gray_400);

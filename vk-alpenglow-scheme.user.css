@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           VK Firefox Alpenglow Scheme
 @namespace      qevitta
-@version        1.2.5
+@version        1.2.6
 @description    VK Firefox Alpenglow Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
@@ -74,7 +74,7 @@
     --dynamic_raspberry_pink: #FF848C;
     --dynamic_red: #ff6a75;
     --dynamic_violet: #F564FF;
-    --field_background: var(--gray_850);
+    --field_background: #281d4e;
     --field_border: var(--white_alpha16);
     --field_error_background: var(--red_dark);
     --field_error_border: var(--red);
@@ -96,7 +96,7 @@
     --icon_medium_alpha: var(--white_alpha48);
     --icon_name: var(--gray_300);
     --icon_outline_medium: var(--gray_300);
-    --icon_outline_secondary: var(--gray_400);
+    --icon_outline_secondary: #ffffff77;
     --icon_secondary: #ffffff77;
     --icon_secondary_alpha: var(--white_alpha40);
     --icon_tertiary: var(--gray_600);
@@ -137,7 +137,7 @@
     --im_text_name: #c68aff;
     --im_toolbar_voice_msg_background: var(--gray_700);
     --image_border: var(--white_alpha8);
-    --input_background: var(--gray_800);
+    --input_background: #281d4e;
     --input_border: #2d245b;
     --like_text_tint: var(--red_light);
     --link_alternate: var(--gray_400);
