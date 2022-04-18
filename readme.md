@@ -24,42 +24,42 @@
 VKCOM Dark: Официальная темная схема    
 [![vk.com Dark](images/vkcomdark.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-dark-scheme.user.css)    
 
-Ocean: Тёмно-синяя схема с голубым акцентом    
+**Ocean**: Тёмно-синяя схема с голубым акцентом    
 [![Ocean](images/ocean.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-ocean-scheme.user.css)    
 
-Acid Dark: Тёмная схема с ярко-фиолетовым акцентом
+**Acid Dark**: Тёмная схема с ярко-фиолетовым акцентом
 [![Acid Dark](images/acid.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-acid_dark-scheme.user.css)    
 
-Leaf: Красно-зеленая (да, на любителя) светлая схема    
+**Leaf**: Красно-зеленая (да, на любителя) светлая схема    
 [![Leaf](images/leaf.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-leaf-scheme.user.css)    
 
-Ayu: Темная схема, основанная на цветах [dempfi/ayu](https://github.com/dempfi/ayu) - темы для Sublime Text    
+**Ayu**: Темная схема, основанная на цветах [dempfi/ayu](https://github.com/dempfi/ayu) - темы для Sublime Text    
 [![Ayu](images/ayu.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-ayu-scheme.user.css)
 
-Alpenglow: Темная схема, основанная на цветах [Firefox Alpenglow](https://addons.mozilla.org/en-US/firefox/addon/firefox-alpenglow/) - темы для Firefox    
+**Alpenglow**: Темная схема, основанная на цветах [Firefox Alpenglow](https://addons.mozilla.org/en-US/firefox/addon/firefox-alpenglow/) - темы для Firefox    
 [![Alpenglow](images/alpenglow.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-alpenglow-scheme.user.css)
 
-Dracula: Темная схема, основанная на [draculatheme.com](https://draculatheme.com)
+**Dracula**: Темная схема, основанная на [draculatheme.com](https://draculatheme.com)
 [![Dracula](images/dracula.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-dracula-scheme.user.css)
 
-Yandex.Music: Темная схема, основанная на тёмной теме [Яндекс.Музыки](https://music.yandex.ru)
+**Yandex.Music**: Темная схема, основанная на тёмной теме [Яндекс.Музыки](https://music.yandex.ru)
 [![Yandex.Music](images/yamusic.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-yamusic-scheme.user.css)
 
-WTF: Отличная схема, приятная глазу    
+**WTF**: Отличная схема, приятная глазу    
 [![WTF](images/wtf.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-wtf-scheme.user.css)    
 
 ### Варианты
 
-Ayu Alternate: Вариант Ayu с синим акцентом    
+**Ayu Alternate**: Вариант Ayu с синим акцентом    
 [![Ayu](images/ayu-alt.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-ayu-alt-scheme.user.css)
 
-Alpenglow Borderless: Вариант Alpenglow без яркой обводки
+**Alpenglow Borderless**: Вариант Alpenglow без яркой обводки
 [![Alpenglow](images/alpenglow-borderless.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-alpenglow-borderless-scheme.user.css)
 
-Dracula Contrast: Контрастный вариант Dracula    
+**Dracula Contrast**: Контрастный вариант Dracula    
 [![Dracula Contrast](images/dracula-contrast.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-dracula-contrast-scheme.user.css)
 
-Yandex.Music Contrast: Контрастный вариант Yandex.Music    
+**Yandex.Music Contrast**: Контрастный вариант Yandex.Music    
 [![Yandex.Music Contrast](images/yamusic-contrast.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-yamusic-contrast-scheme.user.css)
 
 
