@@ -45,6 +45,9 @@ Dracula: Темная схема, основанная на [draculatheme.com](h
 Yandex.Music: Темная схема, основанная на тёмной теме [Яндекс.Музыки](https://music.yandex.ru)
 [![Yandex.Music](images/yamusic.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-yamusic-scheme.user.css)
 
+WTF: Отличная схема, приятная глазу    
+[![WTF](images/wtf.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-wtf-scheme.user.css)    
+
 ### Варианты
 
 Ayu Alternate: Вариант Ayu с синим акцентом    
