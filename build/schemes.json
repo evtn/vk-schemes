@@ -471,5 +471,28 @@
             "separator_alternate": "@separator_common",
             "separator_alpha": "@separator_common"
         }
+    },
+    "wtf": {
+        "name": "WTF",
+        "parent": "ocean",
+        "variables": {
+            "background_content": "#090",
+            "background_hover": "#0d0",
+            "background_highlighted": "#0f0",
+            "accent": "#f00",
+            "positive": "#f0f",
+            "destructive": "#0ff",
+            "text_primary": "#000",
+            "muted": "#fff",
+            "separator_common": "#00f",
+            "separator_alternate": "#04f",
+            "dynamic_violet": "#909",
+            "dynamic_red": "#f00",
+            "dynamic_blue": "#00f",
+            "dynamic_orange": "#f90",
+            "dynamic_purple": "#f0f",
+            "dynamic_green": "#0f0",
+            "dynamic_raspberry_pink": "#f09"
+        }
     }
 }
