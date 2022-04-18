@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           VK VKCOM Light Scheme
 @namespace      qevitta
-@version        1.2.6
+@version        1.3.0
 @description    VK VKCOM Light Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
@@ -12,7 +12,6 @@
 @var select stories "Показывать истории в новостях" {"Да*": "block", "Нет": "none"}
 @var select recent "Показывать недавно посещенные сообщества" {"Да*": "block", "Нет": "none"}
 @var range round-avatars "Скругление аватарок" [50, 0, 50, 5, "%"]
-@var text messenger-label "Текст пункта 'Мессенджер' (кавычки убирать не надо)" '"Мессенджер"'
 @var select counter-bg "Фон счетчиков в левом меню" {"Стандартный*": "var(--counter_secondary_background)", "Прозрачный": "transparent", "Яркий": "var(--accent)", "Текст": "var(--text-primary)", "Фон": "var(--background-content)"}
 @var select counter-fg "Текст счетчиков в левом меню" {"Стандартный*": "var(--counter-fg)", "Белый": "white", "Яркий": "var(--accent)", "Текст": "var(--text-primary)", "Фон": "var(--background-content)"}
 @var select text-transform "Изменение текста" {"Нет*": "", "ВСЁЁ БОЛЬШИМИ БУКВАМИ": "uppercase", "всё маленькими буквами": "lowercase", "Всё Очень Странно": "capitalize"}
@@ -228,13 +227,6 @@
   .feed_submit_shown .stories_feed_wrap,
   [dir] .feed_submit_shown .stories_feed_wrap {
     display: var(--stories);
-  }
-  #l_msg .left_label.inl_bl {
-    font-size: 0 !important;
-  }
-  #l_msg .left_label.inl_bl:after {
-    content: var(--messenger-label);
-    font-size: 12.5px;
   }
   [dir] body.new_header_design .left_count_wrap,
   [dir] .left_count_wrap.left_count_wrap_hovered:hover {
