@@ -479,6 +479,7 @@
             "background_content": "#090",
             "background_hover": "#0d0",
             "background_highlighted": "#0f0",
+            "background_page": "#0a0",
             "accent": "#f00",
             "positive": "#f0f",
             "destructive": "#0ff",
