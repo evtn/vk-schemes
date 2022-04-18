@@ -18,9 +18,6 @@ jobs:
         with:
           python-version: 3.8
 
-      - name: Install all dependencies
-        run: npm install
-
       - name: Build
         run: python build/builder.py
     
