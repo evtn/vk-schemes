@@ -22,12 +22,14 @@
 *многие темы имеют альтернативные вариации, они находятся в самом низу списка*
 
 <details>
-    <summary><b>VKCOM Dark</b>: Официальная темная схема    </summary>
+    <summary><b>VKCOM Dark</b>: Официальная темная схема</summary>
+
     [![vk.com Dark](images/vkcomdark.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-dark-scheme.user.css)    
 </details>
 
 <details>
-    <summary><b>Ocean</b>: Тёмно-синяя схема с голубым акцентом    </summary>
+    <summary><b>Ocean</b>: Тёмно-синяя схема с голубым акцентом</summary>
+
     [![Ocean](images/ocean.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-ocean-scheme.user.css)    
 </details>
 
@@ -37,17 +39,20 @@
 </details>
 
 <details>
-    <summary><b>Leaf</b>: Красно-зеленая (да, на любителя) светлая схема    </summary>
+    <summary><b>Leaf</b>: Красно-зеленая (да, на любителя) светлая схема</summary>
+
     [![Leaf](images/leaf.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-leaf-scheme.user.css)    
 </details>
 
 <details>
-    <summary><b>Ayu</b>: Темная схема, основанная на цветах [dempfi/ayu](https://github.com/dempfi/ayu) - темы для Sublime Text    </summary>
+    <summary><b>Ayu</b>: Темная схема, основанная на цветах [dempfi/ayu](https://github.com/dempfi/ayu) - темы для Sublime Text</summary>
+
     [![Ayu](images/ayu.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-ayu-scheme.user.css)
 </details>
 
 <details>
-    <summary><b>Alpenglow</b>: Темная схема, основанная на цветах [Firefox Alpenglow](https://addons.mozilla.org/en-US/firefox/addon/firefox-alpenglow/) - темы для Firefox    </summary>
+    <summary><b>Alpenglow</b>: Темная схема, основанная на цветах [Firefox Alpenglow](https://addons.mozilla.org/en-US/firefox/addon/firefox-alpenglow/) - темы для Firefox</summary>
+
     [![Alpenglow](images/alpenglow.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-alpenglow-scheme.user.css)
 </details>
 
@@ -62,14 +67,16 @@
 </details>
 
 <details>
-    <summary><b>WTF</b>: Отличная схема, приятная глазу    </summary>
+    <summary><b>WTF</b>: Отличная схема, приятная глазу</summary>
+
     [![WTF](images/wtf.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-wtf-scheme.user.css)    
 </details>
 
 ### Варианты
 
 <details>
-    <summary><b>Ayu Alternate</b>: Вариант Ayu с синим акцентом    </summary>
+    <summary><b>Ayu Alternate</b>: Вариант Ayu с синим акцентом</summary>
+
     [![Ayu](images/ayu-alt.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-ayu-alt-scheme.user.css)
 </details>
 
@@ -79,12 +86,14 @@
 </details>
 
 <details>
-    <summary><b>Dracula Contrast</b>: Контрастный вариант Dracula    </summary>
+    <summary><b>Dracula Contrast</b>: Контрастный вариант Dracula</summary>
+
     [![Dracula Contrast](images/dracula-contrast.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-dracula-contrast-scheme.user.css)
 </details>
 
 <details>
-    <summary><b>Yandex.Music Contrast</b>: Контрастный вариант Yandex.Music    </summary>
+    <summary><b>Yandex.Music Contrast</b>: Контрастный вариант Yandex.Music</summary>
+
     [![Yandex.Music Contrast](images/yamusic-contrast.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-yamusic-contrast-scheme.user.css)
 </details>
 
