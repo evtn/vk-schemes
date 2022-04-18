@@ -46,25 +46,25 @@
 </details>
 
 <details>
-    <summary><b>Ayu</b>: Темная схема, основанная на цветах [dempfi/ayu](https://github.com/dempfi/ayu) - темы для Sublime Text</summary>
+    <summary><b>Ayu</b>: Темная схема, основанная на цветах <a href="https://github.com/dempfi/ayu">dempfi/ayu</a> - темы для Sublime Text</summary>
 
 [![Ayu](images/ayu.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-ayu-scheme.user.css)
 </details>
 
 <details>
-    <summary><b>Alpenglow</b>: Темная схема, основанная на цветах [Firefox Alpenglow](https://addons.mozilla.org/en-US/firefox/addon/firefox-alpenglow/) - темы для Firefox</summary>
+    <summary><b>Alpenglow</b>: Темная схема, основанная на цветах <a href="https://addons.mozilla.org/en-US/firefox/addon/firefox-alpenglow/">Firefox Alpenglow</a> - темы для Firefox</summary>
 
 [![Alpenglow](images/alpenglow.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-alpenglow-scheme.user.css)
 </details>
 
 <details>
-    <summary><b>Dracula</b>: Темная схема, основанная на [draculatheme.com](https://draculatheme.com)</summary>
+    <summary><b>Dracula</b>: Темная схема, основанная на <a href="https://draculatheme.com">draculatheme.com</a></summary>
 
 [![Dracula](images/dracula.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-dracula-scheme.user.css)
 </details>
 
 <details>
-    <summary><b>Yandex.Music</b>: Темная схема, основанная на тёмной теме [Яндекс.Музыки](https://music.yandex.ru)</summary>
+    <summary><b>Yandex.Music</b>: Темная схема, основанная на тёмной теме <a href="https://music.yandex.ru">Яндекс.Музыки</a></summary>
 
 [![Yandex.Music](images/yamusic.png)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-yamusic-scheme.user.css)
 </details>
