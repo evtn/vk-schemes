@@ -300,7 +300,11 @@
             "separator_common": "@background_hover",
             "separator_alternate": "@background_hover",
             "separator_alpha": "@separator_common:28",
-            "text_muted": "@muted"
+            "text_muted": "@muted",
+            "field_background": "@background_content",
+            "input_background": "@field_background",
+            "icon_secondary": "@muted",
+            "icon_outline_secondary": "@muted"
         }
     },
     "acid-dark": {
