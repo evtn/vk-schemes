@@ -279,24 +279,16 @@
             "secondary_overlay_badge": "$white_alpha16"
         }
     },
-    "ocean": {
-        "name": "Ocean",
-        "name_alt": "Chichavoz",
+    "basic": {
+        "name": "Dark Alt",
+        "name_alt": "Basic Template",
         "parent": "dark",
         "variables": {
-            "accent": "#80cbc4",
-            "background_content": "#0d0f1b",
-            "background_hover": "#111423",
-            "background_highlighted": "#232948",
             "background_light": "@background_hover",
-            "background_page": "#040613",
-            "positive": "#83dc96",
             "button_secondary_background": "@background_hover",
             "button_secondary_background_highlighted": "@background_hover",
             "content_tint_background": "@background_hover",
-            "destructive": "#d68383",
             "input_border": "@background_hover",
-            "muted": "#99999999",
             "separator_common": "@background_hover",
             "separator_alternate": "@background_hover",
             "separator_alpha": "@separator_common:28",
@@ -304,12 +296,32 @@
             "field_background": "@background_content",
             "input_background": "@field_background",
             "icon_secondary": "@muted",
-            "icon_outline_secondary": "@muted"
+            "icon_outline_secondary": "@muted",
+            "button_commerce_foreground": "@text_primary",
+            "button_outline_foreground": "@text_primary",
+            "button_primary_background": "@text_primary",
+            "button_outline_border": "@text_primary",
+            "": "",
+        }
+    }
+    "ocean": {
+        "name": "Ocean",
+        "name_alt": "Chichavoz",
+        "parent": "basic",
+        "variables": {
+            "accent": "#80cbc4",
+            "background_content": "#0d0f1b",
+            "background_hover": "#111423",
+            "background_highlighted": "#232948",
+            "background_page": "#040613",
+            "positive": "#83dc96",
+            "destructive": "#d68383",
+            "muted": "#99999999",
         }
     },
     "acid-dark": {
         "name": "Acid Dark",
-        "parent": "ocean",
+        "parent": "basic",
         "variables": {
             "accent": "#8b33c7",
             "background_content": "#121212",
@@ -351,7 +363,7 @@
     },
     "ayu": {
         "name": "Ayu Dark",
-        "parent": "ocean",
+        "parent": "basic",
         "variables": {
             "accent": "#e6b450",
             "background_content": "#0a0e14",
@@ -383,7 +395,7 @@
     },
     "dracula": {
         "name": "Dracula",
-        "parent": "ocean",
+        "parent": "basic",
         "variables": {
             "accent": "#6272a4",
             "background_content": "#282a36",
@@ -412,7 +424,7 @@
     },
     "yamusic": {
         "name": "Yandex.Music",
-        "parent": "ocean",
+        "parent": "basic",
         "variables": {
             "accent": "#ffdb4d",
             "muted": "#777777",
@@ -441,7 +453,7 @@
     },
     "alpenglow": {
         "name": "Firefox Alpenglow",
-        "parent": "ocean",
+        "parent": "basic",
         "variables": {
             "accent": "#c68aff",
             "background_content": "#281d4e",
@@ -474,7 +486,7 @@
     },
     "wtf": {
         "name": "WTF",
-        "parent": "ocean",
+        "parent": "basic",
         "variables": {
             "background_content": "#090",
             "background_hover": "#0d0",
