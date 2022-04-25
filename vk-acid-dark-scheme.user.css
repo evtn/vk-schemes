@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           VK Acid Dark Scheme
 @namespace      qevitta
-@version        1.3.0
+@version        1.3.1
 @description    VK Acid Dark Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
@@ -21,7 +21,7 @@
 ==/UserStyle== */
 
 @-moz-document domain("vk.com") {
-  :root, .MEConfig {
+  :root body[scheme], :root body {
     --accent: #8b33c7;
     --background_content: #121212;
     --background_highlighted: #201825;

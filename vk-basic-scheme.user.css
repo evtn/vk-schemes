@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           VK Dark Alt Scheme
 @namespace      qevitta
-@version        1.3.0
+@version        1.3.1
 @description    VK Dark Alt Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
@@ -21,7 +21,7 @@
 ==/UserStyle== */
 
 @-moz-document domain("vk.com") {
-  :root, .MEConfig {
+  :root body[scheme], :root body {
     --accent: var(--sky_300);
     --background_content: var(--gray_900);
     --background_highlighted: var(--white_alpha12);

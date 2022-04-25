@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           VK Leaf Scheme
 @namespace      qevitta
-@version        1.3.0
+@version        1.3.1
 @description    VK Leaf Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
@@ -21,7 +21,7 @@
 ==/UserStyle== */
 
 @-moz-document domain("vk.com") {
-  :root, .MEConfig {
+  :root body[scheme], :root body {
     --accent: #D43D68;
     --background_content: #E1F4E9;
     --background_highlighted: #BCE6CE;

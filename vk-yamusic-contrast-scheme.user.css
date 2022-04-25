@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           VK Yandex.Music Contrast Scheme
 @namespace      qevitta
-@version        1.3.0
+@version        1.3.1
 @description    VK Yandex.Music Contrast Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
@@ -21,7 +21,7 @@
 ==/UserStyle== */
 
 @-moz-document domain("vk.com") {
-  :root, .MEConfig {
+  :root body[scheme], :root body {
     --accent: #ffdb4d;
     --background_content: #181818;
     --background_highlighted: #222222;
