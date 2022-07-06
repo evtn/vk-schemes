@@ -41,7 +41,7 @@ default_palette = get_palettes()
 get_schemes()
 
 with open("build/default_palette.json", "w") as file:
-    json.dump(default_palette, file, indent=4)
+    json.dump(default_palette, file, indent=4, ensure_ascii=False)
 
 with open("build/schemes.json", "w") as file:
-    json.dump(schemes, file, indent=4)
+    json.dump(schemes, file, indent=4, ensure_ascii=False)
