@@ -30,6 +30,7 @@ jobs:
           FOLDER: styles
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MESSAGE: "Build styles: ({sha}) {msg}"
+          SKIP_EMPTY_COMMITS: true
 
       - name: Update readme
         run: python update-readme.py
