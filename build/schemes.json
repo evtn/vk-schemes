@@ -1,7 +1,7 @@
 {
     "light": {
         "name": "VKCOM Light",
-        "description": "Стандартная светлая тема ВКонтакте",
+        "description": "\u0421\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u043d\u0430\u044f \u0441\u0432\u0435\u0442\u043b\u0430\u044f \u0442\u0435\u043c\u0430 \u0412\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u0435",
         "variables": {
             "accent": "$azure_300",
             "accent_alternate": "$azure_A100",
@@ -243,7 +243,7 @@
     },
     "dark": {
         "name": "VKCOM Dark",
-        "description": "Стандартная тёмная тема ВКонтакте",
+        "description": "\u0421\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u043d\u0430\u044f \u0442\u0451\u043c\u043d\u0430\u044f \u0442\u0435\u043c\u0430 \u0412\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u0435",
         "variables": {
             "accent": "$sky_300",
             "accent_alternate": "$white",
@@ -483,7 +483,6 @@
             "writebar_icon": "$gray_100"
         }
     },
-
     "template": {
         "name": "Basic Template",
         "skip": true,
@@ -496,13 +495,9 @@
             "button-secondary-background-color-hover": "@button_secondary_background_highlighted",
             "button-secondary-text-color": "@button_secondary_foreground",
             "button-text-color": "@background_content",
-            "button_commerce_foreground": "@background_content",
             "button_commerce_foreground": "@text_primary",
-            "button_outline_border": "@accent",
             "button_outline_border": "@text_primary",
-            "button_outline_foreground": "@accent",
             "button_outline_foreground": "@text_primary",
-            "button_primary_background": "@accent",
             "button_primary_background": "@text_primary",
             "button_primary_foreground": "@background_content",
             "button_secondary_background": "@background_hover",
@@ -530,7 +525,6 @@
             "header_text_secondary": "@muted",
             "icon_outline_medium": "@muted",
             "icon_outline_secondary": "@muted",
-            "icon_secondary": "@muted",
             "icon_secondary": "@muted",
             "im_attach_tint": "@accent",
             "im_bubble_incoming": "@background_page",
@@ -568,24 +562,21 @@
             "writebar_icon": "@muted"
         }
     },
-
     "dark-template": {
         "name": "Dark Template",
         "parent": "dark",
         "skip": true,
         "variables": "template"
     },
-
     "light-template": {
         "name": "Light Template",
         "parent": "light",
         "skip": true,
         "variables": "template"
     },
-
     "ocean": {
         "name": "Ocean",
-        "description": "Тёмно-синяя схема с голубым акцентом",
+        "description": "\u0422\u0451\u043c\u043d\u043e-\u0441\u0438\u043d\u044f\u044f \u0441\u0445\u0435\u043c\u0430 \u0441 \u0433\u043e\u043b\u0443\u0431\u044b\u043c \u0430\u043a\u0446\u0435\u043d\u0442\u043e\u043c",
         "name_alt": "Chichavoz",
         "parent": "dark-template",
         "variables": {
@@ -601,7 +592,7 @@
     },
     "acid-dark": {
         "name": "Acid Dark",
-        "description": "Тёмная схема с ярко-фиолетовым акцентом",
+        "description": "\u0422\u0451\u043c\u043d\u0430\u044f \u0441\u0445\u0435\u043c\u0430 \u0441 \u044f\u0440\u043a\u043e-\u0444\u0438\u043e\u043b\u0435\u0442\u043e\u0432\u044b\u043c \u0430\u043a\u0446\u0435\u043d\u0442\u043e\u043c",
         "parent": "dark-template",
         "variables": {
             "accent": "#8b33c7",
@@ -618,7 +609,7 @@
     },
     "leaf": {
         "name": "Leaf",
-        "description": "Красно-зеленая (да, на любителя) светлая схема",
+        "description": "\u041a\u0440\u0430\u0441\u043d\u043e-\u0437\u0435\u043b\u0435\u043d\u0430\u044f (\u0434\u0430, \u043d\u0430 \u043b\u044e\u0431\u0438\u0442\u0435\u043b\u044f) \u0441\u0432\u0435\u0442\u043b\u0430\u044f \u0441\u0445\u0435\u043c\u0430",
         "parent": "light-template",
         "variables": {
             "accent": "#D43D68",
@@ -639,7 +630,7 @@
     },
     "ayu": {
         "name": "Ayu",
-        "description": "Темная схема, основанная на цветах <a href=\"https://github.com/dempfi/ayu\">dempfi/ayu</a> - темы для Sublime Text",
+        "description": "\u0422\u0435\u043c\u043d\u0430\u044f \u0441\u0445\u0435\u043c\u0430, \u043e\u0441\u043d\u043e\u0432\u0430\u043d\u043d\u0430\u044f \u043d\u0430 \u0446\u0432\u0435\u0442\u0430\u0445 <a href=\"https://github.com/dempfi/ayu\">dempfi/ayu</a> - \u0442\u0435\u043c\u044b \u0434\u043b\u044f Sublime Text",
         "parent": "dark-template",
         "variables": {
             "accent": "#e6b450",
@@ -665,7 +656,7 @@
     },
     "ayu-alt": {
         "name": "Ayu Dark Alt",
-        "description": "Контрастный вариант Ayu",
+        "description": "\u041a\u043e\u043d\u0442\u0440\u0430\u0441\u0442\u043d\u044b\u0439 \u0432\u0430\u0440\u0438\u0430\u043d\u0442 Ayu",
         "is_variant": true,
         "parent": "ayu",
         "variables": {
@@ -674,7 +665,7 @@
     },
     "dracula": {
         "name": "Dracula",
-        "description": "Темная схема, основанная на <a href=\"https://draculatheme.com\">draculatheme.com</a>",
+        "description": "\u0422\u0435\u043c\u043d\u0430\u044f \u0441\u0445\u0435\u043c\u0430, \u043e\u0441\u043d\u043e\u0432\u0430\u043d\u043d\u0430\u044f \u043d\u0430 <a href=\"https://draculatheme.com\">draculatheme.com</a>",
         "parent": "dark-template",
         "variables": {
             "accent": "#6272a4",
@@ -697,7 +688,7 @@
     },
     "dracula-contrast": {
         "name": "Dracula Contrast",
-        "description": "Контрастный вариант Dracula",
+        "description": "\u041a\u043e\u043d\u0442\u0440\u0430\u0441\u0442\u043d\u044b\u0439 \u0432\u0430\u0440\u0438\u0430\u043d\u0442 Dracula",
         "is_variant": true,
         "parent": "dracula",
         "variables": {
@@ -706,7 +697,7 @@
     },
     "yamusic": {
         "name": "Yandex.Music",
-        "description": "Темная схема, основанная на тёмной теме <a href=\"https://music.yandex.ru\">Яндекс.Музыки</a>",
+        "description": "\u0422\u0435\u043c\u043d\u0430\u044f \u0441\u0445\u0435\u043c\u0430, \u043e\u0441\u043d\u043e\u0432\u0430\u043d\u043d\u0430\u044f \u043d\u0430 \u0442\u0451\u043c\u043d\u043e\u0439 \u0442\u0435\u043c\u0435 <a href=\"https://music.yandex.ru\">\u042f\u043d\u0434\u0435\u043a\u0441.\u041c\u0443\u0437\u044b\u043a\u0438</a>",
         "parent": "dark-template",
         "variables": {
             "accent": "#ffdb4d",
@@ -728,7 +719,7 @@
     },
     "yamusic-contrast": {
         "name": "Yandex.Music Contrast",
-        "description": "Контрастный вариант Yandex.Music",
+        "description": "\u041a\u043e\u043d\u0442\u0440\u0430\u0441\u0442\u043d\u044b\u0439 \u0432\u0430\u0440\u0438\u0430\u043d\u0442 Yandex.Music",
         "is_variant": true,
         "parent": "yamusic",
         "variables": {
@@ -738,7 +729,7 @@
     },
     "alpenglow": {
         "name": "Firefox Alpenglow",
-        "description": "Темная схема, основанная на цветах <a href=\"https://addons.mozilla.org/en-US/firefox/addon/firefox-alpenglow/\">Firefox Alpenglow</a> - темы для Firefox",
+        "description": "\u0422\u0435\u043c\u043d\u0430\u044f \u0441\u0445\u0435\u043c\u0430, \u043e\u0441\u043d\u043e\u0432\u0430\u043d\u043d\u0430\u044f \u043d\u0430 \u0446\u0432\u0435\u0442\u0430\u0445 <a href=\"https://addons.mozilla.org/en-US/firefox/addon/firefox-alpenglow/\">Firefox Alpenglow</a> - \u0442\u0435\u043c\u044b \u0434\u043b\u044f Firefox",
         "parent": "dark-template",
         "variables": {
             "accent": "#c68aff",
@@ -763,7 +754,7 @@
     },
     "alpenglow-borderless": {
         "name": "Firefox Alpenglow Borderless",
-        "description": "Вариант Alpenglow без яркой обводки",
+        "description": "\u0412\u0430\u0440\u0438\u0430\u043d\u0442 Alpenglow \u0431\u0435\u0437 \u044f\u0440\u043a\u043e\u0439 \u043e\u0431\u0432\u043e\u0434\u043a\u0438",
         "is_variant": true,
         "parent": "alpenglow",
         "variables": {
@@ -774,7 +765,7 @@
     },
     "wtf": {
         "name": "WTF",
-        "description": "Отличная схема, приятная глазу",
+        "description": "\u041e\u0442\u043b\u0438\u0447\u043d\u0430\u044f \u0441\u0445\u0435\u043c\u0430, \u043f\u0440\u0438\u044f\u0442\u043d\u0430\u044f \u0433\u043b\u0430\u0437\u0443",
         "parent": "dark-template",
         "variables": {
             "accent": "#f00",
@@ -799,7 +790,7 @@
     },
     "mold": {
         "name": "Mold",
-        "description": "Тёмно-бирюзовая схема",
+        "description": "\u0422\u0451\u043c\u043d\u043e-\u0431\u0438\u0440\u044e\u0437\u043e\u0432\u0430\u044f \u0441\u0445\u0435\u043c\u0430",
         "parent": "dark-template",
         "variables": {
             "accent": "#35b9a4",
@@ -824,7 +815,7 @@
     },
     "mold-alt": {
         "name": "Mold Alt",
-        "description": "Вариант Mold с бежевым акцентом",
+        "description": "\u0412\u0430\u0440\u0438\u0430\u043d\u0442 Mold \u0441 \u0431\u0435\u0436\u0435\u0432\u044b\u043c \u0430\u043a\u0446\u0435\u043d\u0442\u043e\u043c",
         "is_variant": true,
         "parent": "mold",
         "variables": {
@@ -833,7 +824,7 @@
     },
     "windswept": {
         "name": "Windswept",
-        "description": "Блекло-красная схема",
+        "description": "\u0411\u043b\u0435\u043a\u043b\u043e-\u043a\u0440\u0430\u0441\u043d\u0430\u044f \u0441\u0445\u0435\u043c\u0430",
         "parent": "light-template",
         "variables": {
             "accent": "#72231d",
@@ -858,7 +849,7 @@
     },
     "mono": {
         "name": "Mono",
-        "description": "Высококонтрастная светлая схема",
+        "description": "\u0412\u044b\u0441\u043e\u043a\u043e\u043a\u043e\u043d\u0442\u0440\u0430\u0441\u0442\u043d\u0430\u044f \u0441\u0432\u0435\u0442\u043b\u0430\u044f \u0441\u0445\u0435\u043c\u0430",
         "parent": "light-template",
         "variables": {
             "accent": "@dynamic_blue",
@@ -885,7 +876,7 @@
     },
     "monodark": {
         "name": "Monodark",
-        "description": "Высококонтрастная тёмная схема",
+        "description": "\u0412\u044b\u0441\u043e\u043a\u043e\u043a\u043e\u043d\u0442\u0440\u0430\u0441\u0442\u043d\u0430\u044f \u0442\u0451\u043c\u043d\u0430\u044f \u0441\u0445\u0435\u043c\u0430",
         "parent": "mono",
         "variables": {
             "background_content": "#000000",
