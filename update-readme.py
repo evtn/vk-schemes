@@ -13,7 +13,7 @@ part_template = """
 """
 
 image_template = "![{name} Screenshot](images/{code}.png)"
-badge_template = "https://img.shields.io/static/v1?label={badge_name}&message=%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C&style=for-the-badge&logo=vk&logo_color={accent}&labelColor={background_content}&color={accent}"
+badge_template = "https://img.shields.io/static/v1?label={badge_name}&message=%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C&style=for-the-badge&labelColor={background_content}&color={accent}"
 
 
 with open("build/schemes.json") as file:
