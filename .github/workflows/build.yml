@@ -1,6 +1,7 @@
 name: Generate a build and push to another branch
 
 on:
+  workflow_dispatch
   push:
     branches:
       - lord
