@@ -1,0 +1,31 @@
+name: Update base appearance data
+
+on:
+  schedule:
+    - cron: "* 0 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Fetch and update
+    steps:
+      - name: git-checkout
+        uses: actions/checkout@v2
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.8
+          cache: "pip"
+
+      - name: Install requests (cached)
+        run: pip install requests
+
+      - name: Update
+        run: python build/update-palettes.py
+
+      - name: Commit new files
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git diff-index --quiet HEAD || (git commit -m '[bot] update appearance' && git push -f)

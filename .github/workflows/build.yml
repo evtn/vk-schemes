@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: git-checkout
         uses: actions/checkout@v2
-      
+
       - name: Set up Python 3.8
         uses: actions/setup-python@v2
         with:
@@ -20,7 +20,7 @@ jobs:
 
       - name: Build
         run: python build/builder.py
-    
+
       - name: Push
         uses: s0/git-publish-subdir-action@develop
         env:
@@ -29,3 +29,12 @@ jobs:
           FOLDER: styles
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MESSAGE: "Build styles: ({sha}) {msg}"
+
+      - name: Update readme
+        run: python update-readme.py
+
+      - name: Commit new readme if it was changed
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git diff-index --quiet HEAD || (git add readme.md && git commit -m '[bot] update readme' && git push -f)
