@@ -51,7 +51,7 @@ _многие темы имеют альтернативные вариации,
 <details>
     <summary><b>Acid Dark</b>: Тёмная схема с ярко-фиолетовым акцентом</summary>
 
-
+![Acid Dark Screenshot](images/acid-dark.png)
 [![Ayu](https://img.shields.io/static/v1?label=Acid%20Dark&message=%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C&style=for-the-badge&labelColor=121212&color=8B33C7)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-acid-dark-scheme.user.css)
 
 </details>
