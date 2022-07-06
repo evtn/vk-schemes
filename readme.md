@@ -121,7 +121,7 @@ _многие темы имеют альтернативные вариации,
 <details>
     <summary><b>Mold</b>: Тёмно-бирюзовая схема</summary>
 
-
+![Mold Screenshot](images/mold.png)
 [![Ayu](https://img.shields.io/static/v1?label=Mold&message=%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C&style=for-the-badge&labelColor=0E282A&color=35B9A4)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-mold-scheme.user.css)
 
 </details>
@@ -131,7 +131,7 @@ _многие темы имеют альтернативные вариации,
 <details>
     <summary><b>Windswept</b>: Блекло-красная схема</summary>
 
-
+![Windswept Screenshot](images/windswept.png)
 [![Ayu](https://img.shields.io/static/v1?label=Windswept&message=%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C&style=for-the-badge&labelColor=7D5754&color=72231D)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-windswept-scheme.user.css)
 
 </details>
@@ -141,7 +141,7 @@ _многие темы имеют альтернативные вариации,
 <details>
     <summary><b>Mono</b>: Высококонтрастная светлая схема</summary>
 
-
+![Mono Screenshot](images/mono.png)
 [![Ayu](https://img.shields.io/static/v1?label=Mono&message=%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C&style=for-the-badge&labelColor=FFFFFF&color=0000FF)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-mono-scheme.user.css)
 
 </details>
@@ -151,7 +151,7 @@ _многие темы имеют альтернативные вариации,
 <details>
     <summary><b>Monodark</b>: Высококонтрастная тёмная схема</summary>
 
-
+![Monodark Screenshot](images/monodark.png)
 [![Ayu](https://img.shields.io/static/v1?label=Monodark&message=%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C&style=for-the-badge&labelColor=000000&color=4444FF)](https://github.com/evtn/vk-schemes/raw/build-stable/vk-monodark-scheme.user.css)
 
 </details>
