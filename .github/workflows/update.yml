@@ -28,4 +28,6 @@ jobs:
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
-          git diff-index --quiet HEAD || (git commit -am '[bot] update appearance' && git push -f)
+          git add -A
+          git diff-index --quiet HEAD || (git commit -m '[bot] update appearance' && git push -f)
+        continue-on-error: true
