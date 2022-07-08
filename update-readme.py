@@ -4,15 +4,15 @@ from os.path import exists
 
 part_template = """
 <li>
-    <details>
-        <summary><b>{name}</b>: {description}</summary>
+<details>
+    <summary><b>{name}</b>: {description}</summary>
 
-    {image}
-    [![{name}]({badge})](https://github.com/evtn/vk-schemes/raw/build-stable/vk-{code}-scheme.user.css)
+{image}
+[![{name}]({badge})](https://github.com/evtn/vk-schemes/raw/build-stable/vk-{code}-scheme.user.css)
 
-    {variants_text}
+{variants_text}
 
-    </details>
+</details>
 </li>
 """
 
@@ -20,7 +20,7 @@ part_template = """
 variants_template = """Варианты:
 
 <ul>
-    {0}
+{0}
 </ul>
 """
 
@@ -43,8 +43,6 @@ variants = {}
 
 def render_scheme(scheme_key, tab_level=0):
     print("render:", " " * (tab_level * 4 - 1), scheme_key)
-
-    tab = tab_level * 4 * " "
 
     scheme = schemes[scheme_key]
     image = ""
@@ -74,7 +72,7 @@ def render_scheme(scheme_key, tab_level=0):
         **scheme,
     )
 
-    return (scheme_part).replace("\n", "\n" + tab)
+    return scheme_part
 
 
 
