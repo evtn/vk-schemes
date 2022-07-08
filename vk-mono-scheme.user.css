@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           VK Mono Scheme
 @namespace      qevitta
-@version        1.4.1
+@version        1.5.1
 @description    VK Mono Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
@@ -50,7 +50,7 @@
     --button-text-color: #FFFFFF;
     --button_bot_shadow: #CCCCCC;
     --button_commerce_background: #4BB34B;
-    --button_commerce_foreground: #000000;
+    --button_commerce_foreground: #00FF00;
     --button_muted_background: #F5F5F5;
     --button_muted_foreground: #2688EB;
     --button_outline_border: #000000;

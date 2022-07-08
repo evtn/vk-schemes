@@ -1,8 +1,8 @@
 /* ==UserStyle==
-@name           VK Ayu Dark Alt Scheme
+@name           VK Ayu Alt Scheme
 @namespace      qevitta
-@version        1.4.1
-@description    VK Ayu Dark Alt Scheme
+@version        1.5.1
+@description    VK Ayu Alt Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
 @updateURL      https://github.com/evtn/vk-schemes/raw/build-stable/vk-ayu-alt-scheme.user.css
@@ -50,7 +50,7 @@
     --button-text-color: #0A0E14;
     --button_bot_shadow: #222222;
     --button_commerce_background: #4BB34B;
-    --button_commerce_foreground: #B3B1AD;
+    --button_commerce_foreground: #7FD962;
     --button_muted_background: #333333;
     --button_muted_foreground: #E1E3E6;
     --button_outline_border: #B3B1AD;
@@ -227,7 +227,7 @@
     --segmented_control_bar_background: #222222;
     --segmented_control_tint: #828282;
     --selection_off_icon: #656565;
-    --separator_alpha: 6C738030;
+    --separator_alpha: #6C738030;
     --separator_alternate: #6C738066;
     --separator_common: #6C738066;
     --skeleton_foreground_from: #292929;

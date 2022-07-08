@@ -1,11 +1,11 @@
 /* ==UserStyle==
-@name           VK Leaf Scheme
+@name           VK Leaf Alternate Buttons Scheme
 @namespace      qevitta
 @version        1.5.1
-@description    VK Leaf Scheme
+@description    VK Leaf Alternate Buttons Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
-@updateURL      https://github.com/evtn/vk-schemes/raw/build-stable/vk-leaf-scheme.user.css
+@updateURL      https://github.com/evtn/vk-schemes/raw/build-stable/vk-leaf-inverted-buttons-scheme.user.css
 
 @var select ads "Убрать рекламу слева" {"Да*": "none", "Нет": "block"}
 @var select combo "Убрать пункт VK Combo из меню" {"Да*": "none", "Нет": "block"}
@@ -41,34 +41,34 @@
     --background_page: #C2E0CF;
     --background_suggestions: #FFFFFF;
     --background_text_highlighted: #2688EB33;
-    --button-background-color: #D43D68;
-    --button-background-color-active: #D43D68;
-    --button-secondary-background-color: #BCE6CE;
+    --button-background-color: #E1F4E9;
+    --button-background-color-active: #BCE6CE;
+    --button-secondary-background-color: #E1F4E9;
     --button-secondary-background-color-active: #BCE6CE;
     --button-secondary-background-color-hover: #BCE6CE;
     --button-secondary-text-color: #D43D68;
     --button-text-color: #E1F4E9;
     --button_bot_shadow: #CCCCCC;
-    --button_commerce_background: #4BB34B;
+    --button_commerce_background: #E1F4E9;
     --button_commerce_foreground: #D43D68;
-    --button_muted_background: #F5F5F5;
-    --button_muted_foreground: #2688EB;
+    --button_muted_background: #E1F4E9;
+    --button_muted_foreground: #212F3299;
     --button_outline_border: #000000;
     --button_outline_foreground: #000000;
-    --button_primary_background: #000000;
-    --button_primary_foreground: #E1F4E9;
-    --button_secondary_background: #BCE6CE;
+    --button_primary_background: #E1F4E9;
+    --button_primary_foreground: #D43D68;
+    --button_secondary_background: #E1F4E9;
     --button_secondary_background_highlighted: #BCE6CE;
-    --button_secondary_destructive_background: var(--black_blue24_alpha5);
-    --button_secondary_destructive_background_highlighted: var(--black_blue24_alpha3);
-    --button_secondary_destructive_foreground: #E64646;
-    --button_secondary_destructive_foreground_highlighted: #E6464699;
+    --button_secondary_destructive_background: #E1F4E9;
+    --button_secondary_destructive_background_highlighted: #BCE6CE;
+    --button_secondary_destructive_foreground: #D43D68;
+    --button_secondary_destructive_foreground_highlighted: #D43D68;
     --button_secondary_foreground: #D43D68;
-    --button_secondary_foreground_highlighted: #D43D6899;
-    --button_tertiary_background: #00000000;
+    --button_secondary_foreground_highlighted: #D43D68;
+    --button_tertiary_background: #E1F4E9;
     --button_tertiary_background_active: #BCE6CE;
-    --button_tertiary_background_hover: #BCE6CE;
-    --button_tertiary_foreground: #D43D68;
+    --button_tertiary_background_hover: #E1F4E9;
+    --button_tertiary_foreground: #000000;
     --cell_button_foreground: #D43D68;
     --content_placeholder_icon: #99A2AD;
     --content_placeholder_text: #818C99;

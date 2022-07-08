@@ -1,11 +1,11 @@
 /* ==UserStyle==
-@name           VK Firefox Alpenglow Borderless Scheme
+@name           VK Firefox Alpenglow Alternate Buttons Scheme
 @namespace      qevitta
 @version        1.5.1
-@description    VK Firefox Alpenglow Borderless Scheme
+@description    VK Firefox Alpenglow Alternate Buttons Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
-@updateURL      https://github.com/evtn/vk-schemes/raw/build-stable/vk-alpenglow-borderless-scheme.user.css
+@updateURL      https://github.com/evtn/vk-schemes/raw/build-stable/vk-alpenglow-inverted-buttons-scheme.user.css
 
 @var select ads "Убрать рекламу слева" {"Да*": "none", "Нет": "block"}
 @var select combo "Убрать пункт VK Combo из меню" {"Да*": "none", "Нет": "block"}
@@ -41,34 +41,34 @@
     --background_page: #21133C;
     --background_suggestions: #333333;
     --background_text_highlighted: #71AAEB3D;
-    --button-background-color: #C68AFF;
-    --button-background-color-active: #C68AFF;
-    --button-secondary-background-color: #2D245B;
-    --button-secondary-background-color-active: #2D245B;
-    --button-secondary-background-color-hover: #2D245B;
+    --button-background-color: #281D4E;
+    --button-background-color-active: #3C1F7B;
+    --button-secondary-background-color: #281D4E;
+    --button-secondary-background-color-active: #3C1F7B;
+    --button-secondary-background-color-hover: #3C1F7B;
     --button-secondary-text-color: #C68AFF;
     --button-text-color: #281D4E;
     --button_bot_shadow: #222222;
-    --button_commerce_background: #4BB34B;
+    --button_commerce_background: #281D4E;
     --button_commerce_foreground: #88FFD1;
-    --button_muted_background: #333333;
-    --button_muted_foreground: #E1E3E6;
+    --button_muted_background: #281D4E;
+    --button_muted_foreground: #FFFFFF77;
     --button_outline_border: #FFFFFF;
     --button_outline_foreground: #FFFFFF;
-    --button_primary_background: #FFFFFF;
-    --button_primary_foreground: #281D4E;
-    --button_secondary_background: #2D245B;
-    --button_secondary_background_highlighted: #2D245B;
-    --button_secondary_destructive_background: #555555;
-    --button_secondary_destructive_background_highlighted: #55555599;
-    --button_secondary_destructive_foreground: #FF5C5C;
-    --button_secondary_destructive_foreground_highlighted: #FF5C5C99;
+    --button_primary_background: #281D4E;
+    --button_primary_foreground: #C68AFF;
+    --button_secondary_background: #281D4E;
+    --button_secondary_background_highlighted: #3C1F7B;
+    --button_secondary_destructive_background: #281D4E;
+    --button_secondary_destructive_background_highlighted: #3C1F7B;
+    --button_secondary_destructive_foreground: #FF6A75;
+    --button_secondary_destructive_foreground_highlighted: #FF6A75;
     --button_secondary_foreground: #C68AFF;
-    --button_secondary_foreground_highlighted: #C68AFF99;
-    --button_tertiary_background: #00000000;
-    --button_tertiary_background_active: #2D245B;
-    --button_tertiary_background_hover: #2D245B;
-    --button_tertiary_foreground: #C68AFF;
+    --button_secondary_foreground_highlighted: #C68AFF;
+    --button_tertiary_background: #281D4E;
+    --button_tertiary_background_active: #3C1F7B;
+    --button_tertiary_background_hover: #281D4E;
+    --button_tertiary_foreground: #FFFFFF;
     --cell_button_foreground: #C68AFF;
     --content_placeholder_icon: #B2B2B2;
     --content_placeholder_text: #B2B2B2;
@@ -227,9 +227,9 @@
     --segmented_control_bar_background: #222222;
     --segmented_control_tint: #828282;
     --selection_off_icon: #656565;
-    --separator_alpha: #00000000;
-    --separator_alternate: #00000000;
-    --separator_common: #00000000;
+    --separator_alpha: #AC70FF28;
+    --separator_alternate: #AC70FF;
+    --separator_common: #AC70FF;
     --skeleton_foreground_from: #292929;
     --skeleton_foreground_to: #333333;
     --skeleton_shimmer_from: #222222;

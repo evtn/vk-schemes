@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           VK Dracula Contrast Scheme
 @namespace      qevitta
-@version        1.4.1
+@version        1.5.1
 @description    VK Dracula Contrast Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
@@ -50,7 +50,7 @@
     --button-text-color: #282A36;
     --button_bot_shadow: #222222;
     --button_commerce_background: #4BB34B;
-    --button_commerce_foreground: #F8F8F2;
+    --button_commerce_foreground: #50FA7B;
     --button_muted_background: #333333;
     --button_muted_foreground: #E1E3E6;
     --button_outline_border: #F8F8F2;

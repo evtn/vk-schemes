@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           VK Firefox Alpenglow Scheme
 @namespace      qevitta
-@version        1.4.1
+@version        1.5.1
 @description    VK Firefox Alpenglow Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
@@ -50,7 +50,7 @@
     --button-text-color: #281D4E;
     --button_bot_shadow: #222222;
     --button_commerce_background: #4BB34B;
-    --button_commerce_foreground: #FFFFFF;
+    --button_commerce_foreground: #88FFD1;
     --button_muted_background: #333333;
     --button_muted_foreground: #E1E3E6;
     --button_outline_border: #FFFFFF;

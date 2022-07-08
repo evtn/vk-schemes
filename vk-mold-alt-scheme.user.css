@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           VK Mold Alt Scheme
 @namespace      qevitta
-@version        1.4.1
+@version        1.5.1
 @description    VK Mold Alt Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
@@ -50,7 +50,7 @@
     --button-text-color: #0E282A;
     --button_bot_shadow: #222222;
     --button_commerce_background: #4BB34B;
-    --button_commerce_foreground: #E1D2BD;
+    --button_commerce_foreground: #4BDF9D;
     --button_muted_background: #333333;
     --button_muted_foreground: #E1E3E6;
     --button_outline_border: #E1D2BD;

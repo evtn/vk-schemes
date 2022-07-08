@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           VK Yandex.Music Contrast Scheme
 @namespace      qevitta
-@version        1.4.1
+@version        1.5.1
 @description    VK Yandex.Music Contrast Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
@@ -50,7 +50,7 @@
     --button-text-color: #181818;
     --button_bot_shadow: #222222;
     --button_commerce_background: #4BB34B;
-    --button_commerce_foreground: #E1E3E6;
+    --button_commerce_foreground: #2AA75B;
     --button_muted_background: #333333;
     --button_muted_foreground: #E1E3E6;
     --button_outline_border: #E1E3E6;
