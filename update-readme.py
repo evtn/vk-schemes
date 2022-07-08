@@ -70,7 +70,7 @@ def render_scheme(scheme_key, tab_level=0):
         **scheme,
     )
 
-    return (tab + scheme_part).replace("\n", "\n" + tab)
+    return (tab + "-" + scheme_part).replace("\n", "\n" + tab)
 
 
 
