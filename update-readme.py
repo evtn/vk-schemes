@@ -40,6 +40,8 @@ variants = {}
 def render_scheme(scheme_key, tab_level=0):
     print("render:", " " * (tab_level * 4 - 1), scheme_key)
 
+    tab = tab_level * 4 * " "
+
     scheme = schemes[scheme_key]
     image = ""
     badge = badge_template.format(
@@ -68,7 +70,7 @@ def render_scheme(scheme_key, tab_level=0):
         **scheme,
     )
 
-    return scheme_part
+    return (tab + scheme_part).replace("\n", "\n" + tab)
 
 
 
