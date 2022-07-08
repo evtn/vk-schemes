@@ -33,7 +33,7 @@
         }
     },
     "monokai-red": {
-        "name": "Monokai",
+        "name": "Monokai Red",
         "description": "Вариант Monokai с красным акцентом",
         "variant_of": "monokai",
         "parent": "monokai",
@@ -42,7 +42,7 @@
         }
     },
     "monokai-blue": {
-        "name": "Monokai",
+        "name": "Monokai Blue",
         "description": "Вариант Monokai с синим акцентом",
         "variant_of": "monokai",
         "parent": "monokai",

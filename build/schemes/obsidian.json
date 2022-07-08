@@ -1,0 +1,32 @@
+{
+    "obsidian": {
+        "name": "Obsidian",
+        "description": "Тёмно-фиолетовая схема",
+        "parent": "dark-template",
+        "variables": {
+            "accent": "@dynamic_violet",
+            "background_content": "#08060e",
+            "background_highlighted": "#2f1f43",
+            "background_hover": "#1f1831",
+            "background_page": "#000000",
+            "dynamic_blue": "#8b72fb",
+            "dynamic_green": "#72fbc6",
+            "dynamic_orange": "#fba972",
+            "dynamic_purple": "@dynamic_violet",
+            "dynamic_raspberry_pink": "#fb72c6",
+            "dynamic_red": "#fb729f",
+            "dynamic_violet": "#c99ff9",
+            "dynamic_yellow": "#fbf172",
+            "destructive": "#f9276c",
+            "positive": "@dynamic_green",
+            "separator_alpha": "@background_highlighted:60",
+            "separator_alternate": "@background_highlighted",
+            "separator_common": "@background_highlighted",
+            "text_muted": "#8f8f8f",
+            "text_primary": "#fdf9f3",
+
+            "button_commerce_foreground": "@background_content",
+            "button_primary_foreground": "@background_content"
+        }
+    }
+}

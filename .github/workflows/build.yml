@@ -14,6 +14,11 @@ jobs:
       - name: git-checkout
         uses: actions/checkout@v2
 
+      - name: That is not me, this is a bot
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+
       - name: Set up Python 3.8
         uses: actions/setup-python@v2
         with:
@@ -34,11 +39,6 @@ jobs:
 
       - name: Update readme
         run: python update-readme.py
-
-      - name: Set git config
-        run: |
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
 
       - name: Commit new readme if it was changed
         continue-on-error: true

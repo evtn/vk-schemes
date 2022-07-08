@@ -593,6 +593,35 @@
             "button_tertiary_foreground": "@text_primary"
         }
     },
+    "obsidian": {
+        "name": "Obsidian",
+        "description": "Тёмно-фиолетовая схема",
+        "parent": "dark-template",
+        "variables": {
+            "accent": "@dynamic_violet",
+            "background_content": "#08060e",
+            "background_highlighted": "#2f1f43",
+            "background_hover": "#1f1831",
+            "background_page": "#000000",
+            "dynamic_blue": "#8b72fb",
+            "dynamic_green": "#72fbc6",
+            "dynamic_orange": "#fba972",
+            "dynamic_purple": "@dynamic_violet",
+            "dynamic_raspberry_pink": "#fb72c6",
+            "dynamic_red": "#fb729f",
+            "dynamic_violet": "#c99ff9",
+            "dynamic_yellow": "#fbf172",
+            "destructive": "#f9276c",
+            "positive": "@dynamic_green",
+            "separator_alpha": "@background_highlighted:60",
+            "separator_alternate": "@background_highlighted",
+            "separator_common": "@background_highlighted",
+            "text_muted": "#8f8f8f",
+            "text_primary": "#fdf9f3",
+            "button_commerce_foreground": "@background_content",
+            "button_primary_foreground": "@background_content"
+        }
+    },
     "mono": {
         "name": "Mono",
         "description": "Высококонтрастная светлая схема",
@@ -928,7 +957,7 @@
     "mold-alt": {
         "name": "Mold Alt",
         "description": "Вариант Mold с бежевым акцентом",
-        "is_variant": true,
+        "variant_of": "mold",
         "parent": "mold",
         "variables": {
             "accent": "#e7b978"
@@ -946,7 +975,7 @@
         }
     },
     "monokai-red": {
-        "name": "Monokai",
+        "name": "Monokai Red",
         "description": "Вариант Monokai с красным акцентом",
         "variant_of": "monokai",
         "parent": "monokai",
@@ -955,7 +984,7 @@
         }
     },
     "monokai-blue": {
-        "name": "Monokai",
+        "name": "Monokai Blue",
         "description": "Вариант Monokai с синим акцентом",
         "variant_of": "monokai",
         "parent": "monokai",
@@ -1132,8 +1161,8 @@
         "variables": {}
     },
     "monokai-red-inverted-buttons": {
-        "name": "Monokai Alternate Buttons",
-        "description": "Вариант Monokai с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "name": "Monokai Red Alternate Buttons",
+        "description": "Вариант Monokai Red с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
         "variant_of": "monokai-red",
         "parent": [
             "monokai-red",
@@ -1142,11 +1171,21 @@
         "variables": {}
     },
     "monokai-blue-inverted-buttons": {
-        "name": "Monokai Alternate Buttons",
-        "description": "Вариант Monokai с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "name": "Monokai Blue Alternate Buttons",
+        "description": "Вариант Monokai Blue с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
         "variant_of": "monokai-blue",
         "parent": [
             "monokai-blue",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "obsidian-inverted-buttons": {
+        "name": "Obsidian Alternate Buttons",
+        "description": "Вариант Obsidian с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "obsidian",
+        "parent": [
+            "obsidian",
             "inverted-buttons"
         ],
         "variables": {}

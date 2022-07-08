@@ -5,7 +5,7 @@ from os.path import exists
 part_template = """
 <li>
 <details>
-    <summary><b>{name}</b>: {description}</summary>
+    <summary><b>{name}</b><br>{description}</summary>
 
 {image}
 [![{name}]({badge})](https://github.com/evtn/vk-schemes/raw/build-stable/vk-{code}-scheme.user.css)

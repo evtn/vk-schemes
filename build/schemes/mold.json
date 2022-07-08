@@ -27,7 +27,7 @@
     "mold-alt": {
         "name": "Mold Alt",
         "description": "Вариант Mold с бежевым акцентом",
-        "is_variant": true,
+        "variant_of": "mold",
         "parent": "mold",
         "variables": {
             "accent": "#e7b978"
