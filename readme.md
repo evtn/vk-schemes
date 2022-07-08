@@ -15,7 +15,7 @@
 
 ## Схемы
 
-
+-
 <details>
     <summary><b>VKCOM Light</b>: Стандартная светлая тема ВКонтакте</summary>
 
@@ -24,7 +24,7 @@
 
 Варианты:
 
-    
+    -
     <details>
         <summary><b>VKCOM Light Alternate Buttons</b>: Вариант VKCOM Light с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)</summary>
     
@@ -40,7 +40,7 @@
 </details>
 
 
-
+-
 <details>
     <summary><b>VKCOM Dark</b>: Стандартная тёмная тема ВКонтакте</summary>
 
@@ -49,7 +49,7 @@
 
 Варианты:
 
-    
+    -
     <details>
         <summary><b>VKCOM Dark Alternate Buttons</b>: Вариант VKCOM Dark с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)</summary>
     
@@ -65,7 +65,7 @@
 </details>
 
 
-
+-
 <details>
     <summary><b>Mono</b>: Высококонтрастная светлая схема</summary>
 
@@ -74,7 +74,7 @@
 
 Варианты:
 
-    
+    -
     <details>
         <summary><b>Mono Alternate Buttons</b>: Вариант Mono с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)</summary>
     
@@ -90,7 +90,7 @@
 </details>
 
 
-
+-
 <details>
     <summary><b>Ayu</b>: Темная схема, основанная на цветах <a href="https://github.com/dempfi/ayu">dempfi/ayu</a> - темы для Sublime Text</summary>
 
@@ -99,7 +99,7 @@
 
 Варианты:
 
-    
+    -
     <details>
         <summary><b>Ayu Alt</b>: Контрастный вариант Ayu</summary>
     
@@ -108,7 +108,7 @@
     
     Варианты:
     
-            
+            -
             <details>
                 <summary><b>Ayu Alt Alternate Buttons</b>: Вариант Ayu Alt с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)</summary>
             
@@ -124,7 +124,7 @@
     </details>
     
 
-    
+    -
     <details>
         <summary><b>Ayu Alternate Buttons</b>: Вариант Ayu с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)</summary>
     
@@ -140,7 +140,7 @@
 </details>
 
 
-
+-
 <details>
     <summary><b>Windswept</b>: Блекло-красная схема</summary>
 
@@ -149,7 +149,7 @@
 
 Варианты:
 
-    
+    -
     <details>
         <summary><b>Windswept Alternate Buttons</b>: Вариант Windswept с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)</summary>
     
@@ -165,7 +165,7 @@
 </details>
 
 
-
+-
 <details>
     <summary><b>WTF</b>: Отличная схема, приятная глазу</summary>
 
@@ -174,7 +174,7 @@
 
 Варианты:
 
-    
+    -
     <details>
         <summary><b>WTF Alternate Buttons</b>: Вариант WTF с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)</summary>
     
@@ -190,7 +190,7 @@
 </details>
 
 
-
+-
 <details>
     <summary><b>Firefox Alpenglow</b>: Темная схема, основанная на цветах <a href="https://addons.mozilla.org/en-US/firefox/addon/firefox-alpenglow/">Firefox Alpenglow</a> - темы для Firefox</summary>
 
@@ -199,7 +199,7 @@
 
 Варианты:
 
-    
+    -
     <details>
         <summary><b>Firefox Alpenglow Borderless</b>: Вариант Alpenglow без яркой обводки</summary>
     
@@ -208,7 +208,7 @@
     
     Варианты:
     
-            
+            -
             <details>
                 <summary><b>Firefox Alpenglow Borderless Alternate Buttons</b>: Вариант Firefox Alpenglow Borderless с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)</summary>
             
@@ -224,7 +224,7 @@
     </details>
     
 
-    
+    -
     <details>
         <summary><b>Firefox Alpenglow Alternate Buttons</b>: Вариант Firefox Alpenglow с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)</summary>
     
@@ -240,7 +240,7 @@
 </details>
 
 
-
+-
 <details>
     <summary><b>Mold</b>: Тёмно-бирюзовая схема</summary>
 
@@ -249,7 +249,7 @@
 
 Варианты:
 
-    
+    -
     <details>
         <summary><b>Mold Alternate Buttons</b>: Вариант Mold с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)</summary>
     
@@ -265,7 +265,7 @@
 </details>
 
 
-
+-
 <details>
     <summary><b>Dracula</b>: Темная схема, основанная на <a href="https://draculatheme.com">draculatheme.com</a></summary>
 
@@ -274,7 +274,7 @@
 
 Варианты:
 
-    
+    -
     <details>
         <summary><b>Dracula Contrast</b>: Контрастный вариант Dracula</summary>
     
@@ -283,7 +283,7 @@
     
     Варианты:
     
-            
+            -
             <details>
                 <summary><b>Dracula Contrast Alternate Buttons</b>: Вариант Dracula Contrast с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)</summary>
             
@@ -299,7 +299,7 @@
     </details>
     
 
-    
+    -
     <details>
         <summary><b>Dracula Alternate Buttons</b>: Вариант Dracula с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)</summary>
     
@@ -315,7 +315,7 @@
 </details>
 
 
-
+-
 <details>
     <summary><b>Yandex.Music</b>: Темная схема, основанная на тёмной теме <a href="https://music.yandex.ru">Яндекс.Музыки</a></summary>
 
@@ -324,7 +324,7 @@
 
 Варианты:
 
-    
+    -
     <details>
         <summary><b>Yandex.Music Contrast</b>: Контрастный вариант Yandex.Music</summary>
     
@@ -333,7 +333,7 @@
     
     Варианты:
     
-            
+            -
             <details>
                 <summary><b>Yandex.Music Contrast Alternate Buttons</b>: Вариант Yandex.Music Contrast с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)</summary>
             
@@ -349,7 +349,7 @@
     </details>
     
 
-    
+    -
     <details>
         <summary><b>Yandex.Music Alternate Buttons</b>: Вариант Yandex.Music с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)</summary>
     
@@ -365,7 +365,7 @@
 </details>
 
 
-
+-
 <details>
     <summary><b>Leaf</b>: Красно-зеленая (да, на любителя) светлая схема</summary>
 
@@ -374,7 +374,7 @@
 
 Варианты:
 
-    
+    -
     <details>
         <summary><b>Leaf Alternate Buttons</b>: Вариант Leaf с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)</summary>
     
@@ -390,7 +390,7 @@
 </details>
 
 
-
+-
 <details>
     <summary><b>Acid Dark</b>: Тёмная схема с ярко-фиолетовым акцентом</summary>
 
@@ -399,7 +399,7 @@
 
 Варианты:
 
-    
+    -
     <details>
         <summary><b>Acid Dark Alternate Buttons</b>: Вариант Acid Dark с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)</summary>
     
@@ -415,7 +415,7 @@
 </details>
 
 
-
+-
 <details>
     <summary><b>Monodark</b>: Высококонтрастная тёмная схема</summary>
 
@@ -424,7 +424,7 @@
 
 Варианты:
 
-    
+    -
     <details>
         <summary><b>Monodark Alternate Buttons</b>: Вариант Monodark с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)</summary>
     
@@ -440,7 +440,7 @@
 </details>
 
 
-
+-
 <details>
     <summary><b>Ocean</b>: Тёмно-синяя схема с голубым акцентом</summary>
 
@@ -449,7 +449,7 @@
 
 Варианты:
 
-    
+    -
     <details>
         <summary><b>Ocean Alternate Buttons</b>: Вариант Ocean с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)</summary>
     
@@ -465,7 +465,7 @@
 </details>
 
 
-
+-
 <details>
     <summary><b>Monokai</b>: Темная схема, основанная на цветах <a href="https://monokai.pro/">Monokai Pro</a> - темы для Sublime Text и VS Code</summary>
 
@@ -474,7 +474,7 @@
 
 Варианты:
 
-    
+    -
     <details>
         <summary><b>Monokai</b>: Вариант Monokai с красным акцентом</summary>
     
@@ -483,7 +483,7 @@
     
     Варианты:
     
-            
+            -
             <details>
                 <summary><b>Monokai Alternate Buttons</b>: Вариант Monokai с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)</summary>
             
@@ -499,7 +499,7 @@
     </details>
     
 
-    
+    -
     <details>
         <summary><b>Monokai</b>: Вариант Monokai с синим акцентом</summary>
     
@@ -508,7 +508,7 @@
     
     Варианты:
     
-            
+            -
             <details>
                 <summary><b>Monokai Alternate Buttons</b>: Вариант Monokai с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)</summary>
             
@@ -524,7 +524,7 @@
     </details>
     
 
-    
+    -
     <details>
         <summary><b>Monokai Alternate Buttons</b>: Вариант Monokai с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)</summary>
     
@@ -540,7 +540,7 @@
 </details>
 
 
-
+-
 <details>
     <summary><b>Mold Alt</b>: Вариант Mold с бежевым акцентом</summary>
 
@@ -549,7 +549,7 @@
 
 Варианты:
 
-    
+    -
     <details>
         <summary><b>Mold Alt Alternate Buttons</b>: Вариант Mold Alt с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)</summary>
     
