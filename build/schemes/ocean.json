@@ -1,0 +1,18 @@
+{
+    "ocean": {
+        "name": "Ocean",
+        "description": "Тёмно-синяя схема с голубым акцентом",
+        "name_alt": "Chichavoz",
+        "parent": "dark-template",
+        "variables": {
+            "accent": "#80cbc4",
+            "background_content": "#0d0f1b",
+            "background_highlighted": "#232948",
+            "background_hover": "#111423",
+            "background_page": "#040613",
+            "destructive": "#d68383",
+            "positive": "#83dc96",
+            "text_muted": "#99999999"
+        }
+    }
+}

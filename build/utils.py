@@ -1,30 +1,7 @@
-from json import load
+from init import schemes, default_palette
 
 
-def get_alpha(color, alpha):
-    return f"{color[:7]}{round(alpha / 100 * 255):02x}".upper()
-
-
-def build_alpha(palette):
-    new_palette = {}
-    for key in palette:
-        if len(palette[key]) == 9: # color format is ARGB for some reason, what the...
-            palette[key] = f"#{palette[key][3:]}{palette[key][1:3]}"
-        new_palette[key] = palette[key]
-        if "alpha" in key:
-            continue
-        for alpha in range(0, 100, 4):
-            new_palette[f"{key}_alpha{alpha}"] = get_alpha(palette[key], alpha)
-    return new_palette
-
-
-with open("build/schemes.json") as file:
-    schemes = load(file)
-
-with open("build/default_palette.json") as file:
-    default_palette = build_alpha(load(file))
-
-def search(variables, parent, variable):
+def search(variables, parent_key, variable):
     """performs a recursive search of the variable"""
 
     value = variables.get(variable)
@@ -39,21 +16,43 @@ def search(variables, parent, variable):
             return value
         return value.upper()
 
-    if parent:
-        parent = schemes[parent]
-        
+    if parent_key:
+        parent = resolve_parent(parent_key)
         variables = parent["variables"]
-        if isinstance(variables, str):
-            variables = schemes[variables]["variables"]
-        parent = parent.get("parent")
-        return search(variables, parent, variable)
+        return search(variables, parent.get("parent"), variable)
 
     raise KeyError(f"Can't find '{variable}' variable anywhere, is it missing?")
 
 
-def gather_keys(variables, parent):
-    if parent:
-        parent_scheme = schemes[parent]
+def resolve_parent(parent_key):
+    if not parent_key:
+        return parent_key
+
+    if isinstance(parent_key, list):
+        grandparents = []
+        variables = {}
+        for parent_subkey in parent_key:
+            parent = resolve_parent(parent_subkey)
+
+            grandparent = parent.get("parent", [])
+
+            if isinstance(grandparent, list):
+                grandparents.extend(grandparent)
+            else:
+                grandparents.append(grandparent)
+
+            variables.update(parent["variables"])
+        return {
+            "parent": grandparents,
+            "variables": variables,
+        }
+
+    return schemes[parent_key]
+
+
+def gather_keys(variables, parent_key):
+    if parent_key:
+        parent_scheme = resolve_parent(parent_key)
         variables = parent_scheme["variables"]
         if isinstance(variables, str):
             variables = schemes[variables]["variables"]
@@ -61,15 +60,15 @@ def gather_keys(variables, parent):
     return set(variables)
 
 
-def full_search(variables, parent):
+def full_search(variables, parent_key):
     solved = {}
     undefined = {}
 
-    needed_keys = gather_keys(variables, parent)
+    needed_keys = gather_keys(variables, parent_key)
 
     while not solved or undefined:
         for name in needed_keys:
-            values = search(variables, parent, name).split(":")
+            values = search(variables, parent_key, name).split(":")
             value = values[0]
             if value.startswith("@"):
                 ref = value[1:]

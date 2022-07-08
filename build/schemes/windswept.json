@@ -1,0 +1,27 @@
+{
+    "windswept": {
+        "name": "Windswept",
+        "description": "Блекло-красная схема",
+        "parent": "light-template",
+        "variables": {
+            "accent": "#72231d",
+            "background_content": "#7d5754",
+            "background_highlighted": "#8c615e",
+            "background_hover": "#74514e",
+            "background_page": "#6b4b48",
+            "text_muted": "@text_primary:AA",
+            "text_primary": "#1d0d1a",
+            "text_subhead": "@muted",
+            "text_tertiary": "@muted",
+            "dynamic_blue": "@text_primary",
+            "dynamic_green": "@text_primary",
+            "dynamic_orange": "@text_primary",
+            "dynamic_purple": "@text_primary",
+            "dynamic_raspberry_pink": "@text_primary",
+            "dynamic_red": "@text_primary",
+            "dynamic_violet": "@text_primary",
+            "separator_common": "#5b413e",
+            "separator_alternate": "@separator_common"
+        }
+    }
+}

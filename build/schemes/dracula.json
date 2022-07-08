@@ -1,0 +1,34 @@
+{
+    "dracula": {
+        "name": "Dracula",
+        "description": "Темная схема, основанная на <a href=\"https://draculatheme.com\">draculatheme.com</a>",
+        "parent": "dark-template",
+        "variables": {
+            "accent": "#6272a4",
+            "background_content": "#282a36",
+            "background_highlighted": "#44475a",
+            "background_hover": "#44475a",
+            "background_light": "@background_content",
+            "background_page": "@background_content",
+            "destructive": "@dynamic_red",
+            "dynamic_blue": "#6272a4",
+            "dynamic_gray": "#44475a",
+            "dynamic_orange": "#ffb86c",
+            "dynamic_purple": "#bd93f9",
+            "dynamic_red": "#ff5555",
+            "dynamic_violet": "#bd93f9",
+            "positive": "#50fa7b",
+            "text_muted": "#626a73",
+            "text_primary": "#f8f8f2"
+        }
+    },
+    "dracula-contrast": {
+        "name": "Dracula Contrast",
+        "description": "Контрастный вариант Dracula",
+        "variant_of": "dracula",
+        "parent": "dracula",
+        "variables": {
+            "background_page": "#16161c"
+        }
+    }
+}

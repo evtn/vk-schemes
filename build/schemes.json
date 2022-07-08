@@ -495,7 +495,7 @@
             "button-secondary-background-color-hover": "@button_secondary_background_highlighted",
             "button-secondary-text-color": "@button_secondary_foreground",
             "button-text-color": "@background_content",
-            "button_commerce_foreground": "@text_primary",
+            "button_commerce_foreground": "@dynamic_green",
             "button_outline_border": "@text_primary",
             "button_outline_foreground": "@text_primary",
             "button_primary_background": "@text_primary",
@@ -562,289 +562,35 @@
             "writebar_icon": "@muted"
         }
     },
-    "dark-template": {
-        "name": "Dark Template",
-        "parent": "dark",
+    "inverted-buttons": {
+        "name": "Inverted Buttons Template",
         "skip": true,
-        "variables": "template"
-    },
-    "light-template": {
-        "name": "Light Template",
-        "parent": "light",
-        "skip": true,
-        "variables": "template"
-    },
-    "ocean": {
-        "name": "Ocean",
-        "description": "Тёмно-синяя схема с голубым акцентом",
-        "name_alt": "Chichavoz",
-        "parent": "dark-template",
         "variables": {
-            "accent": "#80cbc4",
-            "background_content": "#0d0f1b",
-            "background_highlighted": "#232948",
-            "background_hover": "#111423",
-            "background_page": "#040613",
-            "destructive": "#d68383",
-            "positive": "#83dc96",
-            "text_muted": "#99999999"
-        }
-    },
-    "acid-dark": {
-        "name": "Acid Dark",
-        "description": "Тёмная схема с ярко-фиолетовым акцентом",
-        "parent": "dark-template",
-        "variables": {
-            "accent": "#8b33c7",
-            "background_content": "#121212",
-            "background_highlighted": "#201825",
-            "background_hover": "#1c1c1c",
-            "background_page": "@background_content",
-            "counter_primary_background": "@accent",
-            "counter_secondary_text": "@text_primary",
-            "destructive": "#f52057",
-            "positive": "#20f570",
-            "text_muted": "#462e57"
-        }
-    },
-    "leaf": {
-        "name": "Leaf",
-        "description": "Красно-зеленая (да, на любителя) светлая схема",
-        "parent": "light-template",
-        "variables": {
-            "accent": "#D43D68",
-            "background_content": "#E1F4E9",
-            "background_highlighted": "@background_hover",
-            "background_hover": "#BCE6CE",
-            "background_light": "@background_hover",
-            "background_page": "#C2E0CF",
-            "content_tint_background": "@background_hover",
-            "destructive": "@accent",
-            "input_border": "@background_hover",
-            "positive": "@accent",
-            "separator_alpha": "@separator_common:28",
-            "separator_alternate": "@background_hover",
-            "separator_common": "@background_hover",
-            "text_muted": "#212F3299"
-        }
-    },
-    "ayu": {
-        "name": "Ayu",
-        "description": "Темная схема, основанная на цветах <a href=\"https://github.com/dempfi/ayu\">dempfi/ayu</a> - темы для Sublime Text",
-        "parent": "dark-template",
-        "variables": {
-            "accent": "#e6b450",
-            "background_content": "#0a0e14",
-            "background_highlighted": "@background_page",
-            "background_hover": "@background_page",
-            "background_page": "#00010a",
-            "destructive": "#d95757",
-            "dynamic_blue": "#73b8ff",
-            "dynamic_green": "#7fd962",
-            "dynamic_orange": "#ffb454",
-            "dynamic_purple": "@dynamic_violet",
-            "dynamic_raspberry_pink": "#f07178",
-            "dynamic_red": "#f26d78",
-            "dynamic_violet": "#d2a6ff",
-            "positive": "#c2d94c",
-            "separator_alpha": "6c738030",
-            "separator_alternate": "#6c738066",
-            "separator_common": "#6c738066",
-            "text_muted": "#acb6bf8c",
-            "text_primary": "#b3b1ad"
-        }
-    },
-    "ayu-alt": {
-        "name": "Ayu Dark Alt",
-        "description": "Контрастный вариант Ayu",
-        "is_variant": true,
-        "parent": "ayu",
-        "variables": {
-            "accent": "#39bae6"
-        }
-    },
-    "dracula": {
-        "name": "Dracula",
-        "description": "Темная схема, основанная на <a href=\"https://draculatheme.com\">draculatheme.com</a>",
-        "parent": "dark-template",
-        "variables": {
-            "accent": "#6272a4",
-            "background_content": "#282a36",
-            "background_highlighted": "#44475a",
-            "background_hover": "#44475a",
-            "background_light": "@background_content",
-            "background_page": "@background_content",
-            "destructive": "@dynamic_red",
-            "dynamic_blue": "#6272a4",
-            "dynamic_gray": "#44475a",
-            "dynamic_orange": "#ffb86c",
-            "dynamic_purple": "#bd93f9",
-            "dynamic_red": "#ff5555",
-            "dynamic_violet": "#bd93f9",
-            "positive": "#50fa7b",
-            "text_muted": "#626a73",
-            "text_primary": "#f8f8f2"
-        }
-    },
-    "dracula-contrast": {
-        "name": "Dracula Contrast",
-        "description": "Контрастный вариант Dracula",
-        "is_variant": true,
-        "parent": "dracula",
-        "variables": {
-            "background_page": "#16161c"
-        }
-    },
-    "yamusic": {
-        "name": "Yandex.Music",
-        "description": "Темная схема, основанная на тёмной теме <a href=\"https://music.yandex.ru\">Яндекс.Музыки</a>",
-        "parent": "dark-template",
-        "variables": {
-            "accent": "#ffdb4d",
-            "background_content": "#121212",
-            "background_highlighted": "#222222",
-            "background_hover": "#222222",
-            "background_light": "@background_content",
-            "background_page": "@background_content",
-            "destructive": "@dynamic_red",
-            "dynamic_blue": "#3099f0",
-            "dynamic_gray": "#777777",
-            "dynamic_orange": "#ffbb5a",
-            "dynamic_purple": "#9d65a9",
-            "dynamic_red": "#e43c31",
-            "dynamic_violet": "#6c65a9",
-            "positive": "#2aa75b",
-            "text_muted": "#777777"
-        }
-    },
-    "yamusic-contrast": {
-        "name": "Yandex.Music Contrast",
-        "description": "Контрастный вариант Yandex.Music",
-        "is_variant": true,
-        "parent": "yamusic",
-        "variables": {
-            "background_page": "#121212",
-            "background_content": "#181818"
-        }
-    },
-    "alpenglow": {
-        "name": "Firefox Alpenglow",
-        "description": "Темная схема, основанная на цветах <a href=\"https://addons.mozilla.org/en-US/firefox/addon/firefox-alpenglow/\">Firefox Alpenglow</a> - темы для Firefox",
-        "parent": "dark-template",
-        "variables": {
-            "accent": "#c68aff",
-            "background_content": "#281d4e",
-            "background_highlighted": "#3c1f7b",
-            "background_hover": "#2d245b",
-            "background_page": "#21133c",
-            "destructive": "#ff6a75",
-            "dynamic_blue": "#00B3F5",
-            "dynamic_green": "#88FFD1",
-            "dynamic_orange": "#FEA365",
-            "dynamic_purple": "#FF8AC6",
-            "dynamic_raspberry_pink": "#FF848C",
-            "dynamic_red": "#ff6a75",
-            "dynamic_violet": "#F564FF",
-            "positive": "#3fe1b0",
-            "separator_alternate": "#ac70ff",
-            "separator_common": "#ac70ff",
-            "text_muted": "#ffffff77",
-            "text_primary": "#ffffff"
-        }
-    },
-    "alpenglow-borderless": {
-        "name": "Firefox Alpenglow Borderless",
-        "description": "Вариант Alpenglow без яркой обводки",
-        "is_variant": true,
-        "parent": "alpenglow",
-        "variables": {
-            "separator_alpha": "@separator_common",
-            "separator_alternate": "@separator_common",
-            "separator_common": "#00000000"
-        }
-    },
-    "wtf": {
-        "name": "WTF",
-        "description": "Отличная схема, приятная глазу",
-        "parent": "dark-template",
-        "variables": {
-            "accent": "#f00",
-            "background_content": "#090",
-            "background_highlighted": "#0f0",
-            "background_hover": "#0d0",
-            "background_page": "#0a0",
-            "destructive": "#0ff",
-            "dynamic_blue": "#00f",
-            "dynamic_green": "#0f0",
-            "dynamic_orange": "#f90",
-            "dynamic_purple": "#f0f",
-            "dynamic_raspberry_pink": "#f09",
-            "dynamic_red": "#f00",
-            "dynamic_violet": "#909",
-            "positive": "#f0f",
-            "separator_alternate": "#04f",
-            "separator_common": "#00f",
-            "text_muted": "#fff",
-            "text_primary": "#000"
-        }
-    },
-    "mold": {
-        "name": "Mold",
-        "description": "Тёмно-бирюзовая схема",
-        "parent": "dark-template",
-        "variables": {
-            "accent": "#35b9a4",
-            "background_content": "#0e282a",
-            "background_highlighted": "#13343a",
-            "background_hover": "#0b2022",
-            "background_page": "#0b2023",
-            "destructive": "#e62833",
-            "dynamic_blue": "#35acc5",
-            "dynamic_green": "#4bdf9d",
-            "dynamic_orange": "#f90",
-            "dynamic_purple": "#c763bc",
-            "dynamic_raspberry_pink": "#df4b75",
-            "dynamic_red": "#dd3d15",
-            "dynamic_violet": "#a06fbb",
-            "positive": "#2f966b",
-            "separator_alternate": "@separator_common",
-            "separator_common": "#1f393d",
-            "text_muted": "#4d6a6c",
-            "text_primary": "#e1d2bd"
-        }
-    },
-    "mold-alt": {
-        "name": "Mold Alt",
-        "description": "Вариант Mold с бежевым акцентом",
-        "is_variant": true,
-        "parent": "mold",
-        "variables": {
-            "accent": "#e7b978"
-        }
-    },
-    "windswept": {
-        "name": "Windswept",
-        "description": "Блекло-красная схема",
-        "parent": "light-template",
-        "variables": {
-            "accent": "#72231d",
-            "background_content": "#7d5754",
-            "background_highlighted": "#8c615e",
-            "background_hover": "#74514e",
-            "background_page": "#6b4b48",
-            "text_muted": "@text_primary:AA",
-            "text_primary": "#1d0d1a",
-            "text_subhead": "@muted",
-            "text_tertiary": "@muted",
-            "dynamic_blue": "@text_primary",
-            "dynamic_green": "@text_primary",
-            "dynamic_orange": "@text_primary",
-            "dynamic_purple": "@text_primary",
-            "dynamic_raspberry_pink": "@text_primary",
-            "dynamic_red": "@text_primary",
-            "dynamic_violet": "@text_primary",
-            "separator_common": "#5b413e",
-            "separator_alternate": "@separator_common"
+            "button-background-color": "@background_content",
+            "button-background-color-active": "@background_highlighted",
+            "button-secondary-background-color": "@button_secondary_background",
+            "button-secondary-background-color-active": "@button_secondary_background_highlighted",
+            "button-secondary-background-color-hover": "@button_secondary_background_highlighted",
+            "button-secondary-text-color": "@button_secondary_foreground",
+            "button-text-color": "@background_content",
+            "button_commerce_background": "@background_content",
+            "button_commerce_foreground": "@dynamic_green",
+            "button_muted_background": "@background_content",
+            "button_muted_foreground": "@text_muted",
+            "button_outline_border": "@text_primary",
+            "button_outline_foreground": "@text_primary",
+            "button_primary_background": "@background_content",
+            "button_primary_foreground": "@accent",
+            "button_secondary_background": "@background_content",
+            "button_secondary_background_highlighted": "@background_highlighted",
+            "button_secondary_destructive_background": "@background_content",
+            "button_secondary_destructive_background_highlighted": "@background_highlighted",
+            "button_secondary_destructive_foreground": "@destructive",
+            "button_secondary_destructive_foreground_highlighted": "@destructive",
+            "button_secondary_foreground": "@accent",
+            "button_secondary_foreground_highlighted": "@accent",
+            "button_tertiary_background": "@background_content",
+            "button_tertiary_foreground": "@text_primary"
         }
     },
     "mono": {
@@ -874,6 +620,240 @@
             "text_tertiary": "@text_primary"
         }
     },
+    "ayu": {
+        "name": "Ayu",
+        "description": "Темная схема, основанная на цветах <a href=\"https://github.com/dempfi/ayu\">dempfi/ayu</a> - темы для Sublime Text",
+        "parent": "dark-template",
+        "variables": {
+            "accent": "#e6b450",
+            "background_content": "#0a0e14",
+            "background_highlighted": "@background_page",
+            "background_hover": "@background_page",
+            "background_page": "#00010a",
+            "destructive": "#d95757",
+            "dynamic_blue": "#73b8ff",
+            "dynamic_green": "#7fd962",
+            "dynamic_orange": "#ffb454",
+            "dynamic_purple": "@dynamic_violet",
+            "dynamic_raspberry_pink": "#f07178",
+            "dynamic_red": "#f26d78",
+            "dynamic_violet": "#d2a6ff",
+            "positive": "#c2d94c",
+            "separator_alpha": "#6c738030",
+            "separator_alternate": "#6c738066",
+            "separator_common": "#6c738066",
+            "text_muted": "#acb6bf8c",
+            "text_primary": "#b3b1ad"
+        }
+    },
+    "monokai-colors": {
+        "name": "Monokai Colors",
+        "skip": true,
+        "variables": {
+            "background_content": "#2c292d",
+            "background_highlighted": "#3d3b40",
+            "background_hover": "#333136",
+            "background_page": "#211f22",
+            "dynamic_blue": "#73b8ff",
+            "dynamic_green": "#a9dc76",
+            "dynamic_orange": "#fc9867",
+            "dynamic_purple": "#ff61c7",
+            "dynamic_raspberry_pink": "#f07178",
+            "dynamic_red": "#ff617b",
+            "dynamic_violet": "#de87f5",
+            "dynamic_yellow": "#ffd866",
+            "destructive": "#ff6161",
+            "positive": "@dynamic_green",
+            "separator_alpha": "@background_highlighted:60",
+            "separator_alternate": "@background_highlighted",
+            "separator_common": "@background_highlighted",
+            "text_muted": "#8f8f8f",
+            "text_primary": "#fdf9f3"
+        }
+    },
+    "alpenglow": {
+        "name": "Firefox Alpenglow",
+        "description": "Темная схема, основанная на цветах <a href=\"https://addons.mozilla.org/en-US/firefox/addon/firefox-alpenglow/\">Firefox Alpenglow</a> - темы для Firefox",
+        "parent": "dark-template",
+        "variables": {
+            "accent": "#c68aff",
+            "background_content": "#281d4e",
+            "background_highlighted": "#3c1f7b",
+            "background_hover": "#2d245b",
+            "background_page": "#21133c",
+            "destructive": "#ff6a75",
+            "dynamic_blue": "#00B3F5",
+            "dynamic_green": "#88FFD1",
+            "dynamic_orange": "#FEA365",
+            "dynamic_purple": "#FF8AC6",
+            "dynamic_raspberry_pink": "#FF848C",
+            "dynamic_red": "#ff6a75",
+            "dynamic_violet": "#F564FF",
+            "positive": "#3fe1b0",
+            "separator_alternate": "#ac70ff",
+            "separator_common": "#ac70ff",
+            "text_muted": "#ffffff77",
+            "text_primary": "#ffffff"
+        }
+    },
+    "mold": {
+        "name": "Mold",
+        "description": "Тёмно-бирюзовая схема",
+        "parent": "dark-template",
+        "variables": {
+            "accent": "#35b9a4",
+            "background_content": "#0e282a",
+            "background_highlighted": "#13343a",
+            "background_hover": "#0b2022",
+            "background_page": "#0b2023",
+            "destructive": "#e62833",
+            "dynamic_blue": "#35acc5",
+            "dynamic_green": "#4bdf9d",
+            "dynamic_orange": "#f90",
+            "dynamic_purple": "#c763bc",
+            "dynamic_raspberry_pink": "#df4b75",
+            "dynamic_red": "#dd3d15",
+            "dynamic_violet": "#a06fbb",
+            "positive": "#2f966b",
+            "separator_alternate": "@separator_common",
+            "separator_common": "#1f393d",
+            "text_muted": "#4d6a6c",
+            "text_primary": "#e1d2bd"
+        }
+    },
+    "windswept": {
+        "name": "Windswept",
+        "description": "Блекло-красная схема",
+        "parent": "light-template",
+        "variables": {
+            "accent": "#72231d",
+            "background_content": "#7d5754",
+            "background_highlighted": "#8c615e",
+            "background_hover": "#74514e",
+            "background_page": "#6b4b48",
+            "text_muted": "@text_primary:AA",
+            "text_primary": "#1d0d1a",
+            "text_subhead": "@muted",
+            "text_tertiary": "@muted",
+            "dynamic_blue": "@text_primary",
+            "dynamic_green": "@text_primary",
+            "dynamic_orange": "@text_primary",
+            "dynamic_purple": "@text_primary",
+            "dynamic_raspberry_pink": "@text_primary",
+            "dynamic_red": "@text_primary",
+            "dynamic_violet": "@text_primary",
+            "separator_common": "#5b413e",
+            "separator_alternate": "@separator_common"
+        }
+    },
+    "wtf": {
+        "name": "WTF",
+        "description": "Отличная схема, приятная глазу",
+        "parent": "dark-template",
+        "variables": {
+            "accent": "#f00",
+            "background_content": "#090",
+            "background_highlighted": "#0f0",
+            "background_hover": "#0d0",
+            "background_page": "#0a0",
+            "destructive": "#0ff",
+            "dynamic_blue": "#00f",
+            "dynamic_green": "#0f0",
+            "dynamic_orange": "#f90",
+            "dynamic_purple": "#f0f",
+            "dynamic_raspberry_pink": "#f09",
+            "dynamic_red": "#f00",
+            "dynamic_violet": "#909",
+            "positive": "#f0f",
+            "separator_alternate": "#04f",
+            "separator_common": "#00f",
+            "text_muted": "#fff",
+            "text_primary": "#000"
+        }
+    },
+    "dracula": {
+        "name": "Dracula",
+        "description": "Темная схема, основанная на <a href=\"https://draculatheme.com\">draculatheme.com</a>",
+        "parent": "dark-template",
+        "variables": {
+            "accent": "#6272a4",
+            "background_content": "#282a36",
+            "background_highlighted": "#44475a",
+            "background_hover": "#44475a",
+            "background_light": "@background_content",
+            "background_page": "@background_content",
+            "destructive": "@dynamic_red",
+            "dynamic_blue": "#6272a4",
+            "dynamic_gray": "#44475a",
+            "dynamic_orange": "#ffb86c",
+            "dynamic_purple": "#bd93f9",
+            "dynamic_red": "#ff5555",
+            "dynamic_violet": "#bd93f9",
+            "positive": "#50fa7b",
+            "text_muted": "#626a73",
+            "text_primary": "#f8f8f2"
+        }
+    },
+    "yamusic": {
+        "name": "Yandex.Music",
+        "description": "Темная схема, основанная на тёмной теме <a href=\"https://music.yandex.ru\">Яндекс.Музыки</a>",
+        "parent": "dark-template",
+        "variables": {
+            "accent": "#ffdb4d",
+            "background_content": "#121212",
+            "background_highlighted": "#222222",
+            "background_hover": "#222222",
+            "background_light": "@background_content",
+            "background_page": "@background_content",
+            "destructive": "@dynamic_red",
+            "dynamic_blue": "#3099f0",
+            "dynamic_gray": "#777777",
+            "dynamic_orange": "#ffbb5a",
+            "dynamic_purple": "#9d65a9",
+            "dynamic_red": "#e43c31",
+            "dynamic_violet": "#6c65a9",
+            "positive": "#2aa75b",
+            "text_muted": "#777777"
+        }
+    },
+    "leaf": {
+        "name": "Leaf",
+        "description": "Красно-зеленая (да, на любителя) светлая схема",
+        "parent": "light-template",
+        "variables": {
+            "accent": "#D43D68",
+            "background_content": "#E1F4E9",
+            "background_highlighted": "@background_hover",
+            "background_hover": "#BCE6CE",
+            "background_light": "@background_hover",
+            "background_page": "#C2E0CF",
+            "content_tint_background": "@background_hover",
+            "destructive": "@accent",
+            "input_border": "@background_hover",
+            "positive": "@accent",
+            "separator_alpha": "@separator_common:28",
+            "separator_alternate": "@background_hover",
+            "separator_common": "@background_hover",
+            "text_muted": "#212F3299"
+        }
+    },
+    "acid-dark": {
+        "name": "Acid Dark",
+        "description": "Тёмная схема с ярко-фиолетовым акцентом",
+        "parent": "dark-template",
+        "variables": {
+            "accent": "#8b33c7",
+            "background_content": "#121212",
+            "background_highlighted": "#201825",
+            "background_hover": "#1c1c1c",
+            "background_page": "@background_content",
+            "counter_primary_background": "@accent",
+            "counter_secondary_text": "@text_primary",
+            "destructive": "#f52057",
+            "positive": "#20f570",
+            "text_muted": "#462e57"
+        }
+    },
     "monodark": {
         "name": "Monodark",
         "description": "Высококонтрастная тёмная схема",
@@ -889,5 +869,336 @@
             "dynamic_violet": "#aa44ff",
             "text_primary": "#ffffff"
         }
+    },
+    "ocean": {
+        "name": "Ocean",
+        "description": "Тёмно-синяя схема с голубым акцентом",
+        "name_alt": "Chichavoz",
+        "parent": "dark-template",
+        "variables": {
+            "accent": "#80cbc4",
+            "background_content": "#0d0f1b",
+            "background_highlighted": "#232948",
+            "background_hover": "#111423",
+            "background_page": "#040613",
+            "destructive": "#d68383",
+            "positive": "#83dc96",
+            "text_muted": "#99999999"
+        }
+    },
+    "alpenglow-borderless": {
+        "name": "Firefox Alpenglow Borderless",
+        "description": "Вариант Alpenglow без яркой обводки",
+        "variant_of": "alpenglow",
+        "parent": "alpenglow",
+        "variables": {
+            "separator_alpha": "@separator_common",
+            "separator_alternate": "@separator_common",
+            "separator_common": "#00000000"
+        }
+    },
+    "yamusic-contrast": {
+        "name": "Yandex.Music Contrast",
+        "description": "Контрастный вариант Yandex.Music",
+        "variant_of": "yamusic",
+        "parent": "yamusic",
+        "variables": {
+            "background_page": "#121212",
+            "background_content": "#181818"
+        }
+    },
+    "ayu-alt": {
+        "name": "Ayu Alt",
+        "description": "Контрастный вариант Ayu",
+        "variant_of": "ayu",
+        "parent": "ayu",
+        "variables": {
+            "accent": "#39bae6"
+        }
+    },
+    "dracula-contrast": {
+        "name": "Dracula Contrast",
+        "description": "Контрастный вариант Dracula",
+        "variant_of": "dracula",
+        "parent": "dracula",
+        "variables": {
+            "background_page": "#16161c"
+        }
+    },
+    "mold-alt": {
+        "name": "Mold Alt",
+        "description": "Вариант Mold с бежевым акцентом",
+        "is_variant": true,
+        "parent": "mold",
+        "variables": {
+            "accent": "#e7b978"
+        }
+    },
+    "monokai": {
+        "name": "Monokai",
+        "description": "Темная схема, основанная на цветах <a href=\"https://monokai.pro/\">Monokai Pro</a> - темы для Sublime Text и VS Code",
+        "parent": [
+            "dark-template",
+            "monokai-colors"
+        ],
+        "variables": {
+            "accent": "@dynamic_yellow"
+        }
+    },
+    "monokai-red": {
+        "name": "Monokai",
+        "description": "Вариант Monokai с красным акцентом",
+        "variant_of": "monokai",
+        "parent": "monokai",
+        "variables": {
+            "accent": "@dynamic_red"
+        }
+    },
+    "monokai-blue": {
+        "name": "Monokai",
+        "description": "Вариант Monokai с синим акцентом",
+        "variant_of": "monokai",
+        "parent": "monokai",
+        "variables": {
+            "accent": "@dynamic_blue"
+        }
+    },
+    "dark-template": {
+        "name": "Dark Template",
+        "parent": [
+            "dark",
+            "template"
+        ],
+        "skip": true,
+        "variables": {}
+    },
+    "light-template": {
+        "name": "Light Template",
+        "parent": [
+            "light",
+            "template"
+        ],
+        "skip": true,
+        "variables": {}
+    },
+    "acid-dark-inverted-buttons": {
+        "name": "Acid Dark Alternate Buttons",
+        "description": "Вариант Acid Dark с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "acid-dark",
+        "parent": [
+            "acid-dark",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "alpenglow-inverted-buttons": {
+        "name": "Firefox Alpenglow Alternate Buttons",
+        "description": "Вариант Firefox Alpenglow с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "alpenglow",
+        "parent": [
+            "alpenglow",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "alpenglow-borderless-inverted-buttons": {
+        "name": "Firefox Alpenglow Borderless Alternate Buttons",
+        "description": "Вариант Firefox Alpenglow Borderless с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "alpenglow-borderless",
+        "parent": [
+            "alpenglow-borderless",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "ayu-inverted-buttons": {
+        "name": "Ayu Alternate Buttons",
+        "description": "Вариант Ayu с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "ayu",
+        "parent": [
+            "ayu",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "ayu-alt-inverted-buttons": {
+        "name": "Ayu Alt Alternate Buttons",
+        "description": "Вариант Ayu Alt с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "ayu-alt",
+        "parent": [
+            "ayu-alt",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "light-inverted-buttons": {
+        "name": "VKCOM Light Alternate Buttons",
+        "description": "Вариант VKCOM Light с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "light",
+        "parent": [
+            "light",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "dark-inverted-buttons": {
+        "name": "VKCOM Dark Alternate Buttons",
+        "description": "Вариант VKCOM Dark с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "dark",
+        "parent": [
+            "dark",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "dracula-inverted-buttons": {
+        "name": "Dracula Alternate Buttons",
+        "description": "Вариант Dracula с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "dracula",
+        "parent": [
+            "dracula",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "dracula-contrast-inverted-buttons": {
+        "name": "Dracula Contrast Alternate Buttons",
+        "description": "Вариант Dracula Contrast с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "dracula-contrast",
+        "parent": [
+            "dracula-contrast",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "leaf-inverted-buttons": {
+        "name": "Leaf Alternate Buttons",
+        "description": "Вариант Leaf с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "leaf",
+        "parent": [
+            "leaf",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "mold-inverted-buttons": {
+        "name": "Mold Alternate Buttons",
+        "description": "Вариант Mold с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "mold",
+        "parent": [
+            "mold",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "mold-alt-inverted-buttons": {
+        "name": "Mold Alt Alternate Buttons",
+        "description": "Вариант Mold Alt с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "mold-alt",
+        "parent": [
+            "mold-alt",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "mono-inverted-buttons": {
+        "name": "Mono Alternate Buttons",
+        "description": "Вариант Mono с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "mono",
+        "parent": [
+            "mono",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "monodark-inverted-buttons": {
+        "name": "Monodark Alternate Buttons",
+        "description": "Вариант Monodark с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "monodark",
+        "parent": [
+            "monodark",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "monokai-inverted-buttons": {
+        "name": "Monokai Alternate Buttons",
+        "description": "Вариант Monokai с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "monokai",
+        "parent": [
+            "monokai",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "monokai-red-inverted-buttons": {
+        "name": "Monokai Alternate Buttons",
+        "description": "Вариант Monokai с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "monokai-red",
+        "parent": [
+            "monokai-red",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "monokai-blue-inverted-buttons": {
+        "name": "Monokai Alternate Buttons",
+        "description": "Вариант Monokai с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "monokai-blue",
+        "parent": [
+            "monokai-blue",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "ocean-inverted-buttons": {
+        "name": "Ocean Alternate Buttons",
+        "description": "Вариант Ocean с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "ocean",
+        "parent": [
+            "ocean",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "windswept-inverted-buttons": {
+        "name": "Windswept Alternate Buttons",
+        "description": "Вариант Windswept с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "windswept",
+        "parent": [
+            "windswept",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "wtf-inverted-buttons": {
+        "name": "WTF Alternate Buttons",
+        "description": "Вариант WTF с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "wtf",
+        "parent": [
+            "wtf",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "yamusic-inverted-buttons": {
+        "name": "Yandex.Music Alternate Buttons",
+        "description": "Вариант Yandex.Music с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "yamusic",
+        "parent": [
+            "yamusic",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "yamusic-contrast-inverted-buttons": {
+        "name": "Yandex.Music Contrast Alternate Buttons",
+        "description": "Вариант Yandex.Music Contrast с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "yamusic-contrast",
+        "parent": [
+            "yamusic-contrast",
+            "inverted-buttons"
+        ],
+        "variables": {}
     }
 }

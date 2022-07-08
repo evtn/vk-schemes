@@ -1,0 +1,45 @@
+{
+    "mono": {
+        "name": "Mono",
+        "description": "Высококонтрастная светлая схема",
+        "parent": "light-template",
+        "variables": {
+            "accent": "@dynamic_blue",
+            "background_content": "#ffffff",
+            "background_highlighted": "@background_content",
+            "background_hover": "#999999",
+            "background_page": "@background_content",
+            "button_secondary_background": "@background_content",
+            "button_secondary_foreground_highlighted": "@accent",
+            "dynamic_blue": "#0000ff",
+            "dynamic_green": "#00ff00",
+            "dynamic_orange": "#ffaa00",
+            "dynamic_purple": "#ff00aa",
+            "dynamic_raspberry_pink": "#ff00ff",
+            "dynamic_red": "#ff0000",
+            "dynamic_violet": "#aa00ff",
+            "separator_alternate": "@separator_common",
+            "separator_common": "@text_primary",
+            "text_muted": "@text_primary",
+            "text_primary": "#000000",
+            "text_subhead": "@text_primary",
+            "text_tertiary": "@text_primary"
+        }
+    },
+    "monodark": {
+        "name": "Monodark",
+        "description": "Высококонтрастная тёмная схема",
+        "parent": "mono",
+        "variables": {
+            "background_content": "#000000",
+            "dynamic_blue": "#4444ff",
+            "dynamic_green": "#44ff44",
+            "dynamic_orange": "#ffaa44",
+            "dynamic_purple": "#ff44aa",
+            "dynamic_raspberry_pink": "#ff44ff",
+            "dynamic_red": "#ff4444",
+            "dynamic_violet": "#aa44ff",
+            "text_primary": "#ffffff"
+        }
+    }
+}

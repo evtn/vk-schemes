@@ -1,11 +1,15 @@
 import requests
 import json 
-from utils import schemes
 
 base_url = "https://raw.githubusercontent.com/VKCOM/Appearance/master/main.valette/"
 scheme_url = f"{base_url}/scheme.json"
 palette_url = f"{base_url}/palette.json"
 web_palette_url = f"{base_url}/palette_web.json"
+
+
+with open("build/schemes/base.json") as file:
+    base_schemes = json.load(file)
+
 
 def get_palettes():
     base_palette = requests.get(palette_url).json()
@@ -23,15 +27,14 @@ def get_schemes():
         scheme = schemes_file[scheme_key]
         target_key = scheme["appearance"]
         colors = scheme["colors"]
-        schemes[target_key]["variables"] = target_scheme = {}
+        base_schemes[target_key]["variables"] = target_scheme = {}
 
         for variable in colors:
-            print(variable, colors[variable])
             target_scheme[variable] = f"${colors[variable]['color_identifier']}"
             if 'alpha_multiplier' in colors[variable]:
                 target_scheme[variable] = f"{target_scheme[variable]}_alpha{int(colors[variable]['alpha_multiplier'] * 100)}"
 
-        schemes[target_key]["variables"] = {
+        base_schemes[target_key]["variables"] = {
             k: target_scheme[k]
             for k in sorted(target_scheme)
         }
@@ -43,5 +46,7 @@ get_schemes()
 with open("build/default_palette.json", "w") as file:
     json.dump(default_palette, file, indent=4, ensure_ascii=False)
 
-with open("build/schemes.json", "w") as file:
-    json.dump(schemes, file, indent=4, ensure_ascii=False)
+with open("build/schemes/base.json", "w") as file:
+    json.dump(base_schemes, file, indent=4, ensure_ascii=False)
+
+import init # to rebuild schemes.json

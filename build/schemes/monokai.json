@@ -1,0 +1,53 @@
+{
+    "monokai-colors": {
+        "name": "Monokai Colors",
+        "skip": true,
+        "variables": {
+            "background_content": "#2c292d",
+            "background_highlighted": "#3d3b40",
+            "background_hover": "#333136",
+            "background_page": "#211f22",
+            "dynamic_blue": "#73b8ff",
+            "dynamic_green": "#a9dc76",
+            "dynamic_orange": "#fc9867",
+            "dynamic_purple": "#ff61c7",
+            "dynamic_raspberry_pink": "#f07178",
+            "dynamic_red": "#ff617b",
+            "dynamic_violet": "#de87f5",
+            "dynamic_yellow": "#ffd866",
+            "destructive": "#ff6161",
+            "positive": "@dynamic_green",
+            "separator_alpha": "@background_highlighted:60",
+            "separator_alternate": "@background_highlighted",
+            "separator_common": "@background_highlighted",
+            "text_muted": "#8f8f8f",
+            "text_primary": "#fdf9f3"
+        }
+    },
+    "monokai": {
+        "name": "Monokai",
+        "description": "Темная схема, основанная на цветах <a href=\"https://monokai.pro/\">Monokai Pro</a> - темы для Sublime Text и VS Code",
+        "parent": ["dark-template", "monokai-colors"],
+        "variables": {
+            "accent": "@dynamic_yellow"
+        }
+    },
+    "monokai-red": {
+        "name": "Monokai",
+        "description": "Вариант Monokai с красным акцентом",
+        "variant_of": "monokai",
+        "parent": "monokai",
+        "variables": {
+            "accent": "@dynamic_red"
+        }
+    },
+    "monokai-blue": {
+        "name": "Monokai",
+        "description": "Вариант Monokai с синим акцентом",
+        "variant_of": "monokai",
+        "parent": "monokai",
+        "variables": {
+            "accent": "@dynamic_blue"
+        }
+    }
+}

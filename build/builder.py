@@ -40,4 +40,4 @@ for code in schemes:
 
 
 with open("resolved_vars.json", "w") as file:
-    dump(resolved_vars, file)
+    dump(resolved_vars, file, ensure_ascii=False)

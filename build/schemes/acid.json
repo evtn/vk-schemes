@@ -1,0 +1,19 @@
+{
+    "acid-dark": {
+        "name": "Acid Dark",
+        "description": "Тёмная схема с ярко-фиолетовым акцентом",
+        "parent": "dark-template",
+        "variables": {
+            "accent": "#8b33c7",
+            "background_content": "#121212",
+            "background_highlighted": "#201825",
+            "background_hover": "#1c1c1c",
+            "background_page": "@background_content",
+            "counter_primary_background": "@accent",
+            "counter_secondary_text": "@text_primary",
+            "destructive": "#f52057",
+            "positive": "#20f570",
+            "text_muted": "#462e57"
+        }
+    }
+}

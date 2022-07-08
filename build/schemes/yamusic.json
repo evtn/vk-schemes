@@ -1,0 +1,34 @@
+{
+    "yamusic": {
+        "name": "Yandex.Music",
+        "description": "Темная схема, основанная на тёмной теме <a href=\"https://music.yandex.ru\">Яндекс.Музыки</a>",
+        "parent": "dark-template",
+        "variables": {
+            "accent": "#ffdb4d",
+            "background_content": "#121212",
+            "background_highlighted": "#222222",
+            "background_hover": "#222222",
+            "background_light": "@background_content",
+            "background_page": "@background_content",
+            "destructive": "@dynamic_red",
+            "dynamic_blue": "#3099f0",
+            "dynamic_gray": "#777777",
+            "dynamic_orange": "#ffbb5a",
+            "dynamic_purple": "#9d65a9",
+            "dynamic_red": "#e43c31",
+            "dynamic_violet": "#6c65a9",
+            "positive": "#2aa75b",
+            "text_muted": "#777777"
+        }
+    },
+    "yamusic-contrast": {
+        "name": "Yandex.Music Contrast",
+        "description": "Контрастный вариант Yandex.Music",
+        "variant_of": "yamusic",
+        "parent": "yamusic",
+        "variables": {
+            "background_page": "#121212",
+            "background_content": "#181818"
+        }
+    }
+}

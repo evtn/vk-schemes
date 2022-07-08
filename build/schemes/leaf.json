@@ -1,0 +1,23 @@
+{
+    "leaf": {
+        "name": "Leaf",
+        "description": "Красно-зеленая (да, на любителя) светлая схема",
+        "parent": "light-template",
+        "variables": {
+            "accent": "#D43D68",
+            "background_content": "#E1F4E9",
+            "background_highlighted": "@background_hover",
+            "background_hover": "#BCE6CE",
+            "background_light": "@background_hover",
+            "background_page": "#C2E0CF",
+            "content_tint_background": "@background_hover",
+            "destructive": "@accent",
+            "input_border": "@background_hover",
+            "positive": "@accent",
+            "separator_alpha": "@separator_common:28",
+            "separator_alternate": "@background_hover",
+            "separator_common": "@background_hover",
+            "text_muted": "#212F3299"
+        }
+    }
+}

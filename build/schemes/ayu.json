@@ -1,0 +1,37 @@
+{
+    "ayu": {
+        "name": "Ayu",
+        "description": "Темная схема, основанная на цветах <a href=\"https://github.com/dempfi/ayu\">dempfi/ayu</a> - темы для Sublime Text",
+        "parent": "dark-template",
+        "variables": {
+            "accent": "#e6b450",
+            "background_content": "#0a0e14",
+            "background_highlighted": "@background_page",
+            "background_hover": "@background_page",
+            "background_page": "#00010a",
+            "destructive": "#d95757",
+            "dynamic_blue": "#73b8ff",
+            "dynamic_green": "#7fd962",
+            "dynamic_orange": "#ffb454",
+            "dynamic_purple": "@dynamic_violet",
+            "dynamic_raspberry_pink": "#f07178",
+            "dynamic_red": "#f26d78",
+            "dynamic_violet": "#d2a6ff",
+            "positive": "#c2d94c",
+            "separator_alpha": "#6c738030",
+            "separator_alternate": "#6c738066",
+            "separator_common": "#6c738066",
+            "text_muted": "#acb6bf8c",
+            "text_primary": "#b3b1ad"
+        }
+    },
+    "ayu-alt": {
+        "name": "Ayu Alt",
+        "description": "Контрастный вариант Ayu",
+        "variant_of": "ayu",
+        "parent": "ayu",
+        "variables": {
+            "accent": "#39bae6"
+        }
+    }
+}

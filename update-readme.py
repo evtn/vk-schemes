@@ -7,10 +7,19 @@ part_template = """
     <summary><b>{name}</b>: {description}</summary>
 
 {image}
-[![Ayu]({badge})](https://github.com/evtn/vk-schemes/raw/build-stable/vk-{code}-scheme.user.css)
+[![{name}]({badge})](https://github.com/evtn/vk-schemes/raw/build-stable/vk-{code}-scheme.user.css)
+
+{variants_text}
 
 </details>
 """
+
+
+variants_template = """Варианты:
+
+{0}
+"""
+
 
 image_template = "![{name} Screenshot](images/{code}.png)"
 badge_template = "https://img.shields.io/static/v1?label={badge_name}&message=%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C&style=for-the-badge&labelColor={background_content}&color={accent}"
@@ -23,16 +32,15 @@ with open("resolved_vars.json") as file:
     resolved_vars = load(file)
 
 
-common_schemes = []
-variants = []
+rendered_schemes = []
+variants = {}
 
-for scheme_key in schemes:
+
+
+def render_scheme(scheme_key, tab_level=0):
+    print("render:", " " * (tab_level * 4 - 1), scheme_key)
+
     scheme = schemes[scheme_key]
-    scheme["code"] = scheme_key
-    print(scheme_key)
-    if scheme_key not in resolved_vars: # skipped schemes
-        continue
-
     image = ""
     badge = badge_template.format(
         badge_name=scheme["name"].replace(" ", "%20"),
@@ -43,15 +51,46 @@ for scheme_key in schemes:
     if exists(f"images/{scheme_key}.png"):
         image = image_template.format(**scheme)
 
+    variants_text = ""
+
+    if scheme_key in variants:
+        variants_text = variants_template.format(
+            "\n\n".join([
+                render_scheme(variant, tab_level + 1)
+                for variant in variants[scheme_key]
+            ])
+        )
+
     scheme_part = part_template.format(
         image=image,
         badge=badge,
+        variants_text=variants_text,
         **scheme,
     )
-    if scheme.get("is_variant"):
-        variants.append(scheme_part)
-    else:
-        common_schemes.append(scheme_part)
+
+    return scheme_part
+
+
+
+for scheme_key in schemes:
+    scheme = schemes[scheme_key]
+    scheme["code"] = scheme_key
+    if scheme.get("skip"): # skipped schemes
+        continue
+    if (base := scheme.get("variant_of")):
+        variants[base] = variants.get(base, [])
+        variants[base].append(scheme_key)
+
+
+for scheme_key in schemes:
+    scheme = schemes[scheme_key]
+    if scheme.get("skip"): # skipped schemes
+        continue
+
+    if scheme.get("variant_of"):
+        continue
+
+    rendered_schemes.append(render_scheme(scheme_key))
 
 
 with open("readme_template.md") as file:
@@ -60,8 +99,7 @@ with open("readme_template.md") as file:
 with open("readme.md", "w") as file:
     file.write(
         readme_template.format(
-            common_schemes="\n\n".join(common_schemes),
-            variants="\n\n".join(variants)
+            schemes="\n\n".join(rendered_schemes),
         )
     )
 
