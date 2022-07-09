@@ -8,9 +8,20 @@ from os import listdir
 
 scheme_files = listdir("build/schemes")
 schemes = {}
+file_lens = {}
 for filename in scheme_files:
     with open(f"build/schemes/{filename}") as file:
-        schemes.update(load(file))
+        data = load(file)
+        max_len = max(
+            map(
+                lambda k: len(data[k].get("variables", {})),
+                data
+            )
+        )
+        for k in data:
+            file_lens[k] = max_len
+
+        schemes.update()
 
 for scheme_key in list(schemes):
     scheme = schemes[scheme_key]
@@ -27,7 +38,7 @@ schemes = {
     k: schemes[k] 
     for k in sorted(
         schemes, 
-        key=lambda k: len(schemes[k].get("variables", {})),
+        key=file_lens.get,
         reverse=True
     )
 }
