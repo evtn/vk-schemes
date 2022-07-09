@@ -2,6 +2,9 @@ from utils import schemes, full_search
 from json import dump
 
 
+# очень устаревший файл, в данный момент ничего хорошего он не сделает (как и плохого, наверное)
+
+
 def build_tree():
     tree = {}
     for code in schemes:

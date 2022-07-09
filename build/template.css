@@ -5,7 +5,7 @@
 @description    VK {scheme_name} Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
-@updateURL      https://github.com/evtn/vk-schemes/raw/{branch}/vk-{scheme_code}-scheme.user.css
+@updateURL      https://github.com/evtn/vk-schemes/raw/{branch}/styles/vk-{scheme_code}-scheme.user.css
 
 @var select ads "Убрать рекламу слева" {{"Да*": "none", "Нет": "block"}}
 @var select combo "Убрать пункт VK Combo из меню" {{"Да*": "none", "Нет": "block"}}
