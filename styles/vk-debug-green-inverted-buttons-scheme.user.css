@@ -1,0 +1,184 @@
+/* ==UserStyle==
+@name           VK Debug Alternate Buttons Scheme
+@namespace      qevitta
+@version        1.5.8
+@description    VK Debug Alternate Buttons Scheme
+@author         vk.com/qevitta
+@homepageURL    http://github.com/evtn/vk-schemes
+@updateURL      https://github.com/evtn/vk-schemes/raw/lord/styles/vk-debug-green-inverted-buttons-scheme.user.css
+
+@var select ads "Убрать рекламу слева" {"Да*": "none", "Нет": "block"}
+@var select combo "Убрать пункт VK Combo из меню" {"Да*": "none", "Нет": "block"}
+@var select stories "Показывать истории в новостях" {"Да*": "block", "Нет": "none"}
+@var select recent "Показывать недавно посещенные сообщества" {"Да*": "block", "Нет": "none"}
+@var range round-avatars "Скругление аватарок" [50, 0, 50, 5, "%"]
+@var select counter-bg "Фон счетчиков в левом меню" {"Стандартный*": "var(--counter_secondary_background)", "Прозрачный": "transparent", "Яркий": "var(--accent)", "Текст": "var(--text-primary)", "Фон": "var(--background-content)"}
+@var select counter-fg "Текст счетчиков в левом меню" {"Стандартный*": "var(--counter-fg)", "Белый": "white", "Яркий": "var(--accent)", "Текст": "var(--text-primary)", "Фон": "var(--background-content)"}
+@var select text-transform "Изменение текста" {"Нет*": "", "ВСЁЁ БОЛЬШИМИ БУКВАМИ": "uppercase", "всё маленькими буквами": "lowercase", "Всё Очень Странно": "capitalize"}
+@var select italy "Едем в Италию" {"Да": "italic", "Нет*": ""}
+@var select fastchat "Убрать миничаты" {"Да": "none", "Нет*": "block"}
+
+==/UserStyle== */
+
+@-moz-document domain("vk.com") {
+  :root body[scheme], :root body {
+    --accent: #00FF00;
+    --background_content: #00FF00;
+    --background_highlighted: #00FF00;
+    --background_hover: #00FF00;
+    --background_light: #00FF00;
+    --background_page: #00FF00;
+    --button-background-color: #00FF00;
+    --button-background-color-active: #00FF00;
+    --button-secondary-background-color: #00FF00;
+    --button-secondary-background-color-active: #00FF00;
+    --button-secondary-background-color-hover: #00FF00;
+    --button-secondary-text-color: #00FF00;
+    --button-text-color: #00FF00;
+    --button_commerce_background: #00FF00;
+    --button_commerce_foreground: #00FF00;
+    --button_muted_background: #00FF00;
+    --button_muted_foreground: #00FF00;
+    --button_outline_border: #00FF00;
+    --button_outline_foreground: #00FF00;
+    --button_primary_background: #00FF00;
+    --button_primary_foreground: #00FF00;
+    --button_secondary_background: #00FF00;
+    --button_secondary_background_highlighted: #00FF00;
+    --button_secondary_destructive_background: #00FF00;
+    --button_secondary_destructive_background_highlighted: #00FF00;
+    --button_secondary_destructive_foreground: #00FF00;
+    --button_secondary_destructive_foreground_highlighted: #00FF00;
+    --button_secondary_foreground: #00FF00;
+    --button_secondary_foreground_highlighted: #00FF00;
+    --button_tertiary_background: #00FF00;
+    --button_tertiary_background_active: #00FF00;
+    --button_tertiary_background_hover: #00FF00;
+    --button_tertiary_foreground: #00FF00;
+    --cell_button_foreground: #00FF00;
+    --content_tint_background: #00FF00;
+    --counter_primary_background: #00FF00;
+    --counter_primary_text: #00FF00;
+    --counter_prominent_text: #00FF00;
+    --counter_secondary_background: #00FF00;
+    --counter_secondary_text: #00FF00;
+    --destructive: #00FF00;
+    --dynamic_green: #00FF00;
+    --dynamic_red: #00FF00;
+    --field_background: #00FF00;
+    --field_text_placeholder: #00FF00;
+    --field_valid_border: #00FF00;
+    --float_button_background_highlighted: #00FF00;
+    --header_background: #00FF00;
+    --header_search_field_background: #00FF00;
+    --header_search_field_tint: #00FF00;
+    --header_text_secondary: #00FF00;
+    --icon_outline_medium: #00FF00;
+    --icon_outline_secondary: #00FF00;
+    --icon_secondary: #00FF00;
+    --im_attach_tint: #00FF00;
+    --im_bubble_incoming: #00FF00;
+    --im_bubble_incoming_alternate: #00FF00;
+    --im_bubble_outgoing_alternate: #00FF00;
+    --im_bubble_outgoing_alternate_highlighted: #00FF00;
+    --im_bubble_wallpaper_button_background_highlighted: #00FF00;
+    --im_bubble_wallpaper_incoming: #00FF00;
+    --im_bubble_wallpaper_incoming_highlighted: #00FF00;
+    --im_reply_separator: #00FF00;
+    --im_service_message_text: #00FF00;
+    --im_text_name: #00FF00;
+    --input_background: #00FF00;
+    --input_border: #00FF00;
+    --link_alternate: #00FF00;
+    --loader_background: #00FF00;
+    --loader_track_value_fill: #00FF00;
+    --modal_card_background: #00FF00;
+    --muted: #00FF00;
+    --poll_option_background: #00FF00;
+    --positive: #00FF00;
+    --red_nice: #00FF00;
+    --search_bar_field_background: #00FF00;
+    --search_bar_field_tint: #00FF00;
+    --separator_alpha: #00FF0028;
+    --separator_alternate: #00FF00;
+    --separator_common: #00FF00;
+    --snippet_background: #00FF00;
+    --snippet_border: #00FF00;
+    --text_link: #00FF00;
+    --text_muted: #00FF00;
+    --text_name: #00FF00;
+    --text_placeholder: #00FF00;
+    --text_primary: #00FF00;
+    --text_secondary: #00FF00;
+    --verified-link-color: #00FF00;
+    --writebar_icon: #00FF00;
+  }
+  #ads_left {
+    display: var(--ads) !important;
+  }
+  #l_combo {
+    display: var(--combo);
+  }
+  /* добавил [dir] после заигрываний ВК с селекторами, не удивляйтесь */
+  .nim-peer .nim-peer--photo .im_grid > img,
+  [dir] .nim-peer .nim-peer--photo .im_grid > img, 
+  .nim-peer .nim-peer--photo > img,
+  [dir] .nim-peer .nim-peer--photo > img,
+  .post_img,
+  [dir] .post_img,
+  .post_field_user_image,
+  [dir] .post_field_user_image,
+  .module_body .people_cell_img,
+  [dir] .module_body .people_cell_img,
+  .group_row_photo, .group_row_img,
+  [dir] .group_row_photo, .group_row_img,
+  .top_profile_img,
+  [dir] .top_profile_img,
+  .page_list_module .thumb,
+  [dir] .page_list_module .thumb,
+  .wall_module .reply_img,
+  [dir] .wall_module .reply_img,
+  .ow_ava.ow_ava_comm,
+  [dir] .ow_ava.ow_ava_comm,
+  .like_tt_image,
+  [dir] .like_tt_image,
+  .voting_tt_image,
+  [dir] .voting_tt_image,
+  .friends_photo_img,
+  [dir] .friends_photo_img,
+  .right_list_img,
+  [dir] .right_list_img,
+  .top_notify_cont .feedback_img,
+  [dir] .top_notify_cont .feedback_img,
+  [dir] .nim-peer.nim-peer_small .nim-peer--photo > img, 
+  [dir] .nim-peer.nim-peer_small .nim-peer--photo .im_grid > img,
+  [dir] .nim-peer .nim-peer--photo-w,
+  [dir] .nim-peer.nim-peer_smaller .nim-peer--photo > img,
+  [dir] .nim-peer.nim-peer_smaller .nim-peer--photo .im_grid > img,
+  [dir] .TopNavBtn__profileImg {
+    border-radius: var(--round-avatars);
+  }
+  .[dir] body.new_header_design #page_header_cont {
+    background: var(--header_background_alt);
+  }
+  .feed_submit_shown .stories_feed_wrap,
+  [dir] .feed_submit_shown .stories_feed_wrap {
+    display: var(--stories);
+  }
+  [dir] body.new_header_design .left_count_wrap,
+  [dir] .left_count_wrap.left_count_wrap_hovered:hover {
+    color: var(--counter-fg);
+    background-color: var(--counter-bg);
+    text-decoration: none;
+  }
+  .RecentGroups__main {
+    display: var(--recent);
+  }
+  .fastchat-reforged {
+    display: var(--fastchat);
+  }
+  * {
+    text-transform: var(--text-transform);
+    font-style: var(--italy)
+  }
+}

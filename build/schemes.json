@@ -508,6 +508,8 @@
         "skip": true,
         "variables": {
             "background_light": "@background_hover",
+            "background_highlighted": "@background_light",
+            "background_hover": "background_content",
             "button-background-color": "@accent",
             "button-background-color-active": "@accent",
             "button-secondary-background-color": "@button_secondary_background",
@@ -579,7 +581,8 @@
             "text_placeholder": "@muted",
             "text_secondary": "@muted",
             "verified-link-color": "@accent",
-            "writebar_icon": "@muted"
+            "writebar_icon": "@muted",
+            "destructive": "@dynamic_red"
         }
     },
     "dark-template": {
@@ -902,24 +905,64 @@
         "description": "Отличная схема, приятная глазу",
         "parent": "dark-template",
         "variables": {
-            "accent": "#f00",
-            "background_content": "#090",
-            "background_highlighted": "#0f0",
-            "background_hover": "#0d0",
-            "background_page": "#0a0",
-            "destructive": "#0ff",
-            "dynamic_blue": "#00f",
-            "dynamic_green": "#0f0",
-            "dynamic_orange": "#f90",
-            "dynamic_purple": "#f0f",
-            "dynamic_raspberry_pink": "#f09",
-            "dynamic_red": "#f00",
-            "dynamic_violet": "#909",
-            "positive": "#f0f",
-            "separator_alternate": "#04f",
-            "separator_common": "#00f",
-            "text_muted": "#fff",
-            "text_primary": "#000"
+            "accent": "#ff0000",
+            "background_content": "#009900",
+            "background_highlighted": "#00ff00",
+            "background_hover": "#00dd00",
+            "background_page": "#00aa00",
+            "destructive": "#00ffff",
+            "dynamic_blue": "#0000ff",
+            "dynamic_green": "#00ff00",
+            "dynamic_orange": "#ff9900",
+            "dynamic_purple": "#ff00ff",
+            "dynamic_raspberry_pink": "#ff0099",
+            "dynamic_red": "#ff0000",
+            "dynamic_violet": "#990099",
+            "positive": "#ff00ff",
+            "separator_alternate": "#0044ff",
+            "separator_common": "#0000ff",
+            "text_muted": "#ffffff",
+            "text_primary": "#000000"
+        }
+    },
+    "debug": {
+        "name": "Debug",
+        "description": "Абсолютно непригодная для использования схема, предназначенная для выявления непрокрашенных частей шаблона",
+        "parent": "template",
+        "variables": {
+            "accent": "#ff0000",
+            "background_content": "@accent",
+            "background_hover": "@accent",
+            "background_page": "@accent",
+            "button_commerce_background": "@accent",
+            "button_secondary_background": "@accent",
+            "button_secondary_background_highlighted": "@accent",
+            "button_secondary_foreground": "@accent",
+            "dynamic_green": "@accent",
+            "dynamic_red": "@accent",
+            "field_background": "@accent",
+            "positive": "@accent",
+            "separator_common": "@accent",
+            "text_muted": "@accent",
+            "text_primary": "@accent"
+        }
+    },
+    "debug-green": {
+        "name": "Debug",
+        "description": "Зелёный вариант",
+        "parent": "debug",
+        "variant_of": "debug",
+        "variables": {
+            "accent": "#00ff00"
+        }
+    },
+    "debug-blue": {
+        "name": "Debug",
+        "description": "Синий вариант",
+        "parent": "debug",
+        "variant_of": "debug",
+        "variables": {
+            "accent": "#0000ff"
         }
     },
     "alpenglow": {
@@ -1008,6 +1051,36 @@
         "variant_of": "wtf",
         "parent": [
             "wtf",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "debug-inverted-buttons": {
+        "name": "Debug Alternate Buttons",
+        "description": "Вариант Debug с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "debug",
+        "parent": [
+            "debug",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "debug-green-inverted-buttons": {
+        "name": "Debug Alternate Buttons",
+        "description": "Вариант Debug с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "debug-green",
+        "parent": [
+            "debug-green",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "debug-blue-inverted-buttons": {
+        "name": "Debug Alternate Buttons",
+        "description": "Вариант Debug с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "debug-blue",
+        "parent": [
+            "debug-blue",
             "inverted-buttons"
         ],
         "variables": {}

@@ -61,8 +61,8 @@
     --button_secondary_background_highlighted: #000000;
     --button_secondary_destructive_background: #000000;
     --button_secondary_destructive_background_highlighted: #000000;
-    --button_secondary_destructive_foreground: #E64646;
-    --button_secondary_destructive_foreground_highlighted: #E64646;
+    --button_secondary_destructive_foreground: #FF4444;
+    --button_secondary_destructive_foreground_highlighted: #FF4444;
     --button_secondary_foreground: #4444FF;
     --button_secondary_foreground_highlighted: #4444FF;
     --button_tertiary_background: #000000;
@@ -87,7 +87,7 @@
     --counter_prominent_text: #000000;
     --counter_secondary_background: #FFFFFF;
     --counter_secondary_text: #000000;
-    --destructive: #E64646;
+    --destructive: #FF4444;
     --dynamic_blue: #4444FF;
     --dynamic_gray: #A3ADB8;
     --dynamic_green: #44FF44;

@@ -61,8 +61,8 @@
     --button_secondary_background_highlighted: #8C615E;
     --button_secondary_destructive_background: #7D5754;
     --button_secondary_destructive_background_highlighted: #8C615E;
-    --button_secondary_destructive_foreground: #E64646;
-    --button_secondary_destructive_foreground_highlighted: #E64646;
+    --button_secondary_destructive_foreground: #1D0D1A;
+    --button_secondary_destructive_foreground_highlighted: #1D0D1A;
     --button_secondary_foreground: #72231D;
     --button_secondary_foreground_highlighted: #72231D;
     --button_tertiary_background: #7D5754;
@@ -87,7 +87,7 @@
     --counter_prominent_text: #7D5754;
     --counter_secondary_background: #1D0D1AAA;
     --counter_secondary_text: #7D5754;
-    --destructive: #E64646;
+    --destructive: #1D0D1A;
     --dynamic_blue: #1D0D1A;
     --dynamic_gray: #A3ADB8;
     --dynamic_green: #1D0D1A;

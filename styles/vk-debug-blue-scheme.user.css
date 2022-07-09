@@ -1,0 +1,177 @@
+/* ==UserStyle==
+@name           VK Debug Scheme
+@namespace      qevitta
+@version        1.5.8
+@description    VK Debug Scheme
+@author         vk.com/qevitta
+@homepageURL    http://github.com/evtn/vk-schemes
+@updateURL      https://github.com/evtn/vk-schemes/raw/lord/styles/vk-debug-blue-scheme.user.css
+
+@var select ads "Убрать рекламу слева" {"Да*": "none", "Нет": "block"}
+@var select combo "Убрать пункт VK Combo из меню" {"Да*": "none", "Нет": "block"}
+@var select stories "Показывать истории в новостях" {"Да*": "block", "Нет": "none"}
+@var select recent "Показывать недавно посещенные сообщества" {"Да*": "block", "Нет": "none"}
+@var range round-avatars "Скругление аватарок" [50, 0, 50, 5, "%"]
+@var select counter-bg "Фон счетчиков в левом меню" {"Стандартный*": "var(--counter_secondary_background)", "Прозрачный": "transparent", "Яркий": "var(--accent)", "Текст": "var(--text-primary)", "Фон": "var(--background-content)"}
+@var select counter-fg "Текст счетчиков в левом меню" {"Стандартный*": "var(--counter-fg)", "Белый": "white", "Яркий": "var(--accent)", "Текст": "var(--text-primary)", "Фон": "var(--background-content)"}
+@var select text-transform "Изменение текста" {"Нет*": "", "ВСЁЁ БОЛЬШИМИ БУКВАМИ": "uppercase", "всё маленькими буквами": "lowercase", "Всё Очень Странно": "capitalize"}
+@var select italy "Едем в Италию" {"Да": "italic", "Нет*": ""}
+@var select fastchat "Убрать миничаты" {"Да": "none", "Нет*": "block"}
+
+==/UserStyle== */
+
+@-moz-document domain("vk.com") {
+  :root body[scheme], :root body {
+    --accent: #0000FF;
+    --background_content: #0000FF;
+    --background_highlighted: #0000FF;
+    --background_hover: #0000FF;
+    --background_light: #0000FF;
+    --background_page: #0000FF;
+    --button-background-color: #0000FF;
+    --button-background-color-active: #0000FF;
+    --button-secondary-background-color: #0000FF;
+    --button-secondary-background-color-active: #0000FF;
+    --button-secondary-background-color-hover: #0000FF;
+    --button-secondary-text-color: #0000FF;
+    --button-text-color: #0000FF;
+    --button_commerce_background: #0000FF;
+    --button_commerce_foreground: #0000FF;
+    --button_outline_border: #0000FF;
+    --button_outline_foreground: #0000FF;
+    --button_primary_background: #0000FF;
+    --button_primary_foreground: #0000FF;
+    --button_secondary_background: #0000FF;
+    --button_secondary_background_highlighted: #0000FF;
+    --button_secondary_foreground: #0000FF;
+    --button_secondary_foreground_highlighted: #0000FF99;
+    --button_tertiary_background_active: #0000FF;
+    --button_tertiary_background_hover: #0000FF;
+    --button_tertiary_foreground: #0000FF;
+    --cell_button_foreground: #0000FF;
+    --content_tint_background: #0000FF;
+    --counter_primary_background: #0000FF;
+    --counter_primary_text: #0000FF;
+    --counter_prominent_text: #0000FF;
+    --counter_secondary_background: #0000FF;
+    --counter_secondary_text: #0000FF;
+    --destructive: #0000FF;
+    --dynamic_green: #0000FF;
+    --dynamic_red: #0000FF;
+    --field_background: #0000FF;
+    --field_text_placeholder: #0000FF;
+    --field_valid_border: #0000FF;
+    --float_button_background_highlighted: #0000FF;
+    --header_background: #0000FF;
+    --header_search_field_background: #0000FF;
+    --header_search_field_tint: #0000FF;
+    --header_text_secondary: #0000FF;
+    --icon_outline_medium: #0000FF;
+    --icon_outline_secondary: #0000FF;
+    --icon_secondary: #0000FF;
+    --im_attach_tint: #0000FF;
+    --im_bubble_incoming: #0000FF;
+    --im_bubble_incoming_alternate: #0000FF;
+    --im_bubble_outgoing_alternate: #0000FF;
+    --im_bubble_outgoing_alternate_highlighted: #0000FF;
+    --im_bubble_wallpaper_button_background_highlighted: #0000FF;
+    --im_bubble_wallpaper_incoming: #0000FF;
+    --im_bubble_wallpaper_incoming_highlighted: #0000FF;
+    --im_reply_separator: #0000FF;
+    --im_service_message_text: #0000FF;
+    --im_text_name: #0000FF;
+    --input_background: #0000FF;
+    --input_border: #0000FF;
+    --link_alternate: #0000FF;
+    --loader_background: #0000FF;
+    --loader_track_value_fill: #0000FF;
+    --modal_card_background: #0000FF;
+    --muted: #0000FF;
+    --poll_option_background: #0000FF;
+    --positive: #0000FF;
+    --red_nice: #0000FF;
+    --search_bar_field_background: #0000FF;
+    --search_bar_field_tint: #0000FF;
+    --separator_alpha: #0000FF28;
+    --separator_alternate: #0000FF;
+    --separator_common: #0000FF;
+    --snippet_background: #0000FF;
+    --snippet_border: #0000FF;
+    --text_link: #0000FF;
+    --text_muted: #0000FF;
+    --text_name: #0000FF;
+    --text_placeholder: #0000FF;
+    --text_primary: #0000FF;
+    --text_secondary: #0000FF;
+    --verified-link-color: #0000FF;
+    --writebar_icon: #0000FF;
+  }
+  #ads_left {
+    display: var(--ads) !important;
+  }
+  #l_combo {
+    display: var(--combo);
+  }
+  /* добавил [dir] после заигрываний ВК с селекторами, не удивляйтесь */
+  .nim-peer .nim-peer--photo .im_grid > img,
+  [dir] .nim-peer .nim-peer--photo .im_grid > img, 
+  .nim-peer .nim-peer--photo > img,
+  [dir] .nim-peer .nim-peer--photo > img,
+  .post_img,
+  [dir] .post_img,
+  .post_field_user_image,
+  [dir] .post_field_user_image,
+  .module_body .people_cell_img,
+  [dir] .module_body .people_cell_img,
+  .group_row_photo, .group_row_img,
+  [dir] .group_row_photo, .group_row_img,
+  .top_profile_img,
+  [dir] .top_profile_img,
+  .page_list_module .thumb,
+  [dir] .page_list_module .thumb,
+  .wall_module .reply_img,
+  [dir] .wall_module .reply_img,
+  .ow_ava.ow_ava_comm,
+  [dir] .ow_ava.ow_ava_comm,
+  .like_tt_image,
+  [dir] .like_tt_image,
+  .voting_tt_image,
+  [dir] .voting_tt_image,
+  .friends_photo_img,
+  [dir] .friends_photo_img,
+  .right_list_img,
+  [dir] .right_list_img,
+  .top_notify_cont .feedback_img,
+  [dir] .top_notify_cont .feedback_img,
+  [dir] .nim-peer.nim-peer_small .nim-peer--photo > img, 
+  [dir] .nim-peer.nim-peer_small .nim-peer--photo .im_grid > img,
+  [dir] .nim-peer .nim-peer--photo-w,
+  [dir] .nim-peer.nim-peer_smaller .nim-peer--photo > img,
+  [dir] .nim-peer.nim-peer_smaller .nim-peer--photo .im_grid > img,
+  [dir] .TopNavBtn__profileImg {
+    border-radius: var(--round-avatars);
+  }
+  .[dir] body.new_header_design #page_header_cont {
+    background: var(--header_background_alt);
+  }
+  .feed_submit_shown .stories_feed_wrap,
+  [dir] .feed_submit_shown .stories_feed_wrap {
+    display: var(--stories);
+  }
+  [dir] body.new_header_design .left_count_wrap,
+  [dir] .left_count_wrap.left_count_wrap_hovered:hover {
+    color: var(--counter-fg);
+    background-color: var(--counter-bg);
+    text-decoration: none;
+  }
+  .RecentGroups__main {
+    display: var(--recent);
+  }
+  .fastchat-reforged {
+    display: var(--fastchat);
+  }
+  * {
+    text-transform: var(--text-transform);
+    font-style: var(--italy)
+  }
+}
