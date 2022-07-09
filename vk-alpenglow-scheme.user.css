@@ -1,11 +1,11 @@
 /* ==UserStyle==
 @name           VK Firefox Alpenglow Scheme
 @namespace      qevitta
-@version        1.5.3
+@version        1.5.6
 @description    VK Firefox Alpenglow Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
-@updateURL      https://github.com/evtn/vk-schemes/raw/lord/vk-alpenglow-scheme.user.css
+@updateURL      https://github.com/evtn/vk-schemes/raw/lord/styles/vk-alpenglow-scheme.user.css
 
 @var select ads "Убрать рекламу слева" {"Да*": "none", "Нет": "block"}
 @var select combo "Убрать пункт VK Combo из меню" {"Да*": "none", "Нет": "block"}

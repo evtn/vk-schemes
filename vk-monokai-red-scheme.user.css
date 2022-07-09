@@ -1,11 +1,11 @@
 /* ==UserStyle==
 @name           VK Monokai Red Scheme
 @namespace      qevitta
-@version        1.5.3
+@version        1.5.6
 @description    VK Monokai Red Scheme
 @author         vk.com/qevitta
 @homepageURL    http://github.com/evtn/vk-schemes
-@updateURL      https://github.com/evtn/vk-schemes/raw/lord/vk-monokai-red-scheme.user.css
+@updateURL      https://github.com/evtn/vk-schemes/raw/lord/styles/vk-monokai-red-scheme.user.css
 
 @var select ads "Убрать рекламу слева" {"Да*": "none", "Нет": "block"}
 @var select combo "Убрать пункт VK Combo из меню" {"Да*": "none", "Нет": "block"}
