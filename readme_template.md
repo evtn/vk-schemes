@@ -17,6 +17,7 @@
 <ul> 
 {schemes}
 </ul>
+
 ## Настройки стиля
 
 В 1.0.7 во все схемы были добавлены настройки из [VK Tweaks](https://github.com/evtn/vk-tweaks).
