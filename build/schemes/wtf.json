@@ -23,5 +23,45 @@
             "text_muted": "#fff",
             "text_primary": "#000"
         }
+    },
+    "debug": {
+        "name": "Debug",
+        "description": "Абсолютно непригодная для использования схема, предназначенная для выявления непрокрашенных частей шаблона",
+        "parent": "template",
+        "variables": {
+            "accent": "#ff0000",
+            "background_content": "@accent",
+            "background_hover": "@accent",
+            "background_page": "@accent",
+            "button_commerce_background": "@accent",
+            "button_secondary_background": "@accent",
+            "button_secondary_background_highlighted": "@accent",
+            "button_secondary_foreground": "@accent",
+            "dynamic_green": "@accent",
+            "dynamic_red": "@accent",
+            "field_background": "@accent",
+            "positive": "@accent",
+            "separator_common": "@accent",
+            "text_muted": "@accent",
+            "text_primary": "@accent"
+        }
+    },
+    "debug-green": {
+        "name": "Debug",
+        "description": "Зелёный вариант",
+        "parent": "debug",
+        "variant_of": "debug",
+        "variables": {
+            "accent": "#00ff00"
+        }
+    },
+    "debug-blue": {
+        "name": "Debug",
+        "description": "Синий вариант",
+        "parent": "debug",
+        "variant_of": "debug",
+        "variables": {
+            "accent": "#0000ff"
+        }
     }
 }
