@@ -62,7 +62,7 @@
 <details>
     <summary><b>VKCOM Dark Alternate Buttons</b><br>Вариант VKCOM Dark с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)</summary>
 
-
+![VKCOM Dark Alternate Buttons Screenshot](images/dark-inverted-buttons.png)
 [![VKCOM Dark Alternate Buttons](https://img.shields.io/static/v1?label=VKCOM%20Dark%20Alternate%20Buttons&message=%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C&style=for-the-badge&labelColor=222222&color=71AAEB)](https://github.com/evtn/vk-schemes/raw/lord/styles/vk-dark-inverted-buttons-scheme.user.css)
 
 
@@ -392,7 +392,7 @@
 <details>
     <summary><b>Debug</b><br>Абсолютно непригодная для использования схема, предназначенная для выявления непрокрашенных частей шаблона</summary>
 
-
+![Debug Screenshot](images/debug.png)
 [![Debug](https://img.shields.io/static/v1?label=Debug&message=%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C&style=for-the-badge&labelColor=FF0000&color=FF0000)](https://github.com/evtn/vk-schemes/raw/lord/styles/vk-debug-scheme.user.css)
 
 Варианты:
