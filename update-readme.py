@@ -8,7 +8,7 @@ part_template = """
     <summary><b>{name}</b><br>{description}</summary>
 
 {image}
-[![{name}]({badge})](https://github.com/evtn/vk-schemes/raw/build-stable/vk-{code}-scheme.user.css)
+[![{name}]({badge})](https://github.com/evtn/vk-schemes/raw/lord/vk-{code}-scheme.user.css)
 
 {variants_text}
 

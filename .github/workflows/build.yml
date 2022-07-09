@@ -14,6 +14,9 @@ jobs:
       - name: git-checkout
         uses: actions/checkout@v2
 
+      - name: Add SHORT_SHA env property with commit short sha
+        run: echo "SHORT_SHA=`echo ${GITHUB_SHA} | cut -c1-8`" >> $GITHUB_ENV
+
       - name: That is not me, this is a bot
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -37,9 +40,13 @@ jobs:
           MESSAGE: "Build styles: ({sha}) {msg}"
           SKIP_EMPTY_COMMITS: true
 
+      - name: Commit new styles
+        continue-on-error: true
+        run: git diff-index --quiet HEAD || (git add --ignore-errors styles/* && git commit -m '[action for ${SHORT_SHA}] build styles' && git push -f)
+
       - name: Update readme
         run: python update-readme.py
 
       - name: Commit new readme if it was changed
         continue-on-error: true
-        run: git diff-index --quiet HEAD || (git add --ignore-errors readme.md && git commit -m '[bot] update readme' && git push -f)
+        run: git diff-index --quiet HEAD || (git add --ignore-errors readme.md && git commit -m '[action for ${SHORT_SHA}] update readme' && git push -f)

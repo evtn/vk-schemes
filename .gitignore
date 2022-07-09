@@ -1,5 +1,4 @@
 __pycache__/
 *.py[cod]
 *$py.class
-styles/*.user.css
 resolved_vars.json

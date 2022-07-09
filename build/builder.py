@@ -16,7 +16,7 @@ def build(code):
     return template.format(
         scheme_name=scheme["name"],
         scheme_code=code,
-        branch=f"build-stable",
+        branch=f"lord",
         variables=build_vars(variables),
         version=version,
     ), variables
