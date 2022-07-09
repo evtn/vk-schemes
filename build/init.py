@@ -21,7 +21,7 @@ for filename in scheme_files:
         for k in data:
             file_lens[k] = max_len
 
-        schemes.update()
+        schemes.update(data)
 
 for scheme_key in list(schemes):
     scheme = schemes[scheme_key]
