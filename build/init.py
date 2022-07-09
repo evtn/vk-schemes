@@ -26,13 +26,15 @@ for filename in scheme_files:
 for scheme_key in list(schemes):
     scheme = schemes[scheme_key]
     if not scheme.get("skip"):
-        schemes[f"{scheme_key}-inverted-buttons"] = {
+        new_key = f"{scheme_key}-inverted-buttons"
+        schemes[new_key] = {
             "name": f"{scheme['name']} Alternate Buttons",
             "description": f"Вариант {scheme['name']} с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
             "variant_of": scheme_key,
             "parent": [scheme_key, "inverted-buttons"],
             "variables": {}
         }
+        file_lens[new_key] = file_lens[scheme_key]
 
 schemes = {
     k: schemes[k] 
