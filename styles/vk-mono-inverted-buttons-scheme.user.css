@@ -1,0 +1,343 @@
+/* ==UserStyle==
+@name           VK Mono Alternate Buttons Scheme
+@namespace      qevitta
+@version        1.5.3
+@description    VK Mono Alternate Buttons Scheme
+@author         vk.com/qevitta
+@homepageURL    http://github.com/evtn/vk-schemes
+@updateURL      https://github.com/evtn/vk-schemes/raw/lord/vk-mono-inverted-buttons-scheme.user.css
+
+@var select ads "Убрать рекламу слева" {"Да*": "none", "Нет": "block"}
+@var select combo "Убрать пункт VK Combo из меню" {"Да*": "none", "Нет": "block"}
+@var select stories "Показывать истории в новостях" {"Да*": "block", "Нет": "none"}
+@var select recent "Показывать недавно посещенные сообщества" {"Да*": "block", "Нет": "none"}
+@var range round-avatars "Скругление аватарок" [50, 0, 50, 5, "%"]
+@var select counter-bg "Фон счетчиков в левом меню" {"Стандартный*": "var(--counter_secondary_background)", "Прозрачный": "transparent", "Яркий": "var(--accent)", "Текст": "var(--text-primary)", "Фон": "var(--background-content)"}
+@var select counter-fg "Текст счетчиков в левом меню" {"Стандартный*": "var(--counter-fg)", "Белый": "white", "Яркий": "var(--accent)", "Текст": "var(--text-primary)", "Фон": "var(--background-content)"}
+@var select text-transform "Изменение текста" {"Нет*": "", "ВСЁЁ БОЛЬШИМИ БУКВАМИ": "uppercase", "всё маленькими буквами": "lowercase", "Всё Очень Странно": "capitalize"}
+@var select italy "Едем в Италию" {"Да": "italic", "Нет*": ""}
+@var select fastchat "Убрать миничаты" {"Да": "none", "Нет*": "block"}
+
+==/UserStyle== */
+
+@-moz-document domain("vk.com") {
+  :root body[scheme], :root body {
+    --accent: #0000FF;
+    --accent_alternate: #0077FF;
+    --action_sheet_action_foreground: #2688EB;
+    --action_sheet_separator: #0000001F;
+    --activity_indicator_tint: #AEB7C2;
+    --attach_picker_tab_active_background: #2D81E0;
+    --attach_picker_tab_active_icon: #FFFFFF;
+    --attach_picker_tab_active_text: #2D81E0;
+    --attach_picker_tab_inactive_background: #F5F5F5;
+    --attach_picker_tab_inactive_icon: #818C99;
+    --attach_picker_tab_inactive_text: #818C99;
+    --background_content: #FFFFFF;
+    --background_highlighted: #FFFFFF;
+    --background_hover: #999999;
+    --background_keyboard: #E1E3E6;
+    --background_light: #999999;
+    --background_page: #FFFFFF;
+    --background_suggestions: #FFFFFF;
+    --background_text_highlighted: #2688EB33;
+    --button-background-color: #FFFFFF;
+    --button-background-color-active: #FFFFFF;
+    --button-secondary-background-color: #FFFFFF;
+    --button-secondary-background-color-active: #FFFFFF;
+    --button-secondary-background-color-hover: #FFFFFF;
+    --button-secondary-text-color: #0000FF;
+    --button-text-color: #FFFFFF;
+    --button_bot_shadow: #CCCCCC;
+    --button_commerce_background: #FFFFFF;
+    --button_commerce_foreground: #00FF00;
+    --button_muted_background: #FFFFFF;
+    --button_muted_foreground: #000000;
+    --button_outline_border: #000000;
+    --button_outline_foreground: #000000;
+    --button_primary_background: #FFFFFF;
+    --button_primary_foreground: #0000FF;
+    --button_secondary_background: #FFFFFF;
+    --button_secondary_background_highlighted: #FFFFFF;
+    --button_secondary_destructive_background: #FFFFFF;
+    --button_secondary_destructive_background_highlighted: #FFFFFF;
+    --button_secondary_destructive_foreground: #E64646;
+    --button_secondary_destructive_foreground_highlighted: #E64646;
+    --button_secondary_foreground: #0000FF;
+    --button_secondary_foreground_highlighted: #0000FF;
+    --button_tertiary_background: #FFFFFF;
+    --button_tertiary_background_active: #FFFFFF;
+    --button_tertiary_background_hover: #FFFFFF;
+    --button_tertiary_foreground: #000000;
+    --cell_button_foreground: #0000FF;
+    --content_placeholder_icon: #99A2AD;
+    --content_placeholder_text: #818C99;
+    --content_positive_background: #4BB34B26;
+    --content_tint_background: #999999;
+    --content_tint_foreground: #7F8285;
+    --content_warning_background: #FFF2D6;
+    --control_background: #EBEDF0;
+    --control_background_secondary: #FFFFFF;
+    --control_foreground: #5181B8;
+    --control_tint: #FFFFFF;
+    --control_tint_muted: #828282;
+    --counter_primary_background: #0000FF;
+    --counter_primary_text: #FFFFFF;
+    --counter_prominent_background: #FF3347;
+    --counter_prominent_text: #FFFFFF;
+    --counter_secondary_background: #000000;
+    --counter_secondary_text: #FFFFFF;
+    --destructive: #E64646;
+    --dynamic_blue: #0000FF;
+    --dynamic_gray: #A3ADB8;
+    --dynamic_green: #00FF00;
+    --dynamic_neon_pink: #F45FFF;
+    --dynamic_orange: #FFAA00;
+    --dynamic_purple: #FF00AA;
+    --dynamic_raspberry_pink: #FF00FF;
+    --dynamic_red: #FF0000;
+    --dynamic_violet: #AA00FF;
+    --feed_recommended_friend_promo_background: #528BCC;
+    --field_background: #FFFFFF;
+    --field_border: #0000001F;
+    --field_error_background: #FAEBEB;
+    --field_error_border: #E64646;
+    --field_text_placeholder: #000000;
+    --field_valid_border: #FFFFFF;
+    --float_button_background: #F5F5F5;
+    --float_button_background_highlighted: #FFFFFF;
+    --float_button_border: #0000000D;
+    --float_button_foreground: #99A2AD;
+    --header_alternate_background: #FFFFFF;
+    --header_alternate_tab_active_indicator: #2688EB;
+    --header_alternate_tab_active_text: #000000;
+    --header_alternate_tab_inactive_text: #99A2AD;
+    --header_background: #FFFFFF;
+    --header_background_before_blur: #FFFFFF;
+    --header_background_before_blur_alternate: #FFFFFF;
+    --header_search_field_background: #FFFFFF;
+    --header_search_field_tint: #000000;
+    --header_tab_active_background: #00000000;
+    --header_tab_active_indicator: #2688EB;
+    --header_tab_active_text: #000000;
+    --header_tab_inactive_text: #99A2AD;
+    --header_text: #000000;
+    --header_text_alternate: #000000;
+    --header_text_secondary: #000000;
+    --header_tint: #2688EB;
+    --header_tint_alternate: #2688EB;
+    --icon_alpha_placeholder: #FFFFFF;
+    --icon_medium: #818C99;
+    --icon_medium_alpha: #0000007A;
+    --icon_name: #74A2D6;
+    --icon_outline_medium: #000000;
+    --icon_outline_secondary: #000000;
+    --icon_secondary: #000000;
+    --icon_secondary_alpha: #0000005C;
+    --icon_tertiary: #B8C1CC;
+    --icon_tertiary_alpha: #0000003D;
+    --im_attach_tint: #0000FF;
+    --im_bubble_border_alternate: #E1E3E6;
+    --im_bubble_border_alternate_highlighted: #D7D8D9;
+    --im_bubble_button_background: #F9F9F9;
+    --im_bubble_button_background_highlighted: #D7D8D9;
+    --im_bubble_button_foreground: #000000;
+    --im_bubble_button_outgoing_background: #FFFFFF99;
+    --im_bubble_gift_background: #F4E7C3;
+    --im_bubble_gift_background_highlighted: #E3D3AC;
+    --im_bubble_gift_text: #857250;
+    --im_bubble_gift_text_secondary: #AB9871;
+    --im_bubble_incoming: #FFFFFF;
+    --im_bubble_incoming_alternate: #FFFFFF;
+    --im_bubble_incoming_alternate_highlighted: #F9F9F9;
+    --im_bubble_incoming_expiring: #E6E9FF;
+    --im_bubble_incoming_expiring_highlighted: #CCD3FF;
+    --im_bubble_incoming_highlighted: #D7D8D9;
+    --im_bubble_outgoing: #CCE4FF;
+    --im_bubble_outgoing_alternate: #FFFFFF;
+    --im_bubble_outgoing_alternate_highlighted: #000000;
+    --im_bubble_outgoing_expiring: #CCD3FF;
+    --im_bubble_outgoing_expiring_highlighted: #ADB8FF;
+    --im_bubble_outgoing_highlighted: #ADD3FF;
+    --im_bubble_wallpaper_button_background: #F5F5F5;
+    --im_bubble_wallpaper_button_background_highlighted: #000000;
+    --im_bubble_wallpaper_button_foreground: #000000;
+    --im_bubble_wallpaper_incoming: #FFFFFF;
+    --im_bubble_wallpaper_incoming_highlighted: #FFFFFF;
+    --im_bubble_wallpaper_outgoing: #CCE4FF;
+    --im_bubble_wallpaper_outgoing_highlighted: #ADD3FF;
+    --im_forward_line_tint: #2A58853D;
+    --im_reply_separator: #0000FF;
+    --im_service_message_text: #000000;
+    --im_text_name: #0000FF;
+    --im_toolbar_separator: #001C3D;
+    --im_toolbar_voice_msg_background: #99A2AD;
+    --image_border: #00000014;
+    --input_background: #FFFFFF;
+    --input_border: #999999;
+    --landing_background: #FFFFFF;
+    --landing_field_background: #F5F5F5;
+    --landing_field_border: #00000000;
+    --landing_field_placeholder: #818C99;
+    --landing_login_button_background: #2D81E0;
+    --landing_login_button_foreground: #FFFFFF;
+    --landing_primary_button_background: #2D81E0;
+    --landing_primary_button_foreground: #FFFFFF;
+    --landing_secondary_button_background: #0039731A;
+    --landing_secondary_button_foreground: #2688EB;
+    --landing_snippet_border: #00000026;
+    --landing_tertiary_button_background: #00000000;
+    --landing_tertiary_button_foreground: #2D81E0;
+    --landing_text_primary: #000000;
+    --landing_text_secondary: #818C99;
+    --landing_text_title: #2D81E0;
+    --like_text_tint: #FF3347;
+    --link_alternate: #0000FF;
+    --loader_background: #FFFFFF;
+    --loader_tint: #828282;
+    --loader_track_fill: #E1E3E6;
+    --loader_track_value_fill: #0000FF;
+    --media_overlay_button_background: #FFFFFF;
+    --media_overlay_button_foreground: #333333;
+    --modal_card_background: #FFFFFF;
+    --modal_card_border: #00000000;
+    --modal_card_header_close: #000000;
+    --music_playback_icon: #000000;
+    --muted: #000000;
+    --overlay_status_background: #EBEDF0;
+    --overlay_status_foreground: #6F7985;
+    --overlay_status_icon: #818C99;
+    --panel_tab_active_background: #EBEDF0;
+    --panel_tab_active_text: #656565;
+    --panel_tab_inactive_text: #828282;
+    --placeholder_icon_background: #001C3D14;
+    --placeholder_icon_background_opaque: #F5F5F5;
+    --placeholder_icon_foreground_primary: #99A2AD;
+    --placeholder_icon_foreground_secondary: #AEB7C2;
+    --placeholder_icon_tint: #001C3D;
+    --poll_option_background: #0000FF;
+    --positive: #FFFFFF;
+    --primary_overlay_badge: #00000099;
+    --red_nice: #FF0000;
+    --search_bar_background: #FFFFFF;
+    --search_bar_field_background: #FFFFFF;
+    --search_bar_field_tint: #000000;
+    --search_bar_segmented_control_tint: #818C99;
+    --secondary_overlay_badge: #0000003D;
+    --segmented_control_bar_background: #00000000;
+    --segmented_control_tint: #99A2AD;
+    --selection_off_icon: #B8C1CC;
+    --separator_alpha: #00000028;
+    --separator_alternate: #000000;
+    --separator_common: #000000;
+    --skeleton_foreground_from: #F5F5F5;
+    --skeleton_foreground_to: #E1E3E6;
+    --skeleton_shimmer_from: #FFFFFF;
+    --skeleton_shimmer_to: #FFFFFF00;
+    --snippet_background: #FFFFFF;
+    --snippet_border: #999999;
+    --snippet_icon_tertiary: #CCCCCC;
+    --splashscreen_icon: #E1E3E6;
+    --statusbar_alternate_legacy_background: #00000034;
+    --stories_create_button_background_from: #F5F5F5;
+    --stories_create_button_background_to: #E1E3E6;
+    --stories_create_button_foreground: #6F7985;
+    --stories_create_button_icon_background: #FFFFFF;
+    --stories_skeleton_loader_background: #CCCCCC;
+    --switch_ios_off_border: #E1E3E6;
+    --tabbar_active_icon: #2975CC;
+    --tabbar_background: #F9F9F9;
+    --tabbar_inactive_icon: #99A2AD;
+    --tabbar_tablet_active_icon: #2975CC;
+    --tabbar_tablet_background: #F9F9F9;
+    --tabbar_tablet_inactive_icon: #99A2AD;
+    --tabbar_tablet_text_primary: #000000;
+    --tabbar_tablet_text_secondary: #939393;
+    --text_action_counter: #818C99;
+    --text_link: #0000FF;
+    --text_link_highlighted_background: #000000;
+    --text_muted: #000000;
+    --text_name: #0000FF;
+    --text_placeholder: #000000;
+    --text_primary: #000000;
+    --text_secondary: #000000;
+    --text_subhead: #000000;
+    --text_tertiary: #000000;
+    --toolbar_attach_background_from: #B8C1CC;
+    --toolbar_attach_background_to: #A3ADB8;
+    --verified-link-color: #0000FF;
+    --vk_connect_button_primary_background: #222222;
+    --vk_connect_button_primary_foreground: #FFFFFF;
+    --vk_connect_button_secondary_background: #F5F5F5;
+    --vk_connect_button_secondary_foreground: #222222;
+    --writebar_icon: #000000;
+  }
+  #ads_left {
+    display: var(--ads) !important;
+  }
+  #l_combo {
+    display: var(--combo);
+  }
+  /* добавил [dir] после заигрываний ВК с селекторами, не удивляйтесь */
+  .nim-peer .nim-peer--photo .im_grid > img,
+  [dir] .nim-peer .nim-peer--photo .im_grid > img, 
+  .nim-peer .nim-peer--photo > img,
+  [dir] .nim-peer .nim-peer--photo > img,
+  .post_img,
+  [dir] .post_img,
+  .post_field_user_image,
+  [dir] .post_field_user_image,
+  .module_body .people_cell_img,
+  [dir] .module_body .people_cell_img,
+  .group_row_photo, .group_row_img,
+  [dir] .group_row_photo, .group_row_img,
+  .top_profile_img,
+  [dir] .top_profile_img,
+  .page_list_module .thumb,
+  [dir] .page_list_module .thumb,
+  .wall_module .reply_img,
+  [dir] .wall_module .reply_img,
+  .ow_ava.ow_ava_comm,
+  [dir] .ow_ava.ow_ava_comm,
+  .like_tt_image,
+  [dir] .like_tt_image,
+  .voting_tt_image,
+  [dir] .voting_tt_image,
+  .friends_photo_img,
+  [dir] .friends_photo_img,
+  .right_list_img,
+  [dir] .right_list_img,
+  .top_notify_cont .feedback_img,
+  [dir] .top_notify_cont .feedback_img,
+  [dir] .nim-peer.nim-peer_small .nim-peer--photo > img, 
+  [dir] .nim-peer.nim-peer_small .nim-peer--photo .im_grid > img,
+  [dir] .nim-peer .nim-peer--photo-w,
+  [dir] .nim-peer.nim-peer_smaller .nim-peer--photo > img,
+  [dir] .nim-peer.nim-peer_smaller .nim-peer--photo .im_grid > img,
+  [dir] .TopNavBtn__profileImg {
+    border-radius: var(--round-avatars);
+  }
+  .[dir] body.new_header_design #page_header_cont {
+    background: var(--header_background_alt);
+  }
+  .feed_submit_shown .stories_feed_wrap,
+  [dir] .feed_submit_shown .stories_feed_wrap {
+    display: var(--stories);
+  }
+  [dir] body.new_header_design .left_count_wrap,
+  [dir] .left_count_wrap.left_count_wrap_hovered:hover {
+    color: var(--counter-fg);
+    background-color: var(--counter-bg);
+    text-decoration: none;
+  }
+  .RecentGroups__main {
+    display: var(--recent);
+  }
+  .fastchat-reforged {
+    display: var(--fastchat);
+  }
+  * {
+    text-transform: var(--text-transform);
+    font-style: var(--italy)
+  }
+}
