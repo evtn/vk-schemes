@@ -4,6 +4,8 @@
         "skip": true,
         "variables": {
             "background_light": "@background_hover",
+            "background_highlighted": "@background_light",
+            "background_hover": "background_content",
             "button-background-color": "@accent",
             "button-background-color-active": "@accent",
             "button-secondary-background-color": "@button_secondary_background",
@@ -75,7 +77,8 @@
             "text_placeholder": "@muted",
             "text_secondary": "@muted",
             "verified-link-color": "@accent",
-            "writebar_icon": "@muted"
+            "writebar_icon": "@muted",
+            "destructive": "@dynamic_red"
         }
     },
     "dark-template": {

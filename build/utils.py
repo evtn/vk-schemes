@@ -1,4 +1,5 @@
 from init import schemes, default_palette
+from json import dumps
 
 
 def search(variables, parent_key, variable):
@@ -53,10 +54,7 @@ def resolve_parent(parent_key):
 def gather_keys(variables, parent_key):
     if parent_key:
         parent_scheme = resolve_parent(parent_key)
-        variables = parent_scheme["variables"]
-        if isinstance(variables, str):
-            variables = schemes[variables]["variables"]
-        return set(variables) | gather_keys(variables, parent_scheme.get("parent"))
+        return set(variables) | gather_keys(parent_scheme["variables"], parent_scheme.get("parent"))
     return set(variables)
 
 
@@ -86,6 +84,8 @@ def full_search(variables, parent_key):
                 ref, concat = undefined.pop(name)
                 solved[name] = "".join([solved[ref], *concat])
 
-        assert not ref_count or ref_count != len(undefined), f"Invalid palette, can't resolve:\n{undefined}"
+        if ref_count and ref_count == len(undefined):
+            print(f"Invalid palette, can't resolve:\n{dumps({k: undefined[k][0] for k in sorted(undefined)}, indent=4)}")
+            raise ValueError("invalid palette") # so stderr won't mix up with stdout
 
     return solved
