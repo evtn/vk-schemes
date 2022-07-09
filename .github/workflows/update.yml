@@ -13,10 +13,8 @@ jobs:
       - name: git-checkout
         uses: actions/checkout@v2
 
-      - name: That is not me, this is a bot
-        run: |
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
+      - name: Add SHORT_SHA env property with commit short sha
+        run: echo "SHORT_SHA=`echo ${GITHUB_SHA} | cut -c1-7`" >> $GITHUB_ENV
 
       - name: Set up Python 3.8
         uses: actions/setup-python@v4
@@ -31,6 +29,8 @@ jobs:
 
       - name: Commit new files
         run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
           git add -A
-          git diff-index --quiet HEAD || (git commit -m '[bot] update appearance' && git push -f)
+          git diff-index --quiet HEAD || (git commit -m "[action for $SHORT_SHA] update appearance data" && git push -f)
         continue-on-error: true
