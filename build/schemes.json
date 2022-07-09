@@ -928,7 +928,7 @@
     "debug": {
         "name": "Debug",
         "description": "Абсолютно непригодная для использования схема, предназначенная для выявления непрокрашенных частей шаблона",
-        "parent": "template",
+        "parent": "light-template",
         "variables": {
             "accent": "#ff0000",
             "background_content": "@accent",
