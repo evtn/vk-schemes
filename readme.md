@@ -82,7 +82,7 @@
 <details>
     <summary><b>Obsidian</b><br>Тёмно-фиолетовая схема</summary>
 
-
+![Obsidian Screenshot](images/obsidian.png)
 [![Obsidian](https://img.shields.io/static/v1?label=Obsidian&message=%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C&style=for-the-badge&labelColor=08060E&color=C99FF9)](https://github.com/evtn/vk-schemes/raw/lord/styles/vk-obsidian-scheme.user.css)
 
 Варианты:
@@ -237,7 +237,7 @@
 <details>
     <summary><b>Monokai</b><br>Темная схема, основанная на цветах <a href="https://monokai.pro/">Monokai Pro</a> - темы для Sublime Text и VS Code</summary>
 
-
+![Monokai Screenshot](images/monokai.png)
 [![Monokai](https://img.shields.io/static/v1?label=Monokai&message=%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C&style=for-the-badge&labelColor=2C292D&color=FFD866)](https://github.com/evtn/vk-schemes/raw/lord/styles/vk-monokai-scheme.user.css)
 
 Варианты:
@@ -362,7 +362,7 @@
     <summary><b>WTF</b><br>Отличная схема, приятная глазу</summary>
 
 ![WTF Screenshot](images/wtf.png)
-[![WTF](https://img.shields.io/static/v1?label=WTF&message=%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C&style=for-the-badge&labelColor=090&color=F00)](https://github.com/evtn/vk-schemes/raw/lord/styles/vk-wtf-scheme.user.css)
+[![WTF](https://img.shields.io/static/v1?label=WTF&message=%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C&style=for-the-badge&labelColor=009900&color=FF0000)](https://github.com/evtn/vk-schemes/raw/lord/styles/vk-wtf-scheme.user.css)
 
 Варианты:
 
@@ -373,7 +373,100 @@
     <summary><b>WTF Alternate Buttons</b><br>Вариант WTF с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)</summary>
 
 
-[![WTF Alternate Buttons](https://img.shields.io/static/v1?label=WTF%20Alternate%20Buttons&message=%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C&style=for-the-badge&labelColor=090&color=F00)](https://github.com/evtn/vk-schemes/raw/lord/styles/vk-wtf-inverted-buttons-scheme.user.css)
+[![WTF Alternate Buttons](https://img.shields.io/static/v1?label=WTF%20Alternate%20Buttons&message=%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C&style=for-the-badge&labelColor=009900&color=FF0000)](https://github.com/evtn/vk-schemes/raw/lord/styles/vk-wtf-inverted-buttons-scheme.user.css)
+
+
+
+</details>
+</li>
+
+</ul>
+
+
+</details>
+</li>
+
+
+
+<li>
+<details>
+    <summary><b>Debug</b><br>Абсолютно непригодная для использования схема, предназначенная для выявления непрокрашенных частей шаблона</summary>
+
+
+[![Debug](https://img.shields.io/static/v1?label=Debug&message=%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C&style=for-the-badge&labelColor=FF0000&color=FF0000)](https://github.com/evtn/vk-schemes/raw/lord/styles/vk-debug-scheme.user.css)
+
+Варианты:
+
+<ul>
+
+<li>
+<details>
+    <summary><b>Debug</b><br>Зелёный вариант</summary>
+
+
+[![Debug](https://img.shields.io/static/v1?label=Debug&message=%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C&style=for-the-badge&labelColor=00FF00&color=00FF00)](https://github.com/evtn/vk-schemes/raw/lord/styles/vk-debug-green-scheme.user.css)
+
+Варианты:
+
+<ul>
+
+<li>
+<details>
+    <summary><b>Debug Alternate Buttons</b><br>Вариант Debug с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)</summary>
+
+
+[![Debug Alternate Buttons](https://img.shields.io/static/v1?label=Debug%20Alternate%20Buttons&message=%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C&style=for-the-badge&labelColor=00FF00&color=00FF00)](https://github.com/evtn/vk-schemes/raw/lord/styles/vk-debug-green-inverted-buttons-scheme.user.css)
+
+
+
+</details>
+</li>
+
+</ul>
+
+
+</details>
+</li>
+
+
+
+<li>
+<details>
+    <summary><b>Debug</b><br>Синий вариант</summary>
+
+
+[![Debug](https://img.shields.io/static/v1?label=Debug&message=%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C&style=for-the-badge&labelColor=0000FF&color=0000FF)](https://github.com/evtn/vk-schemes/raw/lord/styles/vk-debug-blue-scheme.user.css)
+
+Варианты:
+
+<ul>
+
+<li>
+<details>
+    <summary><b>Debug Alternate Buttons</b><br>Вариант Debug с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)</summary>
+
+
+[![Debug Alternate Buttons](https://img.shields.io/static/v1?label=Debug%20Alternate%20Buttons&message=%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C&style=for-the-badge&labelColor=0000FF&color=0000FF)](https://github.com/evtn/vk-schemes/raw/lord/styles/vk-debug-blue-inverted-buttons-scheme.user.css)
+
+
+
+</details>
+</li>
+
+</ul>
+
+
+</details>
+</li>
+
+
+
+<li>
+<details>
+    <summary><b>Debug Alternate Buttons</b><br>Вариант Debug с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)</summary>
+
+
+[![Debug Alternate Buttons](https://img.shields.io/static/v1?label=Debug%20Alternate%20Buttons&message=%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C&style=for-the-badge&labelColor=FF0000&color=FF0000)](https://github.com/evtn/vk-schemes/raw/lord/styles/vk-debug-inverted-buttons-scheme.user.css)
 
 
 
