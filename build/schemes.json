@@ -736,6 +736,41 @@
         ],
         "variables": {}
     },
+    "ayu": {
+        "name": "Ayu",
+        "description": "Темная схема, основанная на цветах <a href=\"https://github.com/dempfi/ayu\">dempfi/ayu</a> - темы для Sublime Text",
+        "parent": "dark-template",
+        "variables": {
+            "accent": "#e6b450",
+            "background_content": "#0a0e14",
+            "background_highlighted": "@background_page",
+            "background_hover": "@background_page",
+            "background_page": "#00010a",
+            "destructive": "#d95757",
+            "dynamic_blue": "#73b8ff",
+            "dynamic_green": "#7fd962",
+            "dynamic_orange": "#ffb454",
+            "dynamic_purple": "@dynamic_violet",
+            "dynamic_raspberry_pink": "#f07178",
+            "dynamic_red": "#f26d78",
+            "dynamic_violet": "#d2a6ff",
+            "positive": "#c2d94c",
+            "separator_alpha": "#6c738030",
+            "separator_alternate": "#6c738066",
+            "separator_common": "#6c738066",
+            "text_muted": "#acb6bf8c",
+            "text_primary": "#b3b1ad"
+        }
+    },
+    "ayu-alt": {
+        "name": "Ayu Alt",
+        "description": "Контрастный вариант Ayu",
+        "variant_of": "ayu",
+        "parent": "ayu",
+        "variables": {
+            "accent": "#39bae6"
+        }
+    },
     "monokai-colors": {
         "name": "Monokai Colors",
         "skip": true,
@@ -790,40 +825,25 @@
             "accent": "@dynamic_blue"
         }
     },
-    "ayu": {
-        "name": "Ayu",
-        "description": "Темная схема, основанная на цветах <a href=\"https://github.com/dempfi/ayu\">dempfi/ayu</a> - темы для Sublime Text",
-        "parent": "dark-template",
-        "variables": {
-            "accent": "#e6b450",
-            "background_content": "#0a0e14",
-            "background_highlighted": "@background_page",
-            "background_hover": "@background_page",
-            "background_page": "#00010a",
-            "destructive": "#d95757",
-            "dynamic_blue": "#73b8ff",
-            "dynamic_green": "#7fd962",
-            "dynamic_orange": "#ffb454",
-            "dynamic_purple": "@dynamic_violet",
-            "dynamic_raspberry_pink": "#f07178",
-            "dynamic_red": "#f26d78",
-            "dynamic_violet": "#d2a6ff",
-            "positive": "#c2d94c",
-            "separator_alpha": "#6c738030",
-            "separator_alternate": "#6c738066",
-            "separator_common": "#6c738066",
-            "text_muted": "#acb6bf8c",
-            "text_primary": "#b3b1ad"
-        }
-    },
-    "ayu-alt": {
-        "name": "Ayu Alt",
-        "description": "Контрастный вариант Ayu",
+    "ayu-inverted-buttons": {
+        "name": "Ayu Alternate Buttons",
+        "description": "Вариант Ayu с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
         "variant_of": "ayu",
-        "parent": "ayu",
-        "variables": {
-            "accent": "#39bae6"
-        }
+        "parent": [
+            "ayu",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "ayu-alt-inverted-buttons": {
+        "name": "Ayu Alt Alternate Buttons",
+        "description": "Вариант Ayu Alt с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "ayu-alt",
+        "parent": [
+            "ayu-alt",
+            "inverted-buttons"
+        ],
+        "variables": {}
     },
     "monokai-inverted-buttons": {
         "name": "Monokai Alternate Buttons",
@@ -855,25 +875,30 @@
         ],
         "variables": {}
     },
-    "ayu-inverted-buttons": {
-        "name": "Ayu Alternate Buttons",
-        "description": "Вариант Ayu с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
-        "variant_of": "ayu",
-        "parent": [
-            "ayu",
-            "inverted-buttons"
-        ],
-        "variables": {}
-    },
-    "ayu-alt-inverted-buttons": {
-        "name": "Ayu Alt Alternate Buttons",
-        "description": "Вариант Ayu Alt с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
-        "variant_of": "ayu-alt",
-        "parent": [
-            "ayu-alt",
-            "inverted-buttons"
-        ],
-        "variables": {}
+    "windswept": {
+        "name": "Windswept",
+        "description": "Блекло-красная схема",
+        "parent": "light-template",
+        "variables": {
+            "accent": "#72231d",
+            "background_content": "#7d5754",
+            "background_highlighted": "#8c615e",
+            "background_hover": "#74514e",
+            "background_page": "#6b4b48",
+            "text_muted": "@text_primary:AA",
+            "text_primary": "#1d0d1a",
+            "text_subhead": "@muted",
+            "text_tertiary": "@muted",
+            "dynamic_blue": "@text_primary",
+            "dynamic_green": "@text_primary",
+            "dynamic_orange": "@text_primary",
+            "dynamic_purple": "@text_primary",
+            "dynamic_raspberry_pink": "@text_primary",
+            "dynamic_red": "@text_primary",
+            "dynamic_violet": "@text_primary",
+            "separator_common": "#5b413e",
+            "separator_alternate": "@separator_common"
+        }
     },
     "wtf": {
         "name": "WTF",
@@ -938,31 +963,6 @@
         "variant_of": "debug",
         "variables": {
             "accent": "#0000ff"
-        }
-    },
-    "windswept": {
-        "name": "Windswept",
-        "description": "Блекло-красная схема",
-        "parent": "light-template",
-        "variables": {
-            "accent": "#72231d",
-            "background_content": "#7d5754",
-            "background_highlighted": "#8c615e",
-            "background_hover": "#74514e",
-            "background_page": "#6b4b48",
-            "text_muted": "@text_primary:AA",
-            "text_primary": "#1d0d1a",
-            "text_subhead": "@muted",
-            "text_tertiary": "@muted",
-            "dynamic_blue": "@text_primary",
-            "dynamic_green": "@text_primary",
-            "dynamic_orange": "@text_primary",
-            "dynamic_purple": "@text_primary",
-            "dynamic_raspberry_pink": "@text_primary",
-            "dynamic_red": "@text_primary",
-            "dynamic_violet": "@text_primary",
-            "separator_common": "#5b413e",
-            "separator_alternate": "@separator_common"
         }
     },
     "mold": {
@@ -1035,6 +1035,16 @@
             "separator_common": "#00000000"
         }
     },
+    "windswept-inverted-buttons": {
+        "name": "Windswept Alternate Buttons",
+        "description": "Вариант Windswept с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "windswept",
+        "parent": [
+            "windswept",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
     "wtf-inverted-buttons": {
         "name": "WTF Alternate Buttons",
         "description": "Вариант WTF с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
@@ -1071,16 +1081,6 @@
         "variant_of": "debug-blue",
         "parent": [
             "debug-blue",
-            "inverted-buttons"
-        ],
-        "variables": {}
-    },
-    "windswept-inverted-buttons": {
-        "name": "Windswept Alternate Buttons",
-        "description": "Вариант Windswept с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
-        "variant_of": "windswept",
-        "parent": [
-            "windswept",
             "inverted-buttons"
         ],
         "variables": {}
