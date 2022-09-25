@@ -736,6 +736,41 @@
         ],
         "variables": {}
     },
+    "ayu": {
+        "name": "Ayu",
+        "description": "Темная схема, основанная на цветах <a href=\"https://github.com/dempfi/ayu\">dempfi/ayu</a> - темы для Sublime Text",
+        "parent": "dark-template",
+        "variables": {
+            "accent": "#e6b450",
+            "background_content": "#0a0e14",
+            "background_highlighted": "@background_page",
+            "background_hover": "@background_page",
+            "background_page": "#00010a",
+            "destructive": "#d95757",
+            "dynamic_blue": "#73b8ff",
+            "dynamic_green": "#7fd962",
+            "dynamic_orange": "#ffb454",
+            "dynamic_purple": "@dynamic_violet",
+            "dynamic_raspberry_pink": "#f07178",
+            "dynamic_red": "#f26d78",
+            "dynamic_violet": "#d2a6ff",
+            "positive": "#c2d94c",
+            "separator_alpha": "#6c738030",
+            "separator_alternate": "#6c738066",
+            "separator_common": "#6c738066",
+            "text_muted": "#acb6bf8c",
+            "text_primary": "#b3b1ad"
+        }
+    },
+    "ayu-alt": {
+        "name": "Ayu Alt",
+        "description": "Контрастный вариант Ayu",
+        "variant_of": "ayu",
+        "parent": "ayu",
+        "variables": {
+            "accent": "#39bae6"
+        }
+    },
     "monokai-colors": {
         "name": "Monokai Colors",
         "skip": true,
@@ -790,40 +825,25 @@
             "accent": "@dynamic_blue"
         }
     },
-    "ayu": {
-        "name": "Ayu",
-        "description": "Темная схема, основанная на цветах <a href=\"https://github.com/dempfi/ayu\">dempfi/ayu</a> - темы для Sublime Text",
-        "parent": "dark-template",
-        "variables": {
-            "accent": "#e6b450",
-            "background_content": "#0a0e14",
-            "background_highlighted": "@background_page",
-            "background_hover": "@background_page",
-            "background_page": "#00010a",
-            "destructive": "#d95757",
-            "dynamic_blue": "#73b8ff",
-            "dynamic_green": "#7fd962",
-            "dynamic_orange": "#ffb454",
-            "dynamic_purple": "@dynamic_violet",
-            "dynamic_raspberry_pink": "#f07178",
-            "dynamic_red": "#f26d78",
-            "dynamic_violet": "#d2a6ff",
-            "positive": "#c2d94c",
-            "separator_alpha": "#6c738030",
-            "separator_alternate": "#6c738066",
-            "separator_common": "#6c738066",
-            "text_muted": "#acb6bf8c",
-            "text_primary": "#b3b1ad"
-        }
-    },
-    "ayu-alt": {
-        "name": "Ayu Alt",
-        "description": "Контрастный вариант Ayu",
+    "ayu-inverted-buttons": {
+        "name": "Ayu Alternate Buttons",
+        "description": "Вариант Ayu с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
         "variant_of": "ayu",
-        "parent": "ayu",
-        "variables": {
-            "accent": "#39bae6"
-        }
+        "parent": [
+            "ayu",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "ayu-alt-inverted-buttons": {
+        "name": "Ayu Alt Alternate Buttons",
+        "description": "Вариант Ayu Alt с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "ayu-alt",
+        "parent": [
+            "ayu-alt",
+            "inverted-buttons"
+        ],
+        "variables": {}
     },
     "monokai-inverted-buttons": {
         "name": "Monokai Alternate Buttons",
@@ -855,26 +875,6 @@
         ],
         "variables": {}
     },
-    "ayu-inverted-buttons": {
-        "name": "Ayu Alternate Buttons",
-        "description": "Вариант Ayu с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
-        "variant_of": "ayu",
-        "parent": [
-            "ayu",
-            "inverted-buttons"
-        ],
-        "variables": {}
-    },
-    "ayu-alt-inverted-buttons": {
-        "name": "Ayu Alt Alternate Buttons",
-        "description": "Вариант Ayu Alt с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
-        "variant_of": "ayu-alt",
-        "parent": [
-            "ayu-alt",
-            "inverted-buttons"
-        ],
-        "variables": {}
-    },
     "windswept": {
         "name": "Windswept",
         "description": "Блекло-красная схема",
@@ -898,6 +898,71 @@
             "dynamic_violet": "@text_primary",
             "separator_common": "#5b413e",
             "separator_alternate": "@separator_common"
+        }
+    },
+    "wtf": {
+        "name": "WTF",
+        "description": "Отличная схема, приятная глазу",
+        "parent": "dark-template",
+        "variables": {
+            "accent": "#ff0000",
+            "background_content": "#009900",
+            "background_highlighted": "#00ff00",
+            "background_hover": "#00dd00",
+            "background_page": "#00aa00",
+            "destructive": "#00ffff",
+            "dynamic_blue": "#0000ff",
+            "dynamic_green": "#00ff00",
+            "dynamic_orange": "#ff9900",
+            "dynamic_purple": "#ff00ff",
+            "dynamic_raspberry_pink": "#ff0099",
+            "dynamic_red": "#ff0000",
+            "dynamic_violet": "#990099",
+            "positive": "#ff00ff",
+            "separator_alternate": "#0044ff",
+            "separator_common": "#0000ff",
+            "text_muted": "#ffffff",
+            "text_primary": "#000000"
+        }
+    },
+    "debug": {
+        "name": "Debug",
+        "description": "Абсолютно непригодная для использования схема, предназначенная для выявления непрокрашенных частей шаблона",
+        "parent": "light-template",
+        "variables": {
+            "accent": "#ff0000",
+            "background_content": "@accent",
+            "background_hover": "@accent",
+            "background_page": "@accent",
+            "button_commerce_background": "@accent",
+            "button_secondary_background": "@accent",
+            "button_secondary_background_highlighted": "@accent",
+            "button_secondary_foreground": "@accent",
+            "dynamic_green": "@accent",
+            "dynamic_red": "@accent",
+            "field_background": "@accent",
+            "positive": "@accent",
+            "separator_common": "@accent",
+            "text_muted": "@accent",
+            "text_primary": "@accent"
+        }
+    },
+    "debug-green": {
+        "name": "Debug",
+        "description": "Зелёный вариант",
+        "parent": "debug",
+        "variant_of": "debug",
+        "variables": {
+            "accent": "#00ff00"
+        }
+    },
+    "debug-blue": {
+        "name": "Debug",
+        "description": "Синий вариант",
+        "parent": "debug",
+        "variant_of": "debug",
+        "variables": {
+            "accent": "#0000ff"
         }
     },
     "mold": {
@@ -970,117 +1035,12 @@
             "separator_common": "#00000000"
         }
     },
-    "wtf": {
-        "name": "WTF",
-        "description": "Отличная схема, приятная глазу",
-        "parent": "dark-template",
-        "variables": {
-            "accent": "#ff0000",
-            "background_content": "#009900",
-            "background_highlighted": "#00ff00",
-            "background_hover": "#00dd00",
-            "background_page": "#00aa00",
-            "destructive": "#00ffff",
-            "dynamic_blue": "#0000ff",
-            "dynamic_green": "#00ff00",
-            "dynamic_orange": "#ff9900",
-            "dynamic_purple": "#ff00ff",
-            "dynamic_raspberry_pink": "#ff0099",
-            "dynamic_red": "#ff0000",
-            "dynamic_violet": "#990099",
-            "positive": "#ff00ff",
-            "separator_alternate": "#0044ff",
-            "separator_common": "#0000ff",
-            "text_muted": "#ffffff",
-            "text_primary": "#000000"
-        }
-    },
-    "debug": {
-        "name": "Debug",
-        "description": "Абсолютно непригодная для использования схема, предназначенная для выявления непрокрашенных частей шаблона",
-        "parent": "light-template",
-        "variables": {
-            "accent": "#ff0000",
-            "background_content": "@accent",
-            "background_hover": "@accent",
-            "background_page": "@accent",
-            "button_commerce_background": "@accent",
-            "button_secondary_background": "@accent",
-            "button_secondary_background_highlighted": "@accent",
-            "button_secondary_foreground": "@accent",
-            "dynamic_green": "@accent",
-            "dynamic_red": "@accent",
-            "field_background": "@accent",
-            "positive": "@accent",
-            "separator_common": "@accent",
-            "text_muted": "@accent",
-            "text_primary": "@accent"
-        }
-    },
-    "debug-green": {
-        "name": "Debug",
-        "description": "Зелёный вариант",
-        "parent": "debug",
-        "variant_of": "debug",
-        "variables": {
-            "accent": "#00ff00"
-        }
-    },
-    "debug-blue": {
-        "name": "Debug",
-        "description": "Синий вариант",
-        "parent": "debug",
-        "variant_of": "debug",
-        "variables": {
-            "accent": "#0000ff"
-        }
-    },
     "windswept-inverted-buttons": {
         "name": "Windswept Alternate Buttons",
         "description": "Вариант Windswept с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
         "variant_of": "windswept",
         "parent": [
             "windswept",
-            "inverted-buttons"
-        ],
-        "variables": {}
-    },
-    "mold-inverted-buttons": {
-        "name": "Mold Alternate Buttons",
-        "description": "Вариант Mold с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
-        "variant_of": "mold",
-        "parent": [
-            "mold",
-            "inverted-buttons"
-        ],
-        "variables": {}
-    },
-    "mold-alt-inverted-buttons": {
-        "name": "Mold Alt Alternate Buttons",
-        "description": "Вариант Mold Alt с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
-        "variant_of": "mold-alt",
-        "parent": [
-            "mold-alt",
-            "inverted-buttons"
-        ],
-        "variables": {}
-    },
-    "alpenglow-inverted-buttons": {
-        "name": "Firefox Alpenglow Alternate Buttons",
-        "description": "Вариант Firefox Alpenglow с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
-        "variant_of": "alpenglow",
-        "parent": [
-            "alpenglow",
-            "inverted-buttons"
-        ],
-        "variables": {}
-    },
-    "alpenglow-borderless-inverted-buttons": {
-        "name": "Firefox Alpenglow Borderless Alternate Buttons",
-        "description": "Вариант Firefox Alpenglow Borderless с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
-        "variant_of": "alpenglow-borderless",
-        "parent": [
-            "alpenglow-borderless",
             "inverted-buttons"
         ],
         "variables": {}
@@ -1121,6 +1081,46 @@
         "variant_of": "debug-blue",
         "parent": [
             "debug-blue",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "mold-inverted-buttons": {
+        "name": "Mold Alternate Buttons",
+        "description": "Вариант Mold с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "mold",
+        "parent": [
+            "mold",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "mold-alt-inverted-buttons": {
+        "name": "Mold Alt Alternate Buttons",
+        "description": "Вариант Mold Alt с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "mold-alt",
+        "parent": [
+            "mold-alt",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "alpenglow-inverted-buttons": {
+        "name": "Firefox Alpenglow Alternate Buttons",
+        "description": "Вариант Firefox Alpenglow с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "alpenglow",
+        "parent": [
+            "alpenglow",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "alpenglow-borderless-inverted-buttons": {
+        "name": "Firefox Alpenglow Borderless Alternate Buttons",
+        "description": "Вариант Firefox Alpenglow Borderless с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "alpenglow-borderless",
+        "parent": [
+            "alpenglow-borderless",
             "inverted-buttons"
         ],
         "variables": {}
