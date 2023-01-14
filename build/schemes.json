@@ -238,6 +238,7 @@
             "vk_connect_button_primary_foreground": "$white",
             "vk_connect_button_secondary_background": "$gray_40",
             "vk_connect_button_secondary_foreground": "$gray_900",
+            "vk_donut_background": "$yellow_overlight",
             "writebar_icon": "$azure_300"
         }
     },
@@ -480,6 +481,7 @@
             "vk_connect_button_primary_foreground": "$gray_900",
             "vk_connect_button_secondary_background": "$gray_700",
             "vk_connect_button_secondary_foreground": "$gray_100",
+            "vk_donut_background": "$gray_850",
             "writebar_icon": "$gray_100"
         }
     },
