@@ -416,7 +416,7 @@
             "loader_track_value_fill": "$white",
             "media_overlay_button_background": "$white",
             "media_overlay_button_foreground": "$gray_800",
-            "modal_card_background": "$gray_850",
+            "modal_card_background": "$gray_800",
             "modal_card_border": "$white_alpha12",
             "modal_card_header_close": "$white",
             "music_playback_icon": "$white",
