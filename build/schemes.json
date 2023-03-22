@@ -470,7 +470,7 @@
             "stories_create_button_background_to": "$gray_750",
             "stories_create_button_foreground": "$gray_200",
             "stories_create_button_icon_background": "$gray_700",
-            "stories_skeleton_loader_background": "$gray_700",
+            "stories_skeleton_loader_background": "$gray_750",
             "switch_ios_off_border": "$gray_800",
             "tabbar_active_icon": "$white",
             "tabbar_background": "$gray_800",
