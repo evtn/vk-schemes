@@ -895,6 +895,40 @@
         ],
         "variables": {}
     },
+    "mold": {
+        "name": "Mold",
+        "description": "Тёмно-бирюзовая схема",
+        "parent": "dark-template",
+        "variables": {
+            "accent": "#35b9a4",
+            "background_content": "#0e282a",
+            "background_highlighted": "#13343a",
+            "background_hover": "#0b2022",
+            "background_page": "#0b2023",
+            "destructive": "#e62833",
+            "dynamic_blue": "#35acc5",
+            "dynamic_green": "#4bdf9d",
+            "dynamic_orange": "#f90",
+            "dynamic_purple": "#c763bc",
+            "dynamic_raspberry_pink": "#df4b75",
+            "dynamic_red": "#dd3d15",
+            "dynamic_violet": "#a06fbb",
+            "positive": "#2f966b",
+            "separator_alternate": "@separator_common",
+            "separator_common": "#1f393d",
+            "text_muted": "#4d6a6c",
+            "text_primary": "#e1d2bd"
+        }
+    },
+    "mold-alt": {
+        "name": "Mold Alt",
+        "description": "Вариант Mold с бежевым акцентом",
+        "variant_of": "mold",
+        "parent": "mold",
+        "variables": {
+            "accent": "#e7b978"
+        }
+    },
     "windswept": {
         "name": "Windswept",
         "description": "Блекло-красная схема",
@@ -985,40 +1019,6 @@
             "accent": "#0000ff"
         }
     },
-    "mold": {
-        "name": "Mold",
-        "description": "Тёмно-бирюзовая схема",
-        "parent": "dark-template",
-        "variables": {
-            "accent": "#35b9a4",
-            "background_content": "#0e282a",
-            "background_highlighted": "#13343a",
-            "background_hover": "#0b2022",
-            "background_page": "#0b2023",
-            "destructive": "#e62833",
-            "dynamic_blue": "#35acc5",
-            "dynamic_green": "#4bdf9d",
-            "dynamic_orange": "#f90",
-            "dynamic_purple": "#c763bc",
-            "dynamic_raspberry_pink": "#df4b75",
-            "dynamic_red": "#dd3d15",
-            "dynamic_violet": "#a06fbb",
-            "positive": "#2f966b",
-            "separator_alternate": "@separator_common",
-            "separator_common": "#1f393d",
-            "text_muted": "#4d6a6c",
-            "text_primary": "#e1d2bd"
-        }
-    },
-    "mold-alt": {
-        "name": "Mold Alt",
-        "description": "Вариант Mold с бежевым акцентом",
-        "variant_of": "mold",
-        "parent": "mold",
-        "variables": {
-            "accent": "#e7b978"
-        }
-    },
     "alpenglow": {
         "name": "Firefox Alpenglow",
         "description": "Темная схема, основанная на цветах <a href=\"https://addons.mozilla.org/en-US/firefox/addon/firefox-alpenglow/\">Firefox Alpenglow</a> - темы для Firefox",
@@ -1054,6 +1054,26 @@
             "separator_alternate": "@separator_common",
             "separator_common": "#00000000"
         }
+    },
+    "mold-inverted-buttons": {
+        "name": "Mold Alternate Buttons",
+        "description": "Вариант Mold с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "mold",
+        "parent": [
+            "mold",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "mold-alt-inverted-buttons": {
+        "name": "Mold Alt Alternate Buttons",
+        "description": "Вариант Mold Alt с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "mold-alt",
+        "parent": [
+            "mold-alt",
+            "inverted-buttons"
+        ],
+        "variables": {}
     },
     "windswept-inverted-buttons": {
         "name": "Windswept Alternate Buttons",
@@ -1101,26 +1121,6 @@
         "variant_of": "debug-blue",
         "parent": [
             "debug-blue",
-            "inverted-buttons"
-        ],
-        "variables": {}
-    },
-    "mold-inverted-buttons": {
-        "name": "Mold Alternate Buttons",
-        "description": "Вариант Mold с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
-        "variant_of": "mold",
-        "parent": [
-            "mold",
-            "inverted-buttons"
-        ],
-        "variables": {}
-    },
-    "mold-alt-inverted-buttons": {
-        "name": "Mold Alt Alternate Buttons",
-        "description": "Вариант Mold Alt с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
-        "variant_of": "mold-alt",
-        "parent": [
-            "mold-alt",
             "inverted-buttons"
         ],
         "variables": {}
