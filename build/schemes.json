@@ -929,6 +929,42 @@
             "accent": "#e7b978"
         }
     },
+    "alpenglow": {
+        "name": "Firefox Alpenglow",
+        "description": "Темная схема, основанная на цветах <a href=\"https://addons.mozilla.org/en-US/firefox/addon/firefox-alpenglow/\">Firefox Alpenglow</a> - темы для Firefox",
+        "parent": "dark-template",
+        "variables": {
+            "accent": "#c68aff",
+            "background_content": "#281d4e",
+            "background_highlighted": "#3c1f7b",
+            "background_hover": "#2d245b",
+            "background_page": "#21133c",
+            "destructive": "#ff6a75",
+            "dynamic_blue": "#00B3F5",
+            "dynamic_green": "#88FFD1",
+            "dynamic_orange": "#FEA365",
+            "dynamic_purple": "#FF8AC6",
+            "dynamic_raspberry_pink": "#FF848C",
+            "dynamic_red": "#ff6a75",
+            "dynamic_violet": "#F564FF",
+            "positive": "#3fe1b0",
+            "separator_alternate": "#ac70ff",
+            "separator_common": "#ac70ff",
+            "text_muted": "#ffffff77",
+            "text_primary": "#ffffff"
+        }
+    },
+    "alpenglow-borderless": {
+        "name": "Firefox Alpenglow Borderless",
+        "description": "Вариант Alpenglow без яркой обводки",
+        "variant_of": "alpenglow",
+        "parent": "alpenglow",
+        "variables": {
+            "separator_alpha": "@separator_common",
+            "separator_alternate": "@separator_common",
+            "separator_common": "#00000000"
+        }
+    },
     "windswept": {
         "name": "Windswept",
         "description": "Блекло-красная схема",
@@ -1019,42 +1055,6 @@
             "accent": "#0000ff"
         }
     },
-    "alpenglow": {
-        "name": "Firefox Alpenglow",
-        "description": "Темная схема, основанная на цветах <a href=\"https://addons.mozilla.org/en-US/firefox/addon/firefox-alpenglow/\">Firefox Alpenglow</a> - темы для Firefox",
-        "parent": "dark-template",
-        "variables": {
-            "accent": "#c68aff",
-            "background_content": "#281d4e",
-            "background_highlighted": "#3c1f7b",
-            "background_hover": "#2d245b",
-            "background_page": "#21133c",
-            "destructive": "#ff6a75",
-            "dynamic_blue": "#00B3F5",
-            "dynamic_green": "#88FFD1",
-            "dynamic_orange": "#FEA365",
-            "dynamic_purple": "#FF8AC6",
-            "dynamic_raspberry_pink": "#FF848C",
-            "dynamic_red": "#ff6a75",
-            "dynamic_violet": "#F564FF",
-            "positive": "#3fe1b0",
-            "separator_alternate": "#ac70ff",
-            "separator_common": "#ac70ff",
-            "text_muted": "#ffffff77",
-            "text_primary": "#ffffff"
-        }
-    },
-    "alpenglow-borderless": {
-        "name": "Firefox Alpenglow Borderless",
-        "description": "Вариант Alpenglow без яркой обводки",
-        "variant_of": "alpenglow",
-        "parent": "alpenglow",
-        "variables": {
-            "separator_alpha": "@separator_common",
-            "separator_alternate": "@separator_common",
-            "separator_common": "#00000000"
-        }
-    },
     "mold-inverted-buttons": {
         "name": "Mold Alternate Buttons",
         "description": "Вариант Mold с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
@@ -1071,6 +1071,26 @@
         "variant_of": "mold-alt",
         "parent": [
             "mold-alt",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "alpenglow-inverted-buttons": {
+        "name": "Firefox Alpenglow Alternate Buttons",
+        "description": "Вариант Firefox Alpenglow с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "alpenglow",
+        "parent": [
+            "alpenglow",
+            "inverted-buttons"
+        ],
+        "variables": {}
+    },
+    "alpenglow-borderless-inverted-buttons": {
+        "name": "Firefox Alpenglow Borderless Alternate Buttons",
+        "description": "Вариант Firefox Alpenglow Borderless с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
+        "variant_of": "alpenglow-borderless",
+        "parent": [
+            "alpenglow-borderless",
             "inverted-buttons"
         ],
         "variables": {}
@@ -1121,26 +1141,6 @@
         "variant_of": "debug-blue",
         "parent": [
             "debug-blue",
-            "inverted-buttons"
-        ],
-        "variables": {}
-    },
-    "alpenglow-inverted-buttons": {
-        "name": "Firefox Alpenglow Alternate Buttons",
-        "description": "Вариант Firefox Alpenglow с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
-        "variant_of": "alpenglow",
-        "parent": [
-            "alpenglow",
-            "inverted-buttons"
-        ],
-        "variables": {}
-    },
-    "alpenglow-borderless-inverted-buttons": {
-        "name": "Firefox Alpenglow Borderless Alternate Buttons",
-        "description": "Вариант Firefox Alpenglow Borderless с инвертированными цветами кнопок (цвет текста и фона кнопки поменяны местами)",
-        "variant_of": "alpenglow-borderless",
-        "parent": [
-            "alpenglow-borderless",
             "inverted-buttons"
         ],
         "variables": {}
